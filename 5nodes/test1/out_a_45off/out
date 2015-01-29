@@ -1,0 +1,2 @@
+YCSB Client 0.1
+Command line: -t -db org.hyperdex.ycsb.HyperDex -P /hyperdex_build/ycsb-0.1.4/workloads/workloada -p hyperdex.host=192.168.100.1 -p hyperdex.port=1982 -p operationcount=10000000 -s

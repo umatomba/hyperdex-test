@@ -1,0 +1,807 @@
+]0;root@dbtest0: /hyperdex_build/tests/second5nodes/out_a_45offroot@dbtest0:/hyperdex_build/tests/second5nodes/out_a_45off# java -Djava.library.path=/usr/local/lib/ com.yahoo.ycsb.Client -t -db org.hyperdex.ycsb.HyperDex --P /hyperdex_build/ycsb-0.1.4/workloads/workloada -p theads=16 -p "hyperdex.host=192.168.100.1" -p "hyperdex.port=1982" -s > out1[A[45Pcp /hyperdex_build/ycsb-0.1.4/workloads/workloada ./
+[K[Aroot@dbtest0:/hyperdex_build/tests/second5nodes/out_a_45off# cp /hyperdex_build/ycsb-0.1.4/workloads/workloada ./[3Pvi /hyperdex_build/ycsb-0.1.4/workloads/workloada
+[?1049h[?1h=[2;1H�[6n[1;1H  [1;1H[1;40r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[40;1H"/hyperdex_build/ycsb-0.1.4/workloads/workloada" 24L, 534C[>c[2;1H[34m# Yahoo! Cloud System Benchmark
+# Workload A: Update heavy workload
+#   Application example: Session store recording recent actions
+#                        
+#   Read/update ratio: 50/50
+#   Default data size: 1 KB records (10 fields, 100 bytes each, plus key)
+#   Request distribution: zipfian[m
+
+recordcount=5000000
+operationcount=50000000000
+workload=com.yahoo.ycsb.workloads.CoreWorkload
+
+readallfields=true
+
+readproportion=0.1
+updateproportion=0.9
+scanproportion=0
+insertproportion=0
+
+requestdistribution=zipfian
+
+threadcount=16
+
+[1m[34m~                                                                                                                                                             [26;1H~                                                                                                                                                             [27;1H~                                                                                                                                                             [28;1H~                                                                                                                                                             [29;1H~                                                                                                                                                             [30;1H~                                                                                                                                                             [31;1H~                                                                                                                                                             [32;1H~                                                                                                                                                             [33;1H~                                                                                                                                                             [34;1H~                                                                                                                                                             [35;1H~                                                                                                                                                             [36;1H~                                                                                                                                                             [37;1H~                                                                                                                                                             [38;1H~                                                                                                                                                             [39;1H~                                                                                                                                                             [m[40;141H1,0-1[9CAll[1;1H[?12l[?25h[?25l[40;1H[1m-- REPLACE --[m[40;14H[K[40;141H1,1[11CAll[1;1H[?12l[?25h[?25l[40;141H2[2;1H[?12l[?25h[?25l[40;141H3[3;1H[?12l[?25h[?25l[40;141H4[4;1H[?12l[?25h[?25l[40;141H5[5;1H[?12l[?25h[?25l[40;141H6[6;1H[?12l[?25h[?25l[40;141H7[7;1H[?12l[?25h[?25l[40;141H8[8;1H[?12l[?25h[?25l[40;141H9[9;1H[?12l[?25h[?25l[40;141H10,1[10;1H[?12l[?25h[?25l[40;142H1[11;1H[?12l[?25h[?25l[40;144H27[11;27H[?12l[?25h[?25l[40;145H6[11;26H[?12l[?25h[?25l[40;145H5[11;25H[?12l[?25h[?25l[40;145H4[11;24H[?12l[?25h[?25l[11;26H[K[11;24H[?12l[?25h[?25l[11;25H[K[11;24H[?12l[?25h[?25l[11;24H[K[11;24H[?12l[?25h[40;1H[K[?25l[40;141H11,23[9CAll[11;23H[?12l[?25h[?25l[40;141H[K[40;1H:[?12l[?25hx[?25l"/hyperdex_build/ycsb-0.1.4/workloads/workloada" 24L, 531C written
+[?1l>[?12l[?25h[?1049l]0;root@dbtest0: /hyperdex_build/tests/second5nodes/out_a_45offroot@dbtest0:/hyperdex_build/tests/second5nodes/out_a_45off# vi /hyperdex_build/ycsb-0.1.4/workloads/workloadajava -Djava.library.path=/usr/local/lib/ com.yahoo.ycsb.Client -t -db org.hyperdex.ycsb.HyperDex --P /hyperdex_build/ycsb-0.1.4/workloads/workloada -p theads=16 -p "hyperdex.host=192.168.100.1" -p "hyperdex.port=1982" -s > out1
+Loading workload...
+Starting test.
+host: 192.168.100.1
+port: 1982
+host: 192.168.100.1
+port: 1982
+host: 192.168.100.1
+port: 1982
+host: 192.168.100.1
+port: 1982
+host: 192.168.100.1
+port: 1982
+host: 192.168.100.1
+port: 1982
+host: 192.168.100.1
+port: 1982
+host: 192.168.100.1
+port: 1982
+host: 192.168.100.1
+port: 1982
+host: 192.168.100.1
+port: 1982
+host: 192.168.100.1
+port: 1982
+host: 192.168.100.1
+port: 1982
+host: 192.168.100.1
+port: 1982
+host: 192.168.100.1
+port: 1982
+host: 192.168.100.1
+host: 192.168.100.1
+port: 1982
+port: 1982
+ 0 sec: 0 operations; 
+m_client: org.hyperdex.client.Client@3611c755
+ 10 sec: 0 operations; 
+m_client: org.hyperdex.client.Client@4935b92e
+m_client: org.hyperdex.client.Client@6a8e79f2
+m_client: org.hyperdex.client.Client@2fe83585
+m_client: org.hyperdex.client.Client@1a8c064f
+m_client: org.hyperdex.client.Client@40d3ab8b
+m_client: org.hyperdex.client.Client@6decb6a
+m_client: org.hyperdex.client.Client@6b03d2a8
+m_client: org.hyperdex.client.Client@42d6f628
+m_client: org.hyperdex.client.Client@65c66812
+m_client: org.hyperdex.client.Client@6fcb3087
+m_client: org.hyperdex.client.Client@4df2868
+m_client: org.hyperdex.client.Client@56d5c657
+m_client: org.hyperdex.client.Client@6cd0a64a
+m_client: org.hyperdex.client.Client@1ef673cc
+m_client: org.hyperdex.client.Client@474c0761
+ 20 sec: 27975 operations; 2787.74 current ops/sec; [UPDATE AverageLatency(us)=4147.61] [READ AverageLatency(us)=2277.06] 
+ 30 sec: 68745 operations; 4076.18 current ops/sec; [UPDATE AverageLatency(us)=2170.95] [READ AverageLatency(us)=830.15] 
+ 40 sec: 73634 operations; 488.85 current ops/sec; [UPDATE AverageLatency(us)=5695.02] [READ AverageLatency(us)=426.59] 
+ 50 sec: 78749 operations; 511.5 current ops/sec; [UPDATE AverageLatency(us)=2119.38] [READ AverageLatency(us)=234.54] 
+ 60 sec: 84495 operations; 574.6 current ops/sec; [UPDATE AverageLatency(us)=1719.79] [READ AverageLatency(us)=1895.19] 
+ 70 sec: 87412 operations; 291.67 current ops/sec; [UPDATE AverageLatency(us)=3232.93] [READ AverageLatency(us)=520.1] 
+ 80 sec: 87412 operations; 0 current ops/sec;   
+ 90 sec: 87412 operations; 0 current ops/sec;   
+ 100 sec: 87412 operations; 0 current ops/sec;   
+ 110 sec: 87412 operations; 0 current ops/sec;   
+ 120 sec: 87412 operations; 0 current ops/sec;   
+ 130 sec: 87412 operations; 0 current ops/sec;   
+ 140 sec: 87454 operations; 4.2 current ops/sec; [UPDATE AverageLatency(us)=40921000.41] [READ AverageLatency(us)=110] 
+ 150 sec: 87454 operations; 0 current ops/sec;   
+ 160 sec: 87507 operations; 5.3 current ops/sec; [UPDATE AverageLatency(us)=7066070.52] [READ AverageLatency(us)=9142074.82] 
+ 170 sec: 87507 operations; 0 current ops/sec;   
+ 180 sec: 87507 operations; 0 current ops/sec;   
+ 190 sec: 87507 operations; 0 current ops/sec;   
+ 200 sec: 90137 operations; 263 current ops/sec; [UPDATE AverageLatency(us)=248444.92] [READ AverageLatency(us)=4117.61] 
+ 210 sec: 130764 operations; 4062.29 current ops/sec; [UPDATE AverageLatency(us)=6080.68] [READ AverageLatency(us)=1293.73] 
+ 220 sec: 167224 operations; 3646 current ops/sec; [UPDATE AverageLatency(us)=1166.42] [READ AverageLatency(us)=620.29] 
+ 230 sec: 190013 operations; 2278.9 current ops/sec; [UPDATE AverageLatency(us)=487.05] [READ AverageLatency(us)=245.98] 
+ 240 sec: 193085 operations; 307.17 current ops/sec; [UPDATE AverageLatency(us)=348.6] [READ AverageLatency(us)=240.93] 
+ 250 sec: 193085 operations; 0 current ops/sec;   
+ 260 sec: 201100 operations; 801.5 current ops/sec; [UPDATE AverageLatency(us)=93016.43] [READ AverageLatency(us)=1039.08] 
+ 270 sec: 239872 operations; 3876.81 current ops/sec; [UPDATE AverageLatency(us)=5583.86] [READ AverageLatency(us)=723.05] 
+ 280 sec: 249404 operations; 953.2 current ops/sec; [UPDATE AverageLatency(us)=1608.63] [READ AverageLatency(us)=2238.89] 
+ 290 sec: 254443 operations; 503.9 current ops/sec; [UPDATE AverageLatency(us)=2178.68] [READ AverageLatency(us)=289.79] 
+ 300 sec: 257019 operations; 257.57 current ops/sec; [UPDATE AverageLatency(us)=3453.19] [READ AverageLatency(us)=393.66] 
+ 310 sec: 257019 operations; 0 current ops/sec;   
+ 320 sec: 257330 operations; 31.1 current ops/sec; [UPDATE AverageLatency(us)=2748829.79] [READ AverageLatency(us)=629383.52] 
+ 330 sec: 312478 operations; 5514.25 current ops/sec; [UPDATE AverageLatency(us)=3663.52] [READ AverageLatency(us)=764.06] 
+ 340 sec: 370187 operations; 5770.9 current ops/sec; [UPDATE AverageLatency(us)=1118.83] [READ AverageLatency(us)=446.78] 
+ 350 sec: 382902 operations; 1271.37 current ops/sec; [UPDATE AverageLatency(us)=1243.03] [READ AverageLatency(us)=407.63] 
+ 360 sec: 382902 operations; 0 current ops/sec;   
+ 370 sec: 382902 operations; 0 current ops/sec;   
+ 380 sec: 390747 operations; 784.5 current ops/sec; [UPDATE AverageLatency(us)=89286.53] [READ AverageLatency(us)=935.03] 
+ 390 sec: 430996 operations; 4024.5 current ops/sec; [UPDATE AverageLatency(us)=7015.27] [READ AverageLatency(us)=1025.25] 
+ 400 sec: 448683 operations; 1768.7 current ops/sec; [UPDATE AverageLatency(us)=6269.6] [READ AverageLatency(us)=1924] 
+ 410 sec: 467679 operations; 1899.6 current ops/sec; [UPDATE AverageLatency(us)=5332.28] [READ AverageLatency(us)=1876.15] 
+ 420 sec: 474468 operations; 678.83 current ops/sec; [UPDATE AverageLatency(us)=11244.43] [READ AverageLatency(us)=1590.58] 
+ 430 sec: 485274 operations; 1080.6 current ops/sec; [UPDATE AverageLatency(us)=6308.76] [READ AverageLatency(us)=3700.42] 
+ 440 sec: 486186 operations; 91.2 current ops/sec; [UPDATE AverageLatency(us)=452062.03] [READ AverageLatency(us)=35622.68] 
+ 450 sec: 500197 operations; 1400.96 current ops/sec; [UPDATE AverageLatency(us)=19752.48] [READ AverageLatency(us)=2202.62] 
+ 460 sec: 508086 operations; 788.9 current ops/sec; [UPDATE AverageLatency(us)=19406.06] [READ AverageLatency(us)=7247.06] 
+ 470 sec: 517259 operations; 917.3 current ops/sec; [UPDATE AverageLatency(us)=15420.58] [READ AverageLatency(us)=6940.38] 
+ 480 sec: 529318 operations; 1205.78 current ops/sec; [UPDATE AverageLatency(us)=8979.14] [READ AverageLatency(us)=9236.23] 
+ 490 sec: 564974 operations; 3565.6 current ops/sec; [UPDATE AverageLatency(us)=3163.2] [READ AverageLatency(us)=1303.71] 
+ 500 sec: 568689 operations; 371.5 current ops/sec; [UPDATE AverageLatency(us)=75008.27] [READ AverageLatency(us)=2873.71] 
+ 510 sec: 568689 operations; 0 current ops/sec;   
+ 520 sec: 568689 operations; 0 current ops/sec;   
+ 530 sec: 568691 operations; 0.2 current ops/sec; [UPDATE AverageLatency(us)=31730632] [READ AverageLatency(us)=31747910] 
+ 540 sec: 568691 operations; 0 current ops/sec;   
+ 550 sec: 568691 operations; 0 current ops/sec;   
+HyperDexClientException: org.hyperdex.client.HyperDexClientException: reconfiguration affecting virtual_server(436)/server(13955961253231528069)
+ 560 sec: 568697 operations; 0.6 current ops/sec; [UPDATE AverageLatency(us)=45029018.83]  
+ 570 sec: 568697 operations; 0 current ops/sec;   
+ 580 sec: 568697 operations; 0 current ops/sec;   
+ 590 sec: 568697 operations; 0 current ops/sec;   
+ 600 sec: 568701 operations; 0.4 current ops/sec; [UPDATE AverageLatency(us)=11463515] [READ AverageLatency(us)=39809502] 
+ 610 sec: 568701 operations; 0 current ops/sec;   
+ 620 sec: 626679 operations; 5797.22 current ops/sec; [UPDATE AverageLatency(us)=28964.74] [READ AverageLatency(us)=8196.7] 
+ 630 sec: 626679 operations; 0 current ops/sec;   
+ 640 sec: 626679 operations; 0 current ops/sec;   
+ 650 sec: 626679 operations; 0 current ops/sec;   
+ 660 sec: 626679 operations; 0 current ops/sec;   
+ 670 sec: 626679 operations; 0 current ops/sec;   
+ 680 sec: 627300 operations; 62.1 current ops/sec; [UPDATE AverageLatency(us)=1641179.49] [READ AverageLatency(us)=1227.89] 
+ 690 sec: 627300 operations; 0 current ops/sec;   
+ 700 sec: 627300 operations; 0 current ops/sec;   
+ 710 sec: 627300 operations; 0 current ops/sec;   
+ 720 sec: 627300 operations; 0 current ops/sec;   
+ 730 sec: 627300 operations; 0 current ops/sec;   
+ 740 sec: 627315 operations; 1.5 current ops/sec; [UPDATE AverageLatency(us)=9939682.73] [READ AverageLatency(us)=9946] 
+ 750 sec: 627315 operations; 0 current ops/sec;   
+ 760 sec: 627315 operations; 0 current ops/sec;   
+ 770 sec: 627315 operations; 0 current ops/sec;   
+ 780 sec: 627315 operations; 0 current ops/sec;   
+ 790 sec: 627315 operations; 0 current ops/sec;   
+ 800 sec: 627653 operations; 33.8 current ops/sec; [UPDATE AverageLatency(us)=3899650.2] [READ AverageLatency(us)=1287.57] 
+ 810 sec: 627653 operations; 0 current ops/sec;   
+ 820 sec: 627653 operations; 0 current ops/sec;   
+ 830 sec: 627653 operations; 0 current ops/sec;   
+ 840 sec: 627653 operations; 0 current ops/sec;   
+ 850 sec: 627653 operations; 0 current ops/sec;   
+ 860 sec: 628551 operations; 89.8 current ops/sec; [UPDATE AverageLatency(us)=1919657.02] [READ AverageLatency(us)=378.39] 
+ 870 sec: 628551 operations; 0 current ops/sec;   
+ 880 sec: 628551 operations; 0 current ops/sec;   
+ 890 sec: 628551 operations; 0 current ops/sec;   
+ 900 sec: 628551 operations; 0 current ops/sec;   
+ 910 sec: 628551 operations; 0 current ops/sec;   
+ 920 sec: 628551 operations; 0 current ops/sec;   
+ 930 sec: 628551 operations; 0 current ops/sec;   
+ 940 sec: 628551 operations; 0 current ops/sec;   
+ 950 sec: 628551 operations; 0 current ops/sec;   
+ 960 sec: 628551 operations; 0 current ops/sec;   
+ 970 sec: 628551 operations; 0 current ops/sec;   
+ 980 sec: 629166 operations; 61.5 current ops/sec; [UPDATE AverageLatency(us)=3516930.18] [READ AverageLatency(us)=28341.32] 
+ 990 sec: 629166 operations; 0 current ops/sec;   
+ 1000 sec: 629166 operations; 0 current ops/sec;   
+ 1010 sec: 629166 operations; 0 current ops/sec;   
+ 1020 sec: 629166 operations; 0 current ops/sec;   
+ 1030 sec: 629166 operations; 0 current ops/sec;   
+ 1040 sec: 629847 operations; 68.1 current ops/sec; [UPDATE AverageLatency(us)=1585328.97] [READ AverageLatency(us)=716.31] 
+ 1050 sec: 629847 operations; 0 current ops/sec;   
+ 1060 sec: 629847 operations; 0 current ops/sec;   
+ 1070 sec: 629847 operations; 0 current ops/sec;   
+ 1080 sec: 629847 operations; 0 current ops/sec;   
+ 1090 sec: 629847 operations; 0 current ops/sec;   
+ 1100 sec: 630244 operations; 39.7 current ops/sec; [UPDATE AverageLatency(us)=2760530.37] [READ AverageLatency(us)=467.42] 
+ 1110 sec: 630266 operations; 2.2 current ops/sec; [UPDATE AverageLatency(us)=3688611.65] [READ AverageLatency(us)=122.5] 
+ 1120 sec: 630266 operations; 0 current ops/sec;   
+ 1130 sec: 630266 operations; 0 current ops/sec;   
+ 1140 sec: 630266 operations; 0 current ops/sec;   
+ 1150 sec: 630266 operations; 0 current ops/sec;   
+ 1160 sec: 631112 operations; 84.6 current ops/sec; [UPDATE AverageLatency(us)=1191749.24] [READ AverageLatency(us)=11092.25] 
+ 1170 sec: 631112 operations; 0 current ops/sec;   
+ 1180 sec: 631112 operations; 0 current ops/sec;   
+ 1190 sec: 631112 operations; 0 current ops/sec;   
+ 1200 sec: 631112 operations; 0 current ops/sec;   
+ 1210 sec: 631112 operations; 0 current ops/sec;   
+ 1220 sec: 631825 operations; 71.3 current ops/sec; [UPDATE AverageLatency(us)=1514914.5] [READ AverageLatency(us)=699.88] 
+ 1230 sec: 631825 operations; 0 current ops/sec;   
+ 1240 sec: 631825 operations; 0 current ops/sec;   
+ 1250 sec: 631825 operations; 0 current ops/sec;   
+ 1260 sec: 631825 operations; 0 current ops/sec;   
+ 1270 sec: 631825 operations; 0 current ops/sec;   
+ 1280 sec: 632302 operations; 47.7 current ops/sec; [UPDATE AverageLatency(us)=2306047.89] [READ AverageLatency(us)=1478.7] 
+ 1290 sec: 632302 operations; 0 current ops/sec;   
+ 1300 sec: 632302 operations; 0 current ops/sec;   
+ 1310 sec: 632302 operations; 0 current ops/sec;   
+ 1320 sec: 632302 operations; 0 current ops/sec;   
+ 1330 sec: 632302 operations; 0 current ops/sec;   
+ 1340 sec: 632789 operations; 48.7 current ops/sec; [UPDATE AverageLatency(us)=2135407.43] [READ AverageLatency(us)=407.93] 
+ 1350 sec: 632789 operations; 0 current ops/sec;   
+ 1360 sec: 632789 operations; 0 current ops/sec;   
+ 1370 sec: 632789 operations; 0 current ops/sec;   
+ 1380 sec: 632789 operations; 0 current ops/sec;   
+ 1390 sec: 632789 operations; 0 current ops/sec;   
+ 1400 sec: 632870 operations; 8.1 current ops/sec; [UPDATE AverageLatency(us)=3965703.88] [READ AverageLatency(us)=146.57] 
+ 1410 sec: 632870 operations; 0 current ops/sec;   
+ 1420 sec: 632870 operations; 0 current ops/sec;   
+ 1430 sec: 632870 operations; 0 current ops/sec;   
+ 1440 sec: 632870 operations; 0 current ops/sec;   
+ 1450 sec: 632870 operations; 0 current ops/sec;   
+ 1460 sec: 633447 operations; 57.69 current ops/sec; [UPDATE AverageLatency(us)=2955413.75] [READ AverageLatency(us)=2198.54] 
+ 1470 sec: 633447 operations; 0 current ops/sec;   
+ 1480 sec: 633447 operations; 0 current ops/sec;   
+ 1490 sec: 633447 operations; 0 current ops/sec;   
+ 1500 sec: 633447 operations; 0 current ops/sec;   
+ 1510 sec: 633447 operations; 0 current ops/sec;   
+ 1520 sec: 634009 operations; 56.2 current ops/sec; [UPDATE AverageLatency(us)=1882548.6] [READ AverageLatency(us)=1848.08] 
+ 1530 sec: 634009 operations; 0 current ops/sec;   
+ 1540 sec: 634009 operations; 0 current ops/sec;   
+ 1550 sec: 634009 operations; 0 current ops/sec;   
+ 1560 sec: 634009 operations; 0 current ops/sec;   
+ 1570 sec: 634009 operations; 0 current ops/sec;   
+ 1580 sec: 634827 operations; 81.8 current ops/sec; [UPDATE AverageLatency(us)=1319471.32] [READ AverageLatency(us)=461.04] 
+ 1590 sec: 634827 operations; 0 current ops/sec;   
+ 1600 sec: 634827 operations; 0 current ops/sec;   
+ 1610 sec: 634827 operations; 0 current ops/sec;   
+ 1620 sec: 634827 operations; 0 current ops/sec;   
+ 1630 sec: 634827 operations; 0 current ops/sec;   
+ 1640 sec: 635499 operations; 67.2 current ops/sec; [UPDATE AverageLatency(us)=1577267.89] [READ AverageLatency(us)=1534.94] 
+ 1650 sec: 635499 operations; 0 current ops/sec;   
+ 1660 sec: 635499 operations; 0 current ops/sec;   
+ 1670 sec: 635499 operations; 0 current ops/sec;   
+ 1680 sec: 635499 operations; 0 current ops/sec;   
+ 1690 sec: 635499 operations; 0 current ops/sec;   
+ 1700 sec: 636246 operations; 74.7 current ops/sec; [UPDATE AverageLatency(us)=1443188.86] [READ AverageLatency(us)=934.35] 
+ 1710 sec: 636246 operations; 0 current ops/sec;   
+ 1720 sec: 636246 operations; 0 current ops/sec;   
+ 1730 sec: 636551 operations; 30.5 current ops/sec; [UPDATE AverageLatency(us)=846205.4] [READ AverageLatency(us)=406.65] 
+ 1740 sec: 637113 operations; 56.2 current ops/sec; [UPDATE AverageLatency(us)=1043936.28] [READ AverageLatency(us)=921.53] 
+ 1750 sec: 637184 operations; 7.1 current ops/sec; [UPDATE AverageLatency(us)=1239.52] [READ AverageLatency(us)=546.38] 
+ 1760 sec: 637184 operations; 0 current ops/sec;   
+ 1770 sec: 637184 operations; 0 current ops/sec;   
+ 1780 sec: 637184 operations; 0 current ops/sec;   
+ 1790 sec: 637184 operations; 0 current ops/sec;   
+ 1800 sec: 637184 operations; 0 current ops/sec;   
+ 1810 sec: 637184 operations; 0 current ops/sec;   
+ 1820 sec: 637184 operations; 0 current ops/sec;   
+ 1830 sec: 637184 operations; 0 current ops/sec;   
+ 1840 sec: 637184 operations; 0 current ops/sec;   
+ 1850 sec: 637184 operations; 0 current ops/sec;   
+ 1860 sec: 637184 operations; 0 current ops/sec;   
+ 1870 sec: 637184 operations; 0 current ops/sec;   
+ 1880 sec: 637184 operations; 0 current ops/sec;   
+ 1890 sec: 637184 operations; 0 current ops/sec;   
+ 1900 sec: 637184 operations; 0 current ops/sec;   
+ 1910 sec: 637184 operations; 0 current ops/sec;   
+ 1920 sec: 637184 operations; 0 current ops/sec;   
+ 1930 sec: 637184 operations; 0 current ops/sec;   
+ 1940 sec: 637184 operations; 0 current ops/sec;   
+ 1950 sec: 637184 operations; 0 current ops/sec;   
+ 1960 sec: 637184 operations; 0 current ops/sec;   
+ 1970 sec: 637184 operations; 0 current ops/sec;   
+ 1980 sec: 637184 operations; 0 current ops/sec;   
+ 1990 sec: 637184 operations; 0 current ops/sec;   
+ 2000 sec: 637184 operations; 0 current ops/sec;   
+ 2010 sec: 637184 operations; 0 current ops/sec;   
+ 2020 sec: 637184 operations; 0 current ops/sec;   
+ 2030 sec: 637184 operations; 0 current ops/sec;   
+ 2040 sec: 637184 operations; 0 current ops/sec;   
+ 2050 sec: 637184 operations; 0 current ops/sec;   
+ 2060 sec: 637184 operations; 0 current ops/sec;   
+ 2070 sec: 637184 operations; 0 current ops/sec;   
+ 2080 sec: 637184 operations; 0 current ops/sec;   
+ 2090 sec: 637184 operations; 0 current ops/sec;   
+ 2100 sec: 637184 operations; 0 current ops/sec;   
+ 2110 sec: 637184 operations; 0 current ops/sec;   
+ 2120 sec: 637184 operations; 0 current ops/sec;   
+ 2130 sec: 637184 operations; 0 current ops/sec;   
+ 2140 sec: 637184 operations; 0 current ops/sec;   
+ 2150 sec: 637184 operations; 0 current ops/sec;   
+ 2160 sec: 637184 operations; 0 current ops/sec;   
+ 2170 sec: 637184 operations; 0 current ops/sec;   
+ 2180 sec: 637184 operations; 0 current ops/sec;   
+ 2190 sec: 637184 operations; 0 current ops/sec;   
+ 2200 sec: 637184 operations; 0 current ops/sec;   
+ 2210 sec: 637184 operations; 0 current ops/sec;   
+ 2220 sec: 637184 operations; 0 current ops/sec;   
+ 2230 sec: 637184 operations; 0 current ops/sec;   
+ 2240 sec: 637184 operations; 0 current ops/sec;   
+ 2250 sec: 637184 operations; 0 current ops/sec;   
+ 2260 sec: 637184 operations; 0 current ops/sec;   
+ 2270 sec: 637184 operations; 0 current ops/sec;   
+ 2280 sec: 637184 operations; 0 current ops/sec;   
+ 2290 sec: 637184 operations; 0 current ops/sec;   
+ 2300 sec: 637184 operations; 0 current ops/sec;   
+ 2310 sec: 637184 operations; 0 current ops/sec;   
+ 2320 sec: 637184 operations; 0 current ops/sec;   
+ 2330 sec: 637184 operations; 0 current ops/sec;   
+ 2340 sec: 637184 operations; 0 current ops/sec;   
+ 2350 sec: 637184 operations; 0 current ops/sec;   
+ 2360 sec: 637184 operations; 0 current ops/sec;   
+ 2370 sec: 637184 operations; 0 current ops/sec;   
+ 2380 sec: 637184 operations; 0 current ops/sec;   
+ 2390 sec: 637184 operations; 0 current ops/sec;   
+ 2400 sec: 637184 operations; 0 current ops/sec;   
+ 2410 sec: 637184 operations; 0 current ops/sec;   
+ 2420 sec: 637184 operations; 0 current ops/sec;   
+ 2430 sec: 637184 operations; 0 current ops/sec;   
+ 2440 sec: 637184 operations; 0 current ops/sec;   
+ 2450 sec: 637184 operations; 0 current ops/sec;   
+ 2460 sec: 637184 operations; 0 current ops/sec;   
+ 2470 sec: 637184 operations; 0 current ops/sec;   
+ 2480 sec: 637184 operations; 0 current ops/sec;   
+ 2490 sec: 637184 operations; 0 current ops/sec;   
+ 2500 sec: 637184 operations; 0 current ops/sec;   
+ 2510 sec: 637184 operations; 0 current ops/sec;   
+ 2520 sec: 637184 operations; 0 current ops/sec;   
+ 2530 sec: 637184 operations; 0 current ops/sec;   
+ 2540 sec: 637184 operations; 0 current ops/sec;   
+ 2550 sec: 637184 operations; 0 current ops/sec;   
+ 2560 sec: 637184 operations; 0 current ops/sec;   
+ 2570 sec: 637184 operations; 0 current ops/sec;   
+ 2580 sec: 637184 operations; 0 current ops/sec;   
+ 2590 sec: 637184 operations; 0 current ops/sec;   
+ 2600 sec: 637184 operations; 0 current ops/sec;   
+ 2610 sec: 637184 operations; 0 current ops/sec;   
+ 2620 sec: 637184 operations; 0 current ops/sec;   
+ 2630 sec: 637184 operations; 0 current ops/sec;   
+ 2640 sec: 637184 operations; 0 current ops/sec;   
+ 2650 sec: 637184 operations; 0 current ops/sec;   
+ 2660 sec: 637184 operations; 0 current ops/sec;   
+ 2670 sec: 637184 operations; 0 current ops/sec;   
+ 2680 sec: 637184 operations; 0 current ops/sec;   
+ 2690 sec: 637184 operations; 0 current ops/sec;   
+ 2700 sec: 637184 operations; 0 current ops/sec;   
+ 2710 sec: 637184 operations; 0 current ops/sec;   
+ 2720 sec: 637184 operations; 0 current ops/sec;   
+ 2730 sec: 637184 operations; 0 current ops/sec;   
+ 2740 sec: 637184 operations; 0 current ops/sec;   
+ 2750 sec: 637184 operations; 0 current ops/sec;   
+ 2760 sec: 637184 operations; 0 current ops/sec;   
+ 2770 sec: 637184 operations; 0 current ops/sec;   
+ 2780 sec: 637184 operations; 0 current ops/sec;   
+ 2790 sec: 637184 operations; 0 current ops/sec;   
+ 2800 sec: 637184 operations; 0 current ops/sec;   
+ 2810 sec: 637184 operations; 0 current ops/sec;   
+ 2820 sec: 637184 operations; 0 current ops/sec;   
+ 2830 sec: 637184 operations; 0 current ops/sec;   
+ 2840 sec: 637184 operations; 0 current ops/sec;   
+ 2850 sec: 637184 operations; 0 current ops/sec;   
+ 2860 sec: 637184 operations; 0 current ops/sec;   
+ 2870 sec: 637184 operations; 0 current ops/sec;   
+ 2880 sec: 637184 operations; 0 current ops/sec;   
+ 2890 sec: 637184 operations; 0 current ops/sec;   
+ 2900 sec: 637184 operations; 0 current ops/sec;   
+ 2910 sec: 637184 operations; 0 current ops/sec;   
+ 2920 sec: 637184 operations; 0 current ops/sec;   
+ 2930 sec: 637184 operations; 0 current ops/sec;   
+ 2940 sec: 637184 operations; 0 current ops/sec;   
+ 2950 sec: 637184 operations; 0 current ops/sec;   
+ 2960 sec: 637184 operations; 0 current ops/sec;   
+ 2970 sec: 637184 operations; 0 current ops/sec;   
+ 2980 sec: 637184 operations; 0 current ops/sec;   
+ 2990 sec: 637184 operations; 0 current ops/sec;   
+ 3000 sec: 637184 operations; 0 current ops/sec;   
+ 3010 sec: 637184 operations; 0 current ops/sec;   
+ 3020 sec: 637184 operations; 0 current ops/sec;   
+ 3030 sec: 637184 operations; 0 current ops/sec;   
+ 3040 sec: 637184 operations; 0 current ops/sec;   
+ 3050 sec: 637184 operations; 0 current ops/sec;   
+ 3060 sec: 637184 operations; 0 current ops/sec;   
+ 3070 sec: 637184 operations; 0 current ops/sec;   
+ 3080 sec: 637184 operations; 0 current ops/sec;   
+ 3090 sec: 637184 operations; 0 current ops/sec;   
+ 3100 sec: 637184 operations; 0 current ops/sec;   
+ 3110 sec: 637184 operations; 0 current ops/sec;   
+ 3120 sec: 637184 operations; 0 current ops/sec;   
+ 3130 sec: 637184 operations; 0 current ops/sec;   
+ 3140 sec: 637184 operations; 0 current ops/sec;   
+ 3150 sec: 637184 operations; 0 current ops/sec;   
+ 3160 sec: 637184 operations; 0 current ops/sec;   
+ 3170 sec: 637184 operations; 0 current ops/sec;   
+ 3180 sec: 637184 operations; 0 current ops/sec;   
+ 3190 sec: 637184 operations; 0 current ops/sec;   
+ 3200 sec: 637184 operations; 0 current ops/sec;   
+ 3210 sec: 637184 operations; 0 current ops/sec;   
+ 3220 sec: 637184 operations; 0 current ops/sec;   
+ 3230 sec: 637184 operations; 0 current ops/sec;   
+ 3240 sec: 637184 operations; 0 current ops/sec;   
+ 3250 sec: 637184 operations; 0 current ops/sec;   
+ 3260 sec: 637184 operations; 0 current ops/sec;   
+ 3270 sec: 637184 operations; 0 current ops/sec;   
+ 3280 sec: 637184 operations; 0 current ops/sec;   
+ 3290 sec: 637184 operations; 0 current ops/sec;   
+ 3300 sec: 637184 operations; 0 current ops/sec;   
+ 3310 sec: 637184 operations; 0 current ops/sec;   
+ 3320 sec: 637184 operations; 0 current ops/sec;   
+ 3330 sec: 637184 operations; 0 current ops/sec;   
+ 3340 sec: 637184 operations; 0 current ops/sec;   
+ 3350 sec: 637184 operations; 0 current ops/sec;   
+ 3360 sec: 637184 operations; 0 current ops/sec;   
+ 3370 sec: 637184 operations; 0 current ops/sec;   
+ 3380 sec: 637184 operations; 0 current ops/sec;   
+ 3390 sec: 637184 operations; 0 current ops/sec;   
+ 3400 sec: 637184 operations; 0 current ops/sec;   
+ 3410 sec: 637184 operations; 0 current ops/sec;   
+ 3420 sec: 637184 operations; 0 current ops/sec;   
+ 3430 sec: 637184 operations; 0 current ops/sec;   
+ 3440 sec: 637184 operations; 0 current ops/sec;   
+ 3450 sec: 637184 operations; 0 current ops/sec;   
+ 3460 sec: 637184 operations; 0 current ops/sec;   
+ 3470 sec: 637184 operations; 0 current ops/sec;   
+ 3480 sec: 637184 operations; 0 current ops/sec;   
+ 3490 sec: 637184 operations; 0 current ops/sec;   
+ 3500 sec: 637184 operations; 0 current ops/sec;   
+ 3510 sec: 637184 operations; 0 current ops/sec;   
+ 3520 sec: 637184 operations; 0 current ops/sec;   
+ 3530 sec: 637184 operations; 0 current ops/sec;   
+ 3540 sec: 637184 operations; 0 current ops/sec;   
+ 3550 sec: 637184 operations; 0 current ops/sec;   
+ 3560 sec: 637184 operations; 0 current ops/sec;   
+ 3570 sec: 637184 operations; 0 current ops/sec;   
+ 3580 sec: 637184 operations; 0 current ops/sec;   
+ 3590 sec: 637184 operations; 0 current ops/sec;   
+ 3600 sec: 637184 operations; 0 current ops/sec;   
+ 3610 sec: 637184 operations; 0 current ops/sec;   
+ 3620 sec: 637184 operations; 0 current ops/sec;   
+ 3630 sec: 637184 operations; 0 current ops/sec;   
+ 3640 sec: 637184 operations; 0 current ops/sec;   
+ 3650 sec: 637184 operations; 0 current ops/sec;   
+ 3660 sec: 637184 operations; 0 current ops/sec;   
+ 3670 sec: 637184 operations; 0 current ops/sec;   
+ 3680 sec: 637184 operations; 0 current ops/sec;   
+ 3690 sec: 637184 operations; 0 current ops/sec;   
+ 3700 sec: 637184 operations; 0 current ops/sec;   
+ 3710 sec: 637184 operations; 0 current ops/sec;   
+ 3720 sec: 637184 operations; 0 current ops/sec;   
+ 3730 sec: 637184 operations; 0 current ops/sec;   
+ 3740 sec: 637184 operations; 0 current ops/sec;   
+ 3750 sec: 637184 operations; 0 current ops/sec;   
+ 3760 sec: 637184 operations; 0 current ops/sec;   
+ 3770 sec: 637184 operations; 0 current ops/sec;   
+ 3780 sec: 637184 operations; 0 current ops/sec;   
+ 3790 sec: 637184 operations; 0 current ops/sec;   
+ 3800 sec: 637184 operations; 0 current ops/sec;   
+ 3810 sec: 637184 operations; 0 current ops/sec;   
+ 3820 sec: 637184 operations; 0 current ops/sec;   
+ 3830 sec: 637184 operations; 0 current ops/sec;   
+ 3840 sec: 637184 operations; 0 current ops/sec;   
+ 3850 sec: 637184 operations; 0 current ops/sec;   
+ 3860 sec: 637184 operations; 0 current ops/sec;   
+ 3870 sec: 637184 operations; 0 current ops/sec;   
+ 3880 sec: 637184 operations; 0 current ops/sec;   
+ 3890 sec: 637184 operations; 0 current ops/sec;   
+ 3900 sec: 637184 operations; 0 current ops/sec;   
+ 3910 sec: 637184 operations; 0 current ops/sec;   
+ 3920 sec: 637184 operations; 0 current ops/sec;   
+ 3930 sec: 637184 operations; 0 current ops/sec;   
+ 3940 sec: 637184 operations; 0 current ops/sec;   
+ 3950 sec: 637184 operations; 0 current ops/sec;   
+ 3960 sec: 637184 operations; 0 current ops/sec;   
+ 3970 sec: 637184 operations; 0 current ops/sec;   
+ 3980 sec: 637184 operations; 0 current ops/sec;   
+ 3990 sec: 637184 operations; 0 current ops/sec;   
+ 4000 sec: 637184 operations; 0 current ops/sec;   
+ 4010 sec: 637184 operations; 0 current ops/sec;   
+ 4020 sec: 637184 operations; 0 current ops/sec;   
+ 4030 sec: 637184 operations; 0 current ops/sec;   
+ 4040 sec: 637184 operations; 0 current ops/sec;   
+ 4050 sec: 637184 operations; 0 current ops/sec;   
+ 4060 sec: 637184 operations; 0 current ops/sec;   
+ 4070 sec: 637184 operations; 0 current ops/sec;   
+ 4080 sec: 637184 operations; 0 current ops/sec;   
+ 4090 sec: 637184 operations; 0 current ops/sec;   
+ 4100 sec: 637184 operations; 0 current ops/sec;   
+ 4110 sec: 637184 operations; 0 current ops/sec;   
+ 4120 sec: 637184 operations; 0 current ops/sec;   
+ 4130 sec: 637184 operations; 0 current ops/sec;   
+ 4140 sec: 637184 operations; 0 current ops/sec;   
+ 4150 sec: 637184 operations; 0 current ops/sec;   
+ 4160 sec: 637184 operations; 0 current ops/sec;   
+ 4170 sec: 637184 operations; 0 current ops/sec;   
+ 4180 sec: 637184 operations; 0 current ops/sec;   
+ 4190 sec: 637184 operations; 0 current ops/sec;   
+ 4200 sec: 637184 operations; 0 current ops/sec;   
+ 4210 sec: 637184 operations; 0 current ops/sec;   
+ 4220 sec: 637184 operations; 0 current ops/sec;   
+ 4230 sec: 637184 operations; 0 current ops/sec;   
+ 4240 sec: 637184 operations; 0 current ops/sec;   
+ 4250 sec: 637184 operations; 0 current ops/sec;   
+ 4260 sec: 637184 operations; 0 current ops/sec;   
+ 4270 sec: 637184 operations; 0 current ops/sec;   
+ 4280 sec: 637184 operations; 0 current ops/sec;   
+ 4290 sec: 637184 operations; 0 current ops/sec;   
+ 4300 sec: 637184 operations; 0 current ops/sec;   
+ 4310 sec: 637184 operations; 0 current ops/sec;   
+ 4320 sec: 637184 operations; 0 current ops/sec;   
+ 4330 sec: 637184 operations; 0 current ops/sec;   
+ 4340 sec: 637184 operations; 0 current ops/sec;   
+ 4350 sec: 637184 operations; 0 current ops/sec;   
+ 4360 sec: 637184 operations; 0 current ops/sec;   
+ 4370 sec: 637184 operations; 0 current ops/sec;   
+ 4380 sec: 637184 operations; 0 current ops/sec;   
+ 4390 sec: 637184 operations; 0 current ops/sec;   
+ 4400 sec: 637184 operations; 0 current ops/sec;   
+ 4410 sec: 637184 operations; 0 current ops/sec;   
+ 4420 sec: 637184 operations; 0 current ops/sec;   
+ 4430 sec: 637184 operations; 0 current ops/sec;   
+ 4440 sec: 637184 operations; 0 current ops/sec;   
+ 4450 sec: 637184 operations; 0 current ops/sec;   
+ 4460 sec: 637184 operations; 0 current ops/sec;   
+ 4470 sec: 637184 operations; 0 current ops/sec;   
+ 4480 sec: 637184 operations; 0 current ops/sec;   
+ 4490 sec: 637184 operations; 0 current ops/sec;   
+ 4500 sec: 637184 operations; 0 current ops/sec;   
+ 4510 sec: 637184 operations; 0 current ops/sec;   
+ 4520 sec: 637184 operations; 0 current ops/sec;   
+ 4530 sec: 637184 operations; 0 current ops/sec;   
+ 4540 sec: 637184 operations; 0 current ops/sec;   
+ 4550 sec: 637184 operations; 0 current ops/sec;   
+ 4560 sec: 637184 operations; 0 current ops/sec;   
+ 4570 sec: 637184 operations; 0 current ops/sec;   
+ 4580 sec: 637184 operations; 0 current ops/sec;   
+ 4590 sec: 637184 operations; 0 current ops/sec;   
+ 4600 sec: 637184 operations; 0 current ops/sec;   
+ 4610 sec: 637184 operations; 0 current ops/sec;   
+ 4620 sec: 637184 operations; 0 current ops/sec;   
+ 4630 sec: 637184 operations; 0 current ops/sec;   
+ 4640 sec: 637184 operations; 0 current ops/sec;   
+ 4650 sec: 637184 operations; 0 current ops/sec;   
+ 4660 sec: 637184 operations; 0 current ops/sec;   
+ 4670 sec: 637184 operations; 0 current ops/sec;   
+ 4680 sec: 637184 operations; 0 current ops/sec;   
+ 4690 sec: 637184 operations; 0 current ops/sec;   
+ 4700 sec: 637184 operations; 0 current ops/sec;   
+ 4710 sec: 637184 operations; 0 current ops/sec;   
+ 4720 sec: 637184 operations; 0 current ops/sec;   
+ 4730 sec: 637184 operations; 0 current ops/sec;   
+ 4740 sec: 637184 operations; 0 current ops/sec;   
+ 4750 sec: 637184 operations; 0 current ops/sec;   
+ 4760 sec: 637184 operations; 0 current ops/sec;   
+ 4770 sec: 637184 operations; 0 current ops/sec;   
+ 4780 sec: 637184 operations; 0 current ops/sec;   
+ 4790 sec: 637184 operations; 0 current ops/sec;   
+ 4800 sec: 637184 operations; 0 current ops/sec;   
+ 4810 sec: 637184 operations; 0 current ops/sec;   
+ 4820 sec: 637184 operations; 0 current ops/sec;   
+ 4830 sec: 637184 operations; 0 current ops/sec;   
+ 4840 sec: 637184 operations; 0 current ops/sec;   
+ 4850 sec: 637184 operations; 0 current ops/sec;   
+ 4860 sec: 637184 operations; 0 current ops/sec;   
+ 4870 sec: 637184 operations; 0 current ops/sec;   
+ 4880 sec: 637184 operations; 0 current ops/sec;   
+ 4890 sec: 637184 operations; 0 current ops/sec;   
+ 4900 sec: 637184 operations; 0 current ops/sec;   
+ 4910 sec: 637184 operations; 0 current ops/sec;   
+ 4920 sec: 637184 operations; 0 current ops/sec;   
+ 4930 sec: 637184 operations; 0 current ops/sec;   
+ 4940 sec: 637184 operations; 0 current ops/sec;   
+ 4950 sec: 637184 operations; 0 current ops/sec;   
+ 4960 sec: 637184 operations; 0 current ops/sec;   
+ 4970 sec: 637184 operations; 0 current ops/sec;   
+ 4980 sec: 637184 operations; 0 current ops/sec;   
+ 4990 sec: 637184 operations; 0 current ops/sec;   
+ 5000 sec: 637184 operations; 0 current ops/sec;   
+ 5010 sec: 637184 operations; 0 current ops/sec;   
+ 5020 sec: 637184 operations; 0 current ops/sec;   
+ 5030 sec: 637184 operations; 0 current ops/sec;   
+ 5040 sec: 637184 operations; 0 current ops/sec;   
+ 5050 sec: 637184 operations; 0 current ops/sec;   
+ 5060 sec: 637184 operations; 0 current ops/sec;   
+ 5070 sec: 637184 operations; 0 current ops/sec;   
+ 5080 sec: 637184 operations; 0 current ops/sec;   
+ 5090 sec: 637184 operations; 0 current ops/sec;   
+ 5100 sec: 637184 operations; 0 current ops/sec;   
+ 5110 sec: 637184 operations; 0 current ops/sec;   
+ 5120 sec: 637184 operations; 0 current ops/sec;   
+ 5130 sec: 637184 operations; 0 current ops/sec;   
+ 5140 sec: 637184 operations; 0 current ops/sec;   
+ 5150 sec: 637184 operations; 0 current ops/sec;   
+ 5160 sec: 637184 operations; 0 current ops/sec;   
+ 5170 sec: 637184 operations; 0 current ops/sec;   
+ 5180 sec: 637184 operations; 0 current ops/sec;   
+^C]0;root@dbtest0: /hyperdex_build/tests/second5nodes/out_a_45offroot@dbtest0:/hyperdex_build/tests/second5nodes/out_a_45off# [Kjava -Djava.library.path=/usr/local/lib/ com.yahoo.ycsb.Client -t -db org.hyperdex.ycsb.HyperDex --P /hyperdex_build/ycsb-0.1.4/workloads/workloada -p theads=16 -p "hyperdex.host=192.168.100.1" -p "hyperdex.port=1982" -s > out1.1
+Loading workload...
+Starting test.
+host: 192.168.100.1
+port: 1982
+host: 192.168.100.1
+port: 1982
+host: 192.168.100.1
+port: 1982
+host: 192.168.100.1
+port: 1982
+host: 192.168.100.1
+port: 1982
+host: 192.168.100.1
+port: 1982
+host: 192.168.100.1
+port: 1982
+host: 192.168.100.1
+port: 1982
+host: 192.168.100.1
+port: 1982
+host: 192.168.100.1
+port: 1982
+host: 192.168.100.1
+port: 1982
+host: 192.168.100.1
+port: 1982
+host: 192.168.100.1
+host: 192.168.100.1
+port: 1982
+port: 1982
+host: 192.168.100.1
+port: 1982
+host: 192.168.100.1
+port: 1982
+ 0 sec: 0 operations; 
+m_client: org.hyperdex.client.Client@3611c755
+m_client: org.hyperdex.client.Client@2f17aadf
+m_client: org.hyperdex.client.Client@7e9a288b
+m_client: org.hyperdex.client.Client@3adbfe9c
+m_client: org.hyperdex.client.Client@4128d1f4
+m_client: org.hyperdex.client.Client@5ef00b97
+m_client: org.hyperdex.client.Client@61891732
+m_client: org.hyperdex.client.Client@6f5205a4
+m_client: org.hyperdex.client.Client@71f08b14
+m_client: org.hyperdex.client.Client@673b087c
+m_client: org.hyperdex.client.Client@54aa39d6
+m_client: org.hyperdex.client.Client@73bb3c06
+m_client: org.hyperdex.client.Client@73bb3c06
+m_client: org.hyperdex.client.Client@7b19f779
+m_client: org.hyperdex.client.Client@44daa9f1
+m_client: org.hyperdex.client.Client@6fcb3087
+ 10 sec: 252 operations; 24.86 current ops/sec; [UPDATE AverageLatency(us)=9179.26] [READ AverageLatency(us)=571.92] 
+ 20 sec: 252 operations; 0 current ops/sec;   
+ 30 sec: 252 operations; 0 current ops/sec;   
+ 40 sec: 252 operations; 0 current ops/sec;   
+^C]0;root@dbtest0: /hyperdex_build/tests/second5nodes/out_a_45offroot@dbtest0:/hyperdex_build/tests/second5nodes/out_a_45off# [K^C
+]0;root@dbtest0: /hyperdex_build/tests/second5nodes/out_a_45offroot@dbtest0:/hyperdex_build/tests/second5nodes/out_a_45off# ll
+total 20
+drwxr-xr-x 2 root root 4096 Jan 29 02:25 [0m[01;34m.[0m/
+drwxr-xr-x 5 root root 4096 Jan 29 00:56 [01;34m..[0m/
+-rw-r--r-- 1 root root  183 Jan 29 00:58 out1
+-rw-r--r-- 1 root root  183 Jan 29 02:25 out1.1
+-rw-r--r-- 1 root root  534 Jan 29 00:58 workloada
+]0;root@dbtest0: /hyperdex_build/tests/second5nodes/out_a_45offroot@dbtest0:/hyperdex_build/tests/second5nodes/out_a_45off# vi out1
+[?1049h[?1h=[2;1H�[6n[1;1H  [1;1H[1;40r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[40;1H"out1" 2L, 183C[>c[1;1HYCSB Client 0.1
+Command line: -t -db org.hyperdex.ycsb.HyperDex -P /hyperdex_build/ycsb-0.1.4/workloads/workloada -p theads=16 -p hyperdex.host=192.168.100.1 -p hyperdex.portt[3;1H=1982 -s
+[1m[34m~                                                                                                                                                             [5;1H~                                                                                                                                                             [6;1H~                                                                                                                                                             [7;1H~                                                                                                                                                             [8;1H~                                                                                                                                                             [9;1H~                                                                                                                                                             [10;1H~                                                                                                                                                             [11;1H~                                                                                                                                                             [12;1H~                                                                                                                                                             [13;1H~                                                                                                                                                             [14;1H~                                                                                                                                                             [15;1H~                                                                                                                                                             [16;1H~                                                                                                                                                             [17;1H~                                                                                                                                                             [18;1H~                                                                                                                                                             [19;1H~                                                                                                                                                             [20;1H~                                                                                                                                                             [21;1H~                                                                                                                                                             [22;1H~                                                                                                                                                             [23;1H~                                                                                                                                                             [24;1H~                                                                                                                                                             [25;1H~                                                                                                                                                             [26;1H~                                                                                                                                                             [27;1H~                                                                                                                                                             [28;1H~                                                                                                                                                             [29;1H~                                                                                                                                                             [30;1H~                                                                                                                                                             [31;1H~                                                                                                                                                             [32;1H~                                                                                                                                                             [33;1H~                                                                                                                                                             [34;1H~                                                                                                                                                             [35;1H~                                                                                                                                                             [36;1H~                                                                                                                                                             [37;1H~                                                                                                                                                             [38;1H~                                                                                                                                                             [39;1H~                                                                                                                                                             [m[40;141H1,1[11CAll[1;1H[?12l[?25h[?25l[40;1H[1m-- REPLACE --[m[40;14H[K[40;141H1,1[11CAll[1;1H[?12l[?25h[?25l:[40;143H2[1;2H[?12l[?25h[?25lq[40;143H3[1;3H[?12l[?25h[?25l[2;39r[2;1H[L[1;40r[1;3H[K[2;1HSB Client 0.1[40;141H[K[40;141H2,1[11CAll[2;1H[?12l[?25h[?25l[40;1H[K[40;141H2,1[11CAll[2;1H[?12l[?25h[?25l[40;141H[K[40;1H:[?12l[?25hq![?25l[40;1H[K[40;1H[?1l>[?12l[?25h[?1049l]0;root@dbtest0: /hyperdex_build/tests/second5nodes/out_a_45offroot@dbtest0:/hyperdex_build/tests/second5nodes/out_a_45off# vi out1ll[Kjava -Djava.library.path=/usr/local/lib/ com.yahoo.ycsb.Client -t -db org.hyperdex.ycsb.HyperDex --P /hyperdex_build/ycsb-0.1.4/workloads/workloada -p theads=16 -p "hyperdex.host=192.168.100.1" -p "hyperdex.port=1982" -s > out1.1[K[A[48Pvi /hyperdex_build/ycsb-0.1.4/workloads/workloada
+[K[Aroot@dbtest0:/hyperdex_build/tests/second5nodes/out_a_45off# vi /hyperdex_build/ycsb-0.1.4/workloads/workloadajava -Djava.library.path=/usr/local/lib/ com.yahoo.ycsb.Client -t -db org.hyperdex.ycsb.HyperDex --P /hyperdex_build/ycsb-0.1.4/workloads/workloada -p theads=16 -p "hyperdex.host=192.168.100.1" -p "hyperdex.port=1982" -s > out1[A[48Pvi /hyperdex_build/ycsb-0.1.4/workloads/workloada
+[K[Aroot@dbtest0:/hyperdex_build/tests/second5nodes/out_a_45off# vi /hyperdex_build/ycsb-0.1.4/workloads/workloadajava -Djava.library.path=/usr/local/lib/ com.yahoo.ycsb.Client -t -db org.hyperdex.ycsb.HyperDex --P /hyperdex_build/ycsb-0.1.4/workloads/workloada -p theads=16 -p "hyperdex.host=192.168.100.1" -p "hyperdex.port=1982" -s > out1[A[45Pcp /hyperdex_build/ycsb-0.1.4/workloads/workloada ./
+[K[Aroot@dbtest0:/hyperdex_build/tests/second5nodes/out_a_45off# cp /hyperdex_build/ycsb-0.1.4/workloads/workloada ./[3Pvi /hyperdex_build/ycsb-0.1.4/workloads/workloadajava -Djava.library.path=/usr/local/lib/ com.yahoo.ycsb.Client -t -db org.hyperdex.ycsb.HyperDex --P /hyperdex_build/ycsb-0.1.4/workloads/workloada -p theads=16 -p "hyperdex.host=192.168.100.1" -p "hyperdex.port=1982" -s > out1[A[38Pcp workloada /hyperdex_build/ycsb-0.1.4/workloads/workloada
+[K[Aroot@dbtest0:/hyperdex_build/tests/second5nodes/out_a_45off# cp workloada /hyperdex_build/ycsb-0.1.4/workloads/workloadall[Kvi workloada cp /hyperdex_build/ycsb-0.1.4/workloads/workloada .//hyperdex_build/ycsb-0.1.4/workloads/workloadad out_a_45off[K[3@mkdir out_a_45offll[Kcd ..vi /hyperdex_build/ycsb-0.1.4/workloads/workloadajava -Djava.library.path=/usr/local/lib/ com.yahoo.ycsb.Client -load -db org.hyperdex.ycsb.HyperDeex -P /hyperdex_build/ycsb-0.1.4/workloads/workloada -p "hyperdex.host=192.168.100.1" -p "hyperdex.port=1982" -p theads=16[All[K
+[K[Aroot@dbtest0:/hyperdex_build/tests/second5nodes/out_a_45off# llhyperdex list-spaces -h 192.168.100.1vi /hyperdex_build/ycsb-0.1.4/workloads/workloada[12Phyperdex list-spaces -h 192.168.100.1vi /hyperdex_build/ycsb-0.1.4/workloads/workloada[12Phyperdex list-spaces -h 192.168.100.1ll[Kjava -Djava.library.path=/usr/local/lib/ com.yahoo.ycsb.Client -load -db org.hyperdex.ycsb.HyperDeex -P /hyperdex_build/ycsb-0.1.4/workloads/workloada -p "hyperdex.host=192.168.100.1" -p "hyperdex.port=1982" -p theads=16[All[K
+[K[Aroot@dbtest0:/hyperdex_build/tests/second5nodes/out_a_45off# llhyperdex list-spaces -h 192.168.100.1vi /hyperdex_build/ycsb-0.1.4/workloads/workloada[12Phyperdex list-spaces -h 192.168.100.1rm-space -h 192.168.100.1 usertable[7Plist-spaces -h 192.168.100.1rm-space -h 192.168.100.1 usertable[7Plist-spaces -h 192.168.100.1rm-space -h 192.168.100.1 usertable[7Plist-spaces -h 192.168.100.1[Kvalidate-space --usage[1Phelp^C
+]0;root@dbtest0: /hyperdex_build/tests/second5nodes/out_a_45offroot@dbtest0:/hyperdex_build/tests/second5nodes/out_a_45off# history |grep config
+   24  ./[01;31m[Kconfig[m[Kure --enable-java-bindings --enable-ycsb
+   26  ./[01;31m[Kconfig[m[Kure --enable-java-bindings --enable-ycsb  --enable-python-bindings
+   28  ld[01;31m[Kconfig[m[K
+  105  hyperdex show-[01;31m[Kconfig[m[K -h 192.168.100.1
+  106  hyperdex show-[01;31m[Kconfig[m[K -h 192.168.100.1|grep ^serv
+  186  ./[01;31m[Kconfig[m[Kure --enable-java-bindings PKG_CONFIG_PATH=/usr/local/lib/pkg[01;31m[Kconfig[m[K --enable-ycsb
+  196  ./[01;31m[Kconfig[m[Kure --enable-java-bindings PKG_CONFIG_PATH=/usr/local/lib/pkg[01;31m[Kconfig[m[K --enable-ycsb
+  209  ./[01;31m[Kconfig[m[Kure --enable-java-bindings PKG_CONFIG_PATH=/usr/local/lib/pkg[01;31m[Kconfig[m[K --enable-ycsb
+  223  ./[01;31m[Kconfig[m[Kure --enable-java-bindings PKG_CONFIG_PATH=/usr/local/lib/pkg[01;31m[Kconfig[m[K --enable-ycsb
+  232  ./[01;31m[Kconfig[m[Kure --enable-java-bindings PKG_CONFIG_PATH=/usr/local/lib/pkg[01;31m[Kconfig[m[K --enable-ycsb
+  238  ./[01;31m[Kconfig[m[Kure --enable-java-bindings PKG_CONFIG_PATH=/usr/local/lib/pkg[01;31m[Kconfig[m[K --enable-ycsb
+  249  hyperdex show-[01;31m[Kconfig[m[K  -h 192.168.100.2|grep ^server
+  260  hyperdex show-[01;31m[Kconfig[m[K  -h 192.168.100.2|grep ^server
+  262  hyperdex show-[01;31m[Kconfig[m[K  -h 192.168.100.2 > [01;31m[Kconfig[m[K
+  263  vi [01;31m[Kconfig[m[K
+  264  hyperdex show-[01;31m[Kconfig[m[K  -h 192.168.100.2 > [01;31m[Kconfig[m[K_daemon4_halt
+  265  hyperdex show-[01;31m[Kconfig[m[K  -h 192.168.100.2|grep ^server
+  266  vi [01;31m[Kconfig[m[K_daemon4_halt
+  268  hyperdex show-[01;31m[Kconfig[m[K  -h 192.168.100.2|grep ^server
+  289  hyperdex show-[01;31m[Kconfig[m[K  -h 192.168.100.2|grep ^server
+  290  hyperdex show-[01;31m[Kconfig[m[K  -h 192.168.100.4
+  331  hyperdex show-[01;31m[Kconfig[m[K  -h 192.168.100.2|grep ^server
+  333  hyperdex show-[01;31m[Kconfig[m[K  -h 192.168.100.2|grep ^server
+  339  hyperdex show-[01;31m[Kconfig[m[K  -h 192.168.100.2|grep ^server
+  346  hyperdex show-[01;31m[Kconfig[m[K  -h 192.168.100.2|grep ^server
+  348  hyperdex show-[01;31m[Kconfig[m[K  -h 192.168.100.2
+  349  hyperdex show-[01;31m[Kconfig[m[K  -h 192.168.100.2 > confing
+  351  hyperdex show-[01;31m[Kconfig[m[K  -h 192.168.100.2 > confing
+  358  hyperdex show-[01;31m[Kconfig[m[K  -h 192.168.100.2 > confing2
+  372  hyperdex show-[01;31m[Kconfig[m[K  -h 192.168.100.2
+  373  hyperdex show-[01;31m[Kconfig[m[K  -h 192.168.100.2 > [01;31m[Kconfig[m[K_1
+  384  mv out1 out2 out3 [01;31m[Kconfig[m[K_1 out_a
+  386  hyperdex show-[01;31m[Kconfig[m[K  -h 192.168.100.2 > [01;31m[Kconfig[m[K_2
+  388  mv [01;31m[Kconfig[m[K_2 [01;31m[Kconfig[m[K_2afetertest
+  416  hyperdex show-[01;31m[Kconfig[m[K  -h 192.168.100.2 > [01;31m[Kconfig[m[K_1
+  417  vi [01;31m[Kconfig[m[K_1
+  422  hyperdex show-[01;31m[Kconfig[m[K  -h 192.168.100.2 > [01;31m[Kconfig[m[K_2
+  423  vi [01;31m[Kconfig[m[K_2
+  429  hyperdex show-[01;31m[Kconfig[m[K  -h 192.168.100.2 |grep ^ser
+  431  hyperdex show-[01;31m[Kconfig[m[K  -h 192.168.100.2 |grep ^ser
+  468  history |grep [01;31m[Kconfig[m[K
+]0;root@dbtest0: /hyperdex_build/tests/second5nodes/out_a_45offroot@dbtest0:/hyperdex_build/tests/second5nodes/out_a_45off# hyperdex show-config  -h 192.168.100.2 |grep ^ser
+[01;31m[Kser[m[Kver 5901802695393073935 192.168.100.3:2012 AVAILABLE
+[01;31m[Kser[m[Kver 7002714718748955588 192.168.100.2:2012 AVAILABLE
+[01;31m[Kser[m[Kver 10327312535168882966 192.168.100.5:2012 AVAILABLE
+[01;31m[Kser[m[Kver 13955961253231528069 192.168.100.1:2012 AVAILABLE
+[01;31m[Kser[m[Kver 18437966591783271607 192.168.100.4:2012 AVAILABLE
+]0;root@dbtest0: /hyperdex_build/tests/second5nodes/out_a_45offroot@dbtest0:/hyperdex_build/tests/second5nodes/out_a_45off# [K]0;root@dbtest0: /hyperdex_build/tests/second5nodes/out_a_45offroot@dbtest0:/hyperdex_build/tests/second5nodes/out_a_45off# hyperdex show-config  -h 192.168.100.2 |grep ^ser
+[01;31m[Kser[m[Kver 5901802695393073935 192.168.100.3:2012 AVAILABLE
+[01;31m[Kser[m[Kver 7002714718748955588 192.168.100.2:2012 AVAILABLE
+[01;31m[Kser[m[Kver 10327312535168882966 192.168.100.5:2012 AVAILABLE
+[01;31m[Kser[m[Kver 13955961253231528069 192.168.100.1:2012 AVAILABLE
+[01;31m[Kser[m[Kver 18437966591783271607 192.168.100.4:2012 AVAILABLE
+]0;root@dbtest0: /hyperdex_build/tests/second5nodes/out_a_45offroot@dbtest0:/hyperdex_build/tests/second5nodes/out_a_45off# hyperdex show-config  -h 192.168.100.2 |grep ^ser[K[K]0;root@dbtest0: /hyperdex_build/tests/second5nodes/out_a_45offroot@dbtest0:/hyperdex_build/tests/second5nodes/out_a_45off# hyperdex show-config  -h 192.168.100.2 |grep ^ser[29Pistory |grep config[13Pvi out1ll[Kjava -Djava.library.path=/usr/local/lib/ com.yahoo.ycsb.Client -t -db org.hyperdex.ycsb.HyperDex --P /hyperdex_build/ycsb-0.1.4/workloads/workloada -p theads=16 -p "hyperdex.host=192.168.100.1" -p "hyperdex.port=1982" -s > out1.1^C
+]0;root@dbtest0: /hyperdex_build/tests/second5nodes/out_a_45offroot@dbtest0:/hyperdex_build/tests/second5nodes/out_a_45off# [Khyperdex show-config  -h 192.168.100.2 |grep ^ser         ^C
+]0;root@dbtest0: /hyperdex_build/tests/second5nodes/out_a_45offroot@dbtest0:/hyperdex_build/tests/second5nodes/out_a_45off# ll
+total 20
+drwxr-xr-x 2 root root 4096 Jan 29 02:26 [0m[01;34m.[0m/
+drwxr-xr-x 5 root root 4096 Jan 29 00:56 [01;34m..[0m/
+-rw-r--r-- 1 root root  183 Jan 29 00:58 out1
+-rw-r--r-- 1 root root  183 Jan 29 02:25 out1.1
+-rw-r--r-- 1 root root  534 Jan 29 00:58 workloada
+]0;root@dbtest0: /hyperdex_build/tests/second5nodes/out_a_45offroot@dbtest0:/hyperdex_build/tests/second5nodes/out_a_45off# llhyperdex show-config  -h 192.168.100.2 |grep ^ser          > config
+]0;root@dbtest0: /hyperdex_build/tests/second5nodes/out_a_45offroot@dbtest0:/hyperdex_build/tests/second5nodes/out_a_45off# ll
+total 24
+drwxr-xr-x 2 root root 4096 Jan 29 11:02 [0m[01;34m.[0m/
+drwxr-xr-x 5 root root 4096 Jan 29 00:56 [01;34m..[0m/
+-rw-r--r-- 1 root root 2756 Jan 29 11:02 config
+-rw-r--r-- 1 root root  183 Jan 29 00:58 out1
+-rw-r--r-- 1 root root  183 Jan 29 02:25 out1.1
+-rw-r--r-- 1 root root  534 Jan 29 00:58 workloada
+]0;root@dbtest0: /hyperdex_build/tests/second5nodes/out_a_45offroot@dbtest0:/hyperdex_build/tests/second5nodes/out_a_45off# vi config
+[?1049h[?1h=[2;1H�[6n[1;1H  [1;1H[1;42r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[42;1H"config" 33L, 2756C[>c[1;1Hcluster 10301122361128436711
+version 1572
+flags 0
+server 5901802695393073935 192.168.100.3:2012 AVAILABLE
+server 7002714718748955588 192.168.100.2:2012 AVAILABLE
+server 10327312535168882966 192.168.100.5:2012 AVAILABLE
+server 13955961253231528069 192.168.100.1:2012 AVAILABLE
+server 18437966591783271607 192.168.100.4:2012 AVAILABLE
+space 423 usertable
+  fault_tolerance 2
+  predecessor_width 1
+  schema
+    attribute k HYPERDATATYPE_STRING
+    attribute field0 HYPERDATATYPE_STRING
+    attribute field1 HYPERDATATYPE_STRING
+    attribute field2 HYPERDATATYPE_STRING
+    attribute field3 HYPERDATATYPE_STRING
+    attribute field4 HYPERDATATYPE_STRING
+    attribute field5 HYPERDATATYPE_STRING
+    attribute field6 HYPERDATATYPE_STRING
+    attribute field7 HYPERDATATYPE_STRING
+    attribute field8 HYPERDATATYPE_STRING
+    attribute field9 HYPERDATATYPE_STRING
+  subspace 424
+    attributes k
+    region 425 lower=(0,) upper=(2305843009213693951,) replicas=[server(13955961253231528069)/virtual_server(1346), server(7002714718748955588)/virtual_serverr[27;1H(1390), server(5901802695393073935)/virtual_server(1804)]
+    region 426 lower=(2305843009213693952,) upper=(4611686018427387903,) replicas=[server(13955961253231528069)/virtual_server(1348), server(700271471874895555[29;1H88)/virtual_server(1392), server(5901802695393073935)/virtual_server(1806)]
+    region 427 lower=(4611686018427387904,) upper=(6917529027641081855,) replicas=[server(13955961253231528069)/virtual_server(1350), server(700271471874895555[31;1H88)/virtual_server(1394), server(5901802695393073935)/virtual_server(1808)]
+    region 428 lower=(6917529027641081856,) upper=(9223372036854775807,) replicas=[server(7002714718748955588)/virtual_server(1334), server(5901802695393073933[33;1H5)/virtual_server(1810), server(18437966591783271607)/virtual_server(1820)]
+    region 429 lower=(9223372036854775808,) upper=(11529215046068469759,) replicas=[server(7002714718748955588)/virtual_server(1336), server(590180269539307399[35;1H35)/virtual_server(1812), server(18437966591783271607)/virtual_server(1822)]
+    region 430 lower=(11529215046068469760,) upper=(13835058055282163711,) replicas=[server(7002714718748955588)/virtual_server(1338), server(59018026953930733[37;1H935)/virtual_server(1814), server(18437966591783271607)/virtual_server(1824)]
+    region 431 lower=(13835058055282163712,) upper=(16140901064495857663,) replicas=[server(5901802695393073935)/virtual_server(1816), server(18437966591783277[39;1H1607)/virtual_server(1830), server(10327312535168882966)/virtual_server(1834)]
+    region 432 lower=(16140901064495857664,) upper=(18446744073709551615,) replicas=[server(5901802695393073935)/virtual_server(1818), server(18437966591783277[41;1H1607)/virtual_server(1832), server(10327312535168882966)/virtual_server(1836)][42;141H1,1[11CAll[1;1H[?12l[?25h[?25l[42;1H[1m-- REPLACE --[m[42;15H[K[42;141H1,1[11CAll[1;1H[?12l[?25h[?25l[42;143H29[1;29H[?12l[?25h[?25l[27m[m[H[2J[1;5Hregion 432 lower=(16140901064495857664,) upper=(18446744073709551615,) replicas=[server(5901802695393073935)/virtual_server(1818), server(18437966591783277[2;1H1607)/virtual_server(1832), server(10327312535168882966)/virtual_server(1836)]
+[1m[34m~                                                                                                                                                             [4;1H~                                                                                                                                                             [5;1H~                                                                                                                                                             [6;1H~                                                                                                                                                             [7;1H~                                                                                                                                                             [8;1H~                                                                                                                                                             [9;1H~                                                                                                                                                             [10;1H~                                                                                                                                                             [11;1H~                                                                                                                                                             [12;1H~                                                                                                                                                             [13;1H~                                                                                                                                                             [14;1H~                                                                                                                                                             [15;1H~                                                                                                                                                             [16;1H~                                                                                                                                                             [17;1H~                                                                                                                                                             [18;1H~                                                                                                                                                             [19;1H~                                                                                                                                                             [20;1H~                                                                                                                                                             [21;1H~                                                                                                                                                             [22;1H~                                                                                                                                                             [23;1H~                                                                                                                                                             [24;1H~                                                                                                                                                             [25;1H~                                                                                                                                                             [26;1H~                                                                                                                                                             [27;1H~                                                                                                                                                             [28;1H~                                                                                                                                                             [29;1H~                                                                                                                                                             [30;1H~                                                                                                                                                             [31;1H~                                                                                                                                                             [32;1H~                                                                                                                                                             [33;1H~                                                                                                                                                             [34;1H~                                                                                                                                                             [35;1H~                                                                                                                                                             [36;1H~                                                                                                                                                             [37;1H~                                                                                                                                                             [38;1H~                                                                                                                                                             [39;1H~                                                                                                                                                             [40;1H~                                                                                                                                                             [41;1H~                                                                                                                                                             [m[42;1H[1m-- REPLACE --[m[127C33,5[10CBot[1;5H[?12l[?25h[?25l[1;41r[1;1H[2L[1;42r[1;5Hregion 431 lower=(13835058055282163712,) upper=(16140901064495857663,) replicas=[server(5901802695393073935)/virtual_server(1816), server(18437966591783277[2;1H1607)/virtual_server(1830), server(10327312535168882966)/virtual_server(1834)][42;141H[K[42;141H32,5[10CBot[1;5H[?12l[?25h[?25l[1;41r[1;1H[2L[1;42r[1;5Hregion 430 lower=(11529215046068469760,) upper=(13835058055282163711,) replicas=[server(7002714718748955588)/virtual_server(1338), server(59018026953930733[2;1H935)/virtual_server(1814), server(18437966591783271607)/virtual_server(1824)][42;141H[K[42;141H31,5[10CBot[1;5H[?12l[?25h[?25l[1;41r[1;1H[2L[1;42r[1;5Hregion 429 lower=(9223372036854775808,) upper=(11529215046068469759,) replicas=[server(7002714718748955588)/virtual_server(1336), server(590180269539307399[2;1H35)/virtual_server(1812), server(18437966591783271607)/virtual_server(1822)][42;141H[K[42;141H30,5[10CBot[1;5H[?12l[?25h[?25l[1;41r[1;1H[2L[1;42r[1;5Hregion 428 lower=(6917529027641081856,) upper=(9223372036854775807,) replicas=[server(7002714718748955588)/virtual_server(1334), server(5901802695393073933[2;1H5)/virtual_server(1810), server(18437966591783271607)/virtual_server(1820)][42;141H[K[42;141H29,5[10CBot[1;5H[?12l[?25h[?25l[1;41r[1;1H[2L[1;42r[1;5Hregion 427 lower=(4611686018427387904,) upper=(6917529027641081855,) replicas=[server(13955961253231528069)/virtual_server(1350), server(700271471874895555[2;1H88)/virtual_server(1394), server(5901802695393073935)/virtual_server(1808)][42;141H[K[42;141H28,5[10CBot[1;5H[?12l[?25h[?25l[1;41r[1;1H[2L[1;42r[1;5Hregion 426 lower=(2305843009213693952,) upper=(4611686018427387903,) replicas=[server(13955961253231528069)/virtual_server(1348), server(700271471874895555[2;1H88)/virtual_server(1392), server(5901802695393073935)/virtual_server(1806)][42;141H[K[42;141H27,5[10CBot[1;5H[?12l[?25h[?25l[1;41r[1;1H[2L[1;42r[1;5Hregion 425 lower=(0,) upper=(2305843009213693951,) replicas=[server(13955961253231528069)/virtual_server(1346), server(7002714718748955588)/virtual_serverr[2;1H(1390), server(5901802695393073935)/virtual_server(1804)][42;141H[K[42;141H26,5[10CBot[1;5H[?12l[?25h[?25l[1;41r[1;1H[L[1;42r[1;5Hattributes k[42;141H[K[42;141H25,5[10CBot[1;5H[?12l[?25h[?25l[1;41r[1;1H[L[1;42r[1;3Hsubspace 424[42;141H[K[42;141H24,5[10CBot[1;5H[?12l[?25h[?25l[1;41r[1;1H[L[1;42r[1;5Hattribute field9 HYPERDATATYPE_STRING[42;141H[K[42;141H23,5[10CBot[1;5H[?12l[?25h[?25l[1;41r[1;1H[L[1;42r[1;5Hattribute field8 HYPERDATATYPE_STRING[42;141H[K[42;141H22,5[10CBot[1;5H[?12l[?25h[?25l[1;41r[1;1H[L[1;42r[1;5Hattribute field7 HYPERDATATYPE_STRING[42;141H[K[42;141H21,5[10CBot[1;5H[?12l[?25h[?25l[1;41r[1;1H[L[1;42r[1;5Hattribute field6 HYPERDATATYPE_STRING[42;141H[K[42;141H20,5[10CBot[1;5H[?12l[?25h[?25l[1;41r[1;1H[L[1;42r[1;5Hattribute field5 HYPERDATATYPE_STRING[42;141H[K[42;141H19,5[10CBot[1;5H[?12l[?25h[?25l[1;41r[1;1H[L[1;42r[1;5Hattribute field4 HYPERDATATYPE_STRING[42;141H[K[42;141H18,5[10CBot[1;5H[?12l[?25h[?25l[1;41r[1;1H[L[1;42r[1;5Hattribute field3 HYPERDATATYPE_STRING[42;141H[K[42;141H17,5[10CBot[1;5H[?12l[?25h[?25l[1;41r[1;1H[L[1;42r[1;5Hattribute field2 HYPERDATATYPE_STRING[42;141H[K[42;141H16,5[10CBot[1;5H[?12l[?25h[?25l[1;41r[1;1H[L[1;42r[1;5Hattribute field1 HYPERDATATYPE_STRING[42;141H[K[42;141H15,5[10CBot[1;5H[?12l[?25h[?25l[1;41r[1;1H[L[1;42r[1;5Hattribute field0 HYPERDATATYPE_STRING[42;141H[K[42;141H14,5[10CBot[1;5H[?12l[?25h[?25l[1;41r[1;1H[L[1;42r[1;5Hattribute k HYPERDATATYPE_STRING[42;141H[K[42;141H13,5[10CBot[1;5H[?12l[?25h[?25l[1;41r[1;1H[L[1;42r[1;3Hschema[42;141H[K[42;141H12,5[10CBot[1;5H[?12l[?25h[?25l[1;41r[1;1H[L[1;42r[1;3Hpredecessor_width 1[42;141H[K[42;141H11,5[10CBot[1;5H[?12l[?25h[?25l[1;41r[1;1H[L[1;42r[1;3Hfault_tolerance 2[42;141H[K[42;141H10,5[10CBot[1;5H[?12l[?25h[?25l[1;41r[1;1H[L[1;42r[1;1Hspace 423 usertable[42;141H[K[42;141H9,5[11CBot[1;5H[?12l[?25h[?25l[1;41r[1;1H[L[1;42r[1;1Hserver 18437966591783271607 192.168.100.4:2012 AVAILABLE[42;141H[K[42;141H8,5[11CBot[1;5H[?12l[?25h[?25l[1;41r[1;1H[L[1;42r[1;1Hserver 13955961253231528069 192.168.100.1:2012 AVAILABLE[42;141H[K[42;141H7,5[11CBot[1;5H[?12l[?25h[?25l[1;41r[1;1H[L[1;42r[1;1Hserver 10327312535168882966 192.168.100.5:2012 AVAILABLE[42;141H[K[42;141H6,5[11CBot[1;5H[?12l[?25h[?25l[1;41r[1;1H[L[1;42r[1;1Hserver 7002714718748955588 192.168.100.2:2012 AVAILABLE[42;141H[K[42;141H5,5[11CBot[1;5H[?12l[?25h[?25l[1;41r[1;1H[L[1;42r[1;1Hserver 5901802695393073935 192.168.100.3:2012 AVAILABLE[42;141H[K[42;141H4,5[11CBot[1;5H[?12l[?25h[?25l[1;41r[1;1H[L[1;42r[1;1Hflags 0[42;141H[K[42;141H3,5[11CBot[1;5H[?12l[?25h[?25l[1;41r[1;1H[L[1;42r[1;1Hversion 1572[42;141H[K[42;141H2,5[11CBot[1;5H[?12l[?25h[?25l[1;41r[1;1H[L[1;42r[1;1Hcluster 10301122361128436711[42;141H[K[42;141H1,5[11CAll[1;5H[?12l[?25h[?25l[42;1H[K[42;141H1,4[11CAll[1;4H[?12l[?25h[?25l[42;141H[K[42;1H:[?12l[?25hq[?25l[42;1H[K[42;1H[?1l>[?12l[?25h[?1049l]0;root@dbtest0: /hyperdex_build/tests/second5nodes/out_a_45offroot@dbtest0:/hyperdex_build/tests/second5nodes/out_a_45off# ^C
+]0;root@dbtest0: /hyperdex_build/tests/second5nodes/out_a_45offroot@dbtest0:/hyperdex_build/tests/second5nodes/out_a_45off# cd ..^C
+]0;root@dbtest0: /hyperdex_build/tests/second5nodes/out_a_45offroot@dbtest0:/hyperdex_build/tests/second5nodes/out_a_45off# ll
+total 24
+drwxr-xr-x 2 root root 4096 Jan 29 11:07 [0m[01;34m.[0m/
+drwxr-xr-x 5 root root 4096 Jan 29 00:56 [01;34m..[0m/
+-rw-r--r-- 1 root root 2756 Jan 29 11:02 config
+-rw-r--r-- 1 root root  183 Jan 29 00:58 out1
+-rw-r--r-- 1 root root  183 Jan 29 02:25 out1.1
+-rw-r--r-- 1 root root  534 Jan 29 00:58 workloada
+]0;root@dbtest0: /hyperdex_build/tests/second5nodes/out_a_45offroot@dbtest0:/hyperdex_build/tests/second5nodes/out_a_45off# cd ..
+]0;root@dbtest0: /hyperdex_build/tests/second5nodesroot@dbtest0:/hyperdex_build/tests/second5nodes# ll^C
+]0;root@dbtest0: /hyperdex_build/tests/second5nodesroot@dbtest0:/hyperdex_build/tests/second5nodes# cd out_a_45off#
+bash: cd: out_a_45off#: No such file or directory
+]0;root@dbtest0: /hyperdex_build/tests/second5nodesroot@dbtest0:/hyperdex_build/tests/second5nodes# cd out_a_45off# 
+]0;root@dbtest0: /hyperdex_build/tests/second5nodes/out_a_45offroot@dbtest0:/hyperdex_build/tests/second5nodes/out_a_45off# ll
+total 24
+drwxr-xr-x 2 root root 4096 Jan 29 11:07 [0m[01;34m.[0m/
+drwxr-xr-x 5 root root 4096 Jan 29 00:56 [01;34m..[0m/
+-rw-r--r-- 1 root root 2756 Jan 29 11:02 config
+-rw-r--r-- 1 root root  183 Jan 29 00:58 out1
+-rw-r--r-- 1 root root  183 Jan 29 02:25 out1.1
+-rw-r--r-- 1 root root  534 Jan 29 00:58 workloada
+]0;root@dbtest0: /hyperdex_build/tests/second5nodes/out_a_45offroot@dbtest0:/hyperdex_build/tests/second5nodes/out_a_45off# do ps^C
+]0;root@dbtest0: /hyperdex_build/tests/second5nodes/out_a_45offroot@dbtest0:/hyperdex_build/tests/second5nodes/out_a_45off# do ps
+bash: syntax error near unexpected token `do'
+]0;root@dbtest0: /hyperdex_build/tests/second5nodes/out_a_45offroot@dbtest0:/hyperdex_build/tests/second5nodes/out_a_45off# git
+bash: git: command not found
+]0;root@dbtest0: /hyperdex_build/tests/second5nodes/out_a_45offroot@dbtest0:/hyperdex_build/tests/second5nodes/out_a_45off# apt-get install git^C
+]0;root@dbtest0: /hyperdex_build/tests/second5nodes/out_a_45offroot@dbtest0:/hyperdex_build/tests/second5nodes/out_a_45off# git^C

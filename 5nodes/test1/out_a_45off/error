@@ -1,0 +1,29 @@
+>>> c.get('usertable', 'user8827516540991703174')
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "client.pyx", line 1568, in hyperdex.client.Client.get (bindings/python/hyperdex/client.c:18558)
+  File "client.pyx", line 1566, in hyperdex.client.Client.async_get (bindings/python/hyperdex/client.c:18415)
+  File "client.pyx", line 1320, in hyperdex.client.Client.asynccall__spacename_key__status_attributes (bindings/python/hyperdex/client.c:15510)
+hyperdex.client.HyperDexClientException: HyperDexClientException: all servers for key "user8827516540991703174" in space "usertable" are offline: bring one or more online to remedy the issue [HYPERDEX_CLIENT_OFFLINE]
+
+
+
+ 10 sec: 29876 operations; 2933.91 current ops/sec; [UPDATE AverageLatency(us)=6619.08] [READ AverageLatency(us)=3311.96]
+ 20 sec: 114656 operations; 8419.07 current ops/sec; [UPDATE AverageLatency(us)=2572.06] [READ AverageLatency(us)=1219.57]
+ 30 sec: 177603 operations; 6294.07 current ops/sec; [UPDATE AverageLatency(us)=3477.3] [READ AverageLatency(us)=1594.83]
+HyperDexClientException: org.hyperdex.client.HyperDexClientException: all servers for key "user8827516540991703174" in space "usertable" are offline: bring one or more online to remedy the i
+ssue
+HyperDexClientException: org.hyperdex.client.HyperDexClientException: all servers for key "user4700041059166080306" in space "usertable" are offline: bring one or more online to remedy the i
+ssue
+HyperDexClientException: org.hyperdex.client.HyperDexClientException: all servers for key "user6747901516195806289" in space "usertable" are offline: bring one or more online to remedy the i
+ssue
+HyperDexClientException: org.hyperdex.client.HyperDexClientException: all servers for key "user881112539058640565" in space "usertable" are offline: bring one or more online to remedy the is
+sue
+HyperDexClientException: org.hyperdex.client.HyperDexClientException: all servers for key "user8899498949873581328" in space "usertable" are offline: bring one or more online to remedy the i
+ssue
+HyperDexClientException: org.hyperdex.client.HyperDexClientException: all servers for key "user4226271057333927897" in space "usertable" are offline: bring one or more online to remedy the i
+ssue
+HyperDexClientException: org.hyperdex.client.HyperDexClientException: all servers for key "user4636787916072195926" in space "usertable" are offline: bring one or more online to remedy the i
+ssue
+
+

@@ -1,0 +1,1358 @@
+]0;root@dbtest0: /hyperdex_build/tests/second5nodes/out_a_4offroot@dbtest0:/hyperdex_build/tests/second5nodes/out_a_4off# llcp /hyperdex_build/ycsb-0.1.4/workloads/workloada ./workloada_9w[15Pvi /hyperdex_build/ycsb-0.1.4/workloads/workloadaconfig_2[K[38@hyperdex show-config  -h 192.168.100.2 > config_2ll[Kjava -Djava.library.path=/usr/local/lib/ com.yahoo.ycsb.Client -t -db org.hyperdex.ycsb.HyperDex -PP /hyperdex_build/ycsb-0.1.4/workloads/workloada -p theads=16 -p "hyperdex.host=192.168.100.1" -p "hyperdex.port=1982" -s > out3 4
+Loading workload...
+Starting test.
+host: 192.168.100.1
+host: 192.168.100.1
+port: 1982
+host: 192.168.100.1
+host: 192.168.100.1
+port: 1982
+host: 192.168.100.1
+port: 1982
+host: 192.168.100.1
+port: 1982
+host: 192.168.100.1
+host: 192.168.100.1
+port: 1982
+host: 192.168.100.1
+port: 1982
+host: 192.168.100.1
+port: 1982
+port: 1982
+port: 1982
+port: 1982
+host: 192.168.100.1
+port: 1982
+host: 192.168.100.1
+port: 1982
+host: 192.168.100.1
+port: 1982
+host: 192.168.100.1
+port: 1982
+host: 192.168.100.1
+port: 1982
+host: 192.168.100.1
+port: 1982
+ 0 sec: 0 operations; 
+m_client: org.hyperdex.client.Client@1e7d3b8e
+m_client: org.hyperdex.client.Client@2ebade60
+m_client: org.hyperdex.client.Client@6e5d8897
+m_client: org.hyperdex.client.Client@7c63c132
+m_client: org.hyperdex.client.Client@63d6dc46
+m_client: org.hyperdex.client.Client@2f17aadf
+m_client: org.hyperdex.client.Client@3ad32ea0
+m_client: org.hyperdex.client.Client@3adbfe9c
+m_client: org.hyperdex.client.Client@4128d1f4
+m_client: org.hyperdex.client.Client@61891732
+m_client: org.hyperdex.client.Client@5ef00b97
+m_client: org.hyperdex.client.Client@71f08b14
+m_client: org.hyperdex.client.Client@673b087c
+m_client: org.hyperdex.client.Client@961e946
+m_client: org.hyperdex.client.Client@44daa9f1
+m_client: org.hyperdex.client.Client@7b19f779
+ 10 sec: 142545 operations; 14036.93 current ops/sec; [UPDATE AverageLatency(us)=1086.96] [READ AverageLatency(us)=651.35] 
+ 20 sec: 223776 operations; 8121.48 current ops/sec; [UPDATE AverageLatency(us)=1809.52] [READ AverageLatency(us)=807.88] 
+ 30 sec: 295129 operations; 7133.16 current ops/sec; [UPDATE AverageLatency(us)=2639] [READ AverageLatency(us)=1514.84] 
+ 40 sec: 415755 operations; 12062.6 current ops/sec; [UPDATE AverageLatency(us)=1261.51] [READ AverageLatency(us)=968.52] 
+ 50 sec: 479035 operations; 6328 current ops/sec; [UPDATE AverageLatency(us)=2049.21] [READ AverageLatency(us)=851.07] 
+ 60 sec: 541745 operations; 6270.37 current ops/sec; [UPDATE AverageLatency(us)=2909.57] [READ AverageLatency(us)=1894.21] 
+ 70 sec: 610195 operations; 6845 current ops/sec; [UPDATE AverageLatency(us)=3019.26] [READ AverageLatency(us)=707.65] 
+ 80 sec: 681122 operations; 7092.7 current ops/sec; [UPDATE AverageLatency(us)=2389.86] [READ AverageLatency(us)=980.44] 
+ 90 sec: 753021 operations; 7189.18 current ops/sec; [UPDATE AverageLatency(us)=2315.54] [READ AverageLatency(us)=1324] 
+ 100 sec: 761106 operations; 808.5 current ops/sec; [UPDATE AverageLatency(us)=18777.16] [READ AverageLatency(us)=1344.88] 
+ 110 sec: 763973 operations; 286.7 current ops/sec; [UPDATE AverageLatency(us)=61761.63] [READ AverageLatency(us)=10508] 
+ 120 sec: 800554 operations; 3657.73 current ops/sec; [UPDATE AverageLatency(us)=5184.47] [READ AverageLatency(us)=3098.41] 
+ 130 sec: 874506 operations; 7394.46 current ops/sec; [UPDATE AverageLatency(us)=2030.73] [READ AverageLatency(us)=564.48] 
+ 140 sec: 968192 operations; 9368.6 current ops/sec; [UPDATE AverageLatency(us)=1390.07] [READ AverageLatency(us)=1280.64] 
+ 150 sec: 1050489 operations; 8229.7 current ops/sec; [UPDATE AverageLatency(us)=2511.24] [READ AverageLatency(us)=1174.29] 
+ 160 sec: 1109852 operations; 5935.71 current ops/sec; [UPDATE AverageLatency(us)=3144.06] [READ AverageLatency(us)=998.9] 
+ 170 sec: 1212061 operations; 10220.9 current ops/sec; [UPDATE AverageLatency(us)=1484.79] [READ AverageLatency(us)=1035.09] 
+ 180 sec: 1293584 operations; 8152.3 current ops/sec; [UPDATE AverageLatency(us)=1986.4] [READ AverageLatency(us)=1022.02] 
+ 190 sec: 1391706 operations; 9811.22 current ops/sec; [UPDATE AverageLatency(us)=1786.83] [READ AverageLatency(us)=587.53] 
+ 200 sec: 1485996 operations; 9429 current ops/sec; [UPDATE AverageLatency(us)=1937.41] [READ AverageLatency(us)=853.95] 
+ 210 sec: 1575489 operations; 8949.3 current ops/sec; [UPDATE AverageLatency(us)=1806.94] [READ AverageLatency(us)=835.32] 
+ 220 sec: 1633619 operations; 5812.42 current ops/sec; [UPDATE AverageLatency(us)=2776.17] [READ AverageLatency(us)=813.63] 
+ 230 sec: 1711660 operations; 7804.1 current ops/sec; [UPDATE AverageLatency(us)=2299.02] [READ AverageLatency(us)=1751.62] 
+ 240 sec: 1763673 operations; 5200.78 current ops/sec; [UPDATE AverageLatency(us)=2705.53] [READ AverageLatency(us)=878.22] 
+ 250 sec: 1818861 operations; 5518.8 current ops/sec; [UPDATE AverageLatency(us)=2829.43] [READ AverageLatency(us)=3047.23] 
+ 260 sec: 1877745 operations; 5888.4 current ops/sec; [UPDATE AverageLatency(us)=3250.63] [READ AverageLatency(us)=1712.94] 
+ 270 sec: 1996956 operations; 11919.91 current ops/sec; [UPDATE AverageLatency(us)=1267.19] [READ AverageLatency(us)=722.09] 
+ 280 sec: 2045748 operations; 4877.74 current ops/sec; [UPDATE AverageLatency(us)=4012.33] [READ AverageLatency(us)=1153.56] 
+^C]0;root@dbtest0: /hyperdex_build/tests/second5nodes/out_a_4offroot@dbtest0:/hyperdex_build/tests/second5nodes/out_a_4off# [Kll
+total 100
+drwxr-xr-x 2 root root  4096 Jan 28 23:34 [0m[01;34m.[0m/
+drwxr-xr-x 4 root root  4096 Jan 28 23:14 [01;34m..[0m/
+-rw-r--r-- 1 root root  4588 Jan 28 23:17 config_1
+-rw-r--r-- 1 root root  4895 Jan 28 23:29 config_2
+-rw-r--r-- 1 root root 32646 Jan 28 23:17 out1
+-rw-r--r-- 1 root root 32738 Jan 28 23:29 out2
+-rw-r--r-- 1 root root   183 Jan 28 23:29 out3
+-rw-r--r-- 1 root root   183 Jan 28 23:34 out4
+-rw-r--r-- 1 root root   530 Jan 28 23:34 workloada_9w
+]0;root@dbtest0: /hyperdex_build/tests/second5nodes/out_a_4offroot@dbtest0:/hyperdex_build/tests/second5nodes/out_a_4off# lljava -Djava.library.path=/usr/local/lib/ com.yahoo.ycsb.Client -t -db org.hyperdex.ycsb.HyperDex -PP /hyperdex_build/ycsb-0.1.4/workloads/workloada -p theads=16 -p "hyperdex.host=192.168.100.1" -p "hyperdex.port=1982" -s > out4[All[K
+[K[Aroot@dbtest0:/hyperdex_build/tests/second5nodes/out_a_4off# llcp /hyperdex_build/ycsb-0.1.4/workloads/workloada ./workloada_9w[15Pvi /hyperdex_build/ycsb-0.1.4/workloads/workloadaconfig_2[K[38@hyperdex show-config  -h 192.168.100.2 > config_2            |grep % ^ser
+[01;31m[Kser[m[Kver 5901802695393073935 192.168.100.3:2012 AVAILABLE
+[01;31m[Kser[m[Kver 7002714718748955588 192.168.100.2:2012 AVAILABLE
+[01;31m[Kser[m[Kver 10327312535168882966 192.168.100.5:2012 AVAILABLE
+[01;31m[Kser[m[Kver 13955961253231528069 192.168.100.1:2012 AVAILABLE
+[01;31m[Kser[m[Kver 18437966591783271607 192.168.100.4:2012 AVAILABLE
+]0;root@dbtest0: /hyperdex_build/tests/second5nodes/out_a_4offroot@dbtest0:/hyperdex_build/tests/second5nodes/out_a_4off# 192.168.100.4^C
+]0;root@dbtest0: /hyperdex_build/tests/second5nodes/out_a_4offroot@dbtest0:/hyperdex_build/tests/second5nodes/out_a_4off# ping 192.168.100.4
+PING 192.168.100.4 (192.168.100.4) 56(84) bytes of data.
+64 bytes from 192.168.100.4: icmp_seq=9 ttl=64 time=1997 ms
+64 bytes from 192.168.100.4: icmp_seq=10 ttl=64 time=989 ms
+64 bytes from 192.168.100.4: icmp_seq=11 ttl=64 time=0.182 ms
+64 bytes from 192.168.100.4: icmp_seq=12 ttl=64 time=0.168 ms
+64 bytes from 192.168.100.4: icmp_seq=13 ttl=64 time=0.212 ms
+64 bytes from 192.168.100.4: icmp_seq=14 ttl=64 time=0.152 ms
+64 bytes from 192.168.100.4: icmp_seq=15 ttl=64 time=0.175 ms
+64 bytes from 192.168.100.4: icmp_seq=16 ttl=64 time=0.254 ms
+64 bytes from 192.168.100.4: icmp_seq=17 ttl=64 time=0.184 ms
+64 bytes from 192.168.100.4: icmp_seq=18 ttl=64 time=0.155 ms
+64 bytes from 192.168.100.4: icmp_seq=19 ttl=64 time=0.199 ms
+64 bytes from 192.168.100.4: icmp_seq=20 ttl=64 time=0.183 ms
+64 bytes from 192.168.100.4: icmp_seq=21 ttl=64 time=0.174 ms
+64 bytes from 192.168.100.4: icmp_seq=22 ttl=64 time=0.197 ms
+64 bytes from 192.168.100.4: icmp_seq=23 ttl=64 time=0.169 ms
+64 bytes from 192.168.100.4: icmp_seq=24 ttl=64 time=0.161 ms
+64 bytes from 192.168.100.4: icmp_seq=25 ttl=64 time=0.208 ms
+64 bytes from 192.168.100.4: icmp_seq=26 ttl=64 time=0.202 ms
+64 bytes from 192.168.100.4: icmp_seq=27 ttl=64 time=0.147 ms
+64 bytes from 192.168.100.4: icmp_seq=28 ttl=64 time=0.195 ms
+64 bytes from 192.168.100.4: icmp_seq=29 ttl=64 time=0.161 ms
+64 bytes from 192.168.100.4: icmp_seq=30 ttl=64 time=0.170 ms
+64 bytes from 192.168.100.4: icmp_seq=31 ttl=64 time=0.200 ms
+
+^C
+--- 192.168.100.4 ping statistics ---
+47 packets transmitted, 23 received, 51% packet loss, time 46072ms
+rtt min/avg/max/mdev = 0.147/130.000/1997.080/446.139 ms, pipe 2
+]0;root@dbtest0: /hyperdex_build/tests/second5nodes/out_a_4offroot@dbtest0:/hyperdex_build/tests/second5nodes/out_a_4off# ping 192.168.100.4hyperdex show-config  -h 192.168.100.2 |grep ^ser
+[01;31m[Kser[m[Kver 5901802695393073935 192.168.100.3:2012 AVAILABLE
+[01;31m[Kser[m[Kver 7002714718748955588 192.168.100.2:2012 AVAILABLE
+[01;31m[Kser[m[Kver 10327312535168882966 192.168.100.5:2012 NOT_AVAILABLE
+[01;31m[Kser[m[Kver 13955961253231528069 192.168.100.1:2012 AVAILABLE
+[01;31m[Kser[m[Kver 18437966591783271607 192.168.100.4:2012 NOT_AVAILABLE
+]0;root@dbtest0: /hyperdex_build/tests/second5nodes/out_a_4offroot@dbtest0:/hyperdex_build/tests/second5nodes/out_a_4off# ping 192.168.100.5
+PING 192.168.100.5 (192.168.100.5) 56(84) bytes of data.
+64 bytes from 192.168.100.5: icmp_seq=6 ttl=64 time=0.190 ms
+64 bytes from 192.168.100.5: icmp_seq=7 ttl=64 time=0.186 ms
+^C
+--- 192.168.100.5 ping statistics ---
+7 packets transmitted, 2 received, 71% packet loss, time 6039ms
+rtt min/avg/max/mdev = 0.186/0.188/0.190/0.002 ms
+]0;root@dbtest0: /hyperdex_build/tests/second5nodes/out_a_4offroot@dbtest0:/hyperdex_build/tests/second5nodes/out_a_4off# ll
+total 100
+drwxr-xr-x 2 root root  4096 Jan 28 23:34 [0m[01;34m.[0m/
+drwxr-xr-x 4 root root  4096 Jan 28 23:14 [01;34m..[0m/
+-rw-r--r-- 1 root root  4588 Jan 28 23:17 config_1
+-rw-r--r-- 1 root root  4895 Jan 28 23:29 config_2
+-rw-r--r-- 1 root root 32646 Jan 28 23:17 out1
+-rw-r--r-- 1 root root 32738 Jan 28 23:29 out2
+-rw-r--r-- 1 root root   183 Jan 28 23:29 out3
+-rw-r--r-- 1 root root   183 Jan 28 23:34 out4
+-rw-r--r-- 1 root root   530 Jan 28 23:34 workloada_9w
+]0;root@dbtest0: /hyperdex_build/tests/second5nodes/out_a_4offroot@dbtest0:/hyperdex_build/tests/second5nodes/out_a_4off# hyperdex 
+Usage: hyperdex [OPTIONS] <command> [<args>]
+
+Help options:
+  -?, --help               Show this help message
+      --usage              Display brief usage message
+      --version            Print the version and exit
+
+Global options:
+      --exec-path=PATH     Path to where the subcommands are installed
+
+Available commands:
+    coordinator             Start a new HyperDex coordinator
+    daemon                  Start a new HyperDex daemon
+    add-space               Create a new HyperDex space
+    rm-space                Remove an existing HyperDex space
+    mv-space                Rename a HyperDex space
+    add-index               Create a new index on an existing space
+    rm-index                Remove an existing index
+    list-spaces             List the names of all spaces
+    validate-space          Validate a HyperDex space description
+    server-register         Manually register a new HyperDex server
+    server-offline          Manually take a daemon offline
+    server-online           Manually bring a daemon online
+    server-kill             Manually and permanently kill a daemon
+    server-forget           Manually remove all trace that a daemon exists
+    show-config             Output a human-readable version of the cluster configuration
+    perf-counters           Collect performance counters from a cluster
+    set-read-only           Put the cluster into read-only mode, blocking writes
+    set-read-write          Put the cluster into read-write mode, permitting writes
+    set-fault-tolerance     Set the fault-tolerance for the specified space
+    backup                  Take a backup of the entire HyperDex cluster
+    backup-manager          Manage incremental backups of the entire HyperDex cluster
+    raw-backup              Take a raw backup of a single HyperDex daemon
+    wait-until-stable       Wait for the cluster to become stable on the new configuration
+
+See 'hyperdex help <command>' for more information on a specific command.
+]0;root@dbtest0: /hyperdex_build/tests/second5nodes/out_a_4offroot@dbtest0:/hyperdex_build/tests/second5nodes/out_a_4off# hyperdex rm-space -g h 192.168.100.1 userdata
+could not rm space: cannot rm space: does not exist
+]0;root@dbtest0: /hyperdex_build/tests/second5nodes/out_a_4offroot@dbtest0:/hyperdex_build/tests/second5nodes/out_a_4off# hyperdex rm-space -h 192.168.100.1 userdata^C
+]0;root@dbtest0: /hyperdex_build/tests/second5nodes/out_a_4offroot@dbtest0:/hyperdex_build/tests/second5nodes/out_a_4off# hyperdex validate-space
+^C
+]0;root@dbtest0: /hyperdex_build/tests/second5nodes/out_a_4offroot@dbtest0:/hyperdex_build/tests/second5nodes/out_a_4off# hyperdex validate-space -h 192.168.100.1 userdata
+unknown option -h
+]0;root@dbtest0: /hyperdex_build/tests/second5nodes/out_a_4offroot@dbtest0:/hyperdex_build/tests/second5nodes/out_a_4off# hyperdex validate-space -h 192.168.100.1 userdata^C
+]0;root@dbtest0: /hyperdex_build/tests/second5nodes/out_a_4offroot@dbtest0:/hyperdex_build/tests/second5nodes/out_a_4off# hyperdex validate-space 00help
+command takes no arguments
+Usage: hyperdex-validate-space [-?] [-?|--help] [--usage]
+]0;root@dbtest0: /hyperdex_build/tests/second5nodes/out_a_4offroot@dbtest0:/hyperdex_build/tests/second5nodes/out_a_4off# hyperdex validate-space 00help[1P[1P[1@-[1@-
+Usage: hyperdex-validate-space [OPTION...]
+
+Help options:
+  -?, --help      Show this help message
+      --usage     Display brief usage message
+]0;root@dbtest0: /hyperdex_build/tests/second5nodes/out_a_4offroot@dbtest0:/hyperdex_build/tests/second5nodes/out_a_4off# hyperdex validate-space --help    usage
+Usage: hyperdex-validate-space [-?] [-?|--help] [--usage]
+]0;root@dbtest0: /hyperdex_build/tests/second5nodes/out_a_4offroot@dbtest0:/hyperdex_build/tests/second5nodes/out_a_4off# ^C
+]0;root@dbtest0: /hyperdex_build/tests/second5nodes/out_a_4offroot@dbtest0:/hyperdex_build/tests/second5nodes/out_a_4off# hyperdex list-spaces
+could not list spaces: transient coordinator error: cannot connect to cluster: Connection refused @ client/replicant.cc:815
+]0;root@dbtest0: /hyperdex_build/tests/second5nodes/out_a_4offroot@dbtest0:/hyperdex_build/tests/second5nodes/out_a_4off# hyperdex list-spaces -h 192.168.100.1
+usertable
+]0;root@dbtest0: /hyperdex_build/tests/second5nodes/out_a_4offroot@dbtest0:/hyperdex_build/tests/second5nodes/out_a_4off# hyperdex list-spaces -h 192.168.100.1[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@r[1@m[1@-[1@s[1@p[1@a[1@c[1@e -h 192.168.100.1 usertable
+]0;root@dbtest0: /hyperdex_build/tests/second5nodes/out_a_4offroot@dbtest0:/hyperdex_build/tests/second5nodes/out_a_4off# hyperdex rm-space -h 192.168.100.1 usertable[7Plist-spaces -h 192.168.100.1
+No spaces are found.
+]0;root@dbtest0: /hyperdex_build/tests/second5nodes/out_a_4offroot@dbtest0:/hyperdex_build/tests/second5nodes/out_a_4off# hyperdex list-spaces -h 192.168.100.1rm-space -h 192.168.100.1 usertable[7Plist-spaces -h 192.168.100.1[Kvalidate-space --usage[1Phelp00help-h 192.168.100.1 userdata[Krm-space -h 192.168.100.1 userdata[Kll[Kping 192.168.100.5hyperdex show-config  -h 192.168.100.2 |grep ^ser[31Pping 192.168.100.4hyperdex show-config  -h 192.168.100.2 |grep ^serll[Kjava -Djava.library.path=/usr/local/lib/ com.yahoo.ycsb.Client -t -db org.hyperdex.ycsb.HyperDex -PP /hyperdex_build/ycsb-0.1.4/workloads/workloada -p theads=16 -p "hyperdex.host=192.168.100.1" -p "hyperdex.port=1982" -s > out4[All[K
+[K[Aroot@dbtest0:/hyperdex_build/tests/second5nodes/out_a_4off# llcp /hyperdex_build/ycsb-0.1.4/workloads/workloada ./workloada_9wll[Kcp /hyperdex_build/ycsb-0.1.4/workloads/workloada ./workloada_9w^C
+]0;root@dbtest0: /hyperdex_build/tests/second5nodes/out_a_4offroot@dbtest0:/hyperdex_build/tests/second5nodes/out_a_4off# vi /hyperdex_build/ycsb-0.1.4/workloads/workloada
+[?1049h[?1h=[2;1H�[6n[1;1H  [1;1H[1;40r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[40;1H"/hyperdex_build/ycsb-0.1.4/workloads/workloada" 24L, 530C[>c[2;1H[34m# Yahoo! Cloud System Benchmark
+# Workload A: Update heavy workload
+#   Application example: Session store recording recent actions
+#                        
+#   Read/update ratio: 50/50
+#   Default data size: 1 KB records (10 fields, 100 bytes each, plus key)
+#   Request distribution: zipfian[m
+
+recordcount=1000000
+operationcount=5000000
+workload=com.yahoo.ycsb.workloads.CoreWorkload
+
+readallfields=true
+
+readproportion=0.1
+updateproportion=0.9
+scanproportion=0
+insertproportion=0
+
+requestdistribution=zipfian
+
+threadcount=16
+
+[1m[34m~                                                                                                                                                             [26;1H~                                                                                                                                                             [27;1H~                                                                                                                                                             [28;1H~                                                                                                                                                             [29;1H~                                                                                                                                                             [30;1H~                                                                                                                                                             [31;1H~                                                                                                                                                             [32;1H~                                                                                                                                                             [33;1H~                                                                                                                                                             [34;1H~                                                                                                                                                             [35;1H~                                                                                                                                                             [36;1H~                                                                                                                                                             [37;1H~                                                                                                                                                             [38;1H~                                                                                                                                                             [39;1H~                                                                                                                                                             [m[40;141H1,0-1[9CAll[1;1H[?12l[?25h[?25l[40;1H[1m-- REPLACE --[m[40;14H[K[40;141H1,1[11CAll[1;1H[?12l[?25h[?25l[40;141H2[2;1H[?12l[?25h[?25l[40;141H3[3;1H[?12l[?25h[?25l[40;141H4[4;1H[?12l[?25h[?25l[40;141H5[5;1H[?12l[?25h[?25l[40;141H6[6;1H[?12l[?25h[?25l[40;141H7[7;1H[?12l[?25h[?25l[40;141H8[8;1H[?12l[?25h[?25l[40;141H9[9;1H[?12l[?25h[?25l[40;141H10,1[10;1H[?12l[?25h[?25l[40;144H20[10;20H[?12l[?25h[?25la[40;145H1[10;21H[?12l[?25h[?25l[10;20H[K[40;145H0[10;20H[?12l[?25h[?25l[40;144H19[10;19H[?12l[?25h[?25l[40;145H8[10;18H[?12l[?25h[?25l[40;145H7[10;17H[?12l[?25h[?25l[40;145H6[10;16H[?12l[?25h[?25l[40;145H5[10;15H[?12l[?25h[?25l[40;145H4[10;14H[?12l[?25h[?25l[40;145H3[10;13H[?12l[?25h[?25l5[40;145H4[10;14H[?12l[?25h[40;1H[K[10;13H[?25l[40;141H10,13[9CAll[10;13H[?12l[?25h[?25l[40;141H[K[40;1H:[?12l[?25hw[?25l"/hyperdex_build/ycsb-0.1.4/workloads/workloada" 24L, 530C written[74C10,13[9CAll[40;141H[K[40;141H10,13[9CAll[10;13H[?12l[?25h[?25l[40;1H[K[40;1H:[?12l[?25hx[?25l[40;1H[K[40;1H[?1l>[?12l[?25h[?1049l]0;root@dbtest0: /hyperdex_build/tests/second5nodes/out_a_4offroot@dbtest0:/hyperdex_build/tests/second5nodes/out_a_4off# vi /hyperdex_build/ycsb-0.1.4/workloads/workloada[12Phyperdex list-spaces -h 192.168.100.1rm-space -h 192.168.100.1 usertable[7Plist-spaces -h 192.168.100.1rm-space -h 192.168.100.1 usertable[7Plist-spaces -h 192.168.100.1rm-space -h 192.168.100.1 usertable[7Plist-spaces -h 192.168.100.1[Kvalidate-space --usage[1Phelpusage[11Plist-spacesvalidate-space --usage[11Plist-spacesvalidate-space --usage^C
+]0;root@dbtest0: /hyperdex_build/tests/second5nodes/out_a_4offroot@dbtest0:/hyperdex_build/tests/second5nodes/out_a_4off# vi /hyperdex_build/ycsb-0.1.4/workloads/workloada[12Phyperdex list-spaces -h 192.168.100.1vi /hyperdex_build/ycsb-0.1.4/workloads/workloada[Kvi /hyperdex_build/ycsb-0.1.4/workloads/workloada[12Phyperdex list-spaces -h 192.168.100.1
+No spaces are found.
+]0;root@dbtest0: /hyperdex_build/tests/second5nodes/out_a_4offroot@dbtest0:/hyperdex_build/tests/second5nodes/out_a_4off# ll
+total 100
+drwxr-xr-x 2 root root  4096 Jan 28 23:34 [0m[01;34m.[0m/
+drwxr-xr-x 4 root root  4096 Jan 28 23:14 [01;34m..[0m/
+-rw-r--r-- 1 root root  4588 Jan 28 23:17 config_1
+-rw-r--r-- 1 root root  4895 Jan 28 23:29 config_2
+-rw-r--r-- 1 root root 32646 Jan 28 23:17 out1
+-rw-r--r-- 1 root root 32738 Jan 28 23:29 out2
+-rw-r--r-- 1 root root   183 Jan 28 23:29 out3
+-rw-r--r-- 1 root root   183 Jan 28 23:34 out4
+-rw-r--r-- 1 root root   530 Jan 28 23:34 workloada_9w
+]0;root@dbtest0: /hyperdex_build/tests/second5nodes/out_a_4offroot@dbtest0:/hyperdex_build/tests/second5nodes/out_a_4off# llhyperdex list-spaces -h 192.168.100.1vi /hyperdex_build/ycsb-0.1.4/workloads/workloada[12Phyperdex list-spaces -h 192.168.100.1rm-space -h 192.168.100.1 usertable[7Plist-spaces -h 192.168.100.1[K^C
+]0;root@dbtest0: /hyperdex_build/tests/second5nodes/out_a_4offroot@dbtest0:/hyperdex_build/tests/second5nodes/out_a_4off# java -Djava.library.path=/usr/local/lib/ com.yahoo.ycsb.Client -load -db org.hyperdex.ycsb.HyperDe x -P /hyperdex_build/ycsb-0.1.4/workloads/workloada -p "hyperdex.host=192.168.100.1" -p "hyperdex.port=1982" -p theads=16
+YCSB Client 0.1
+Command line: -load -db org.hyperdex.ycsb.HyperDex -P /hyperdex_build/ycsb-0.1.4/workloads/workloada -p hyperdex.host=192.168.100.1 -p hyperdex.port=1982 -p theads=16
+Loading workload...
+Starting test.
+host: 192.168.100.1
+port: 1982
+host: 192.168.100.1
+port: 1982
+host: 192.168.100.1
+port: 1982
+host: 192.168.100.1
+port: 1982
+host: 192.168.100.1
+host: 192.168.100.1
+port: 1982
+host: 192.168.100.1
+port: 1982
+host: 192.168.100.1
+port: 1982
+host: 192.168.100.1
+port: 1982
+port: 1982
+host: 192.168.100.1
+port: 1982
+host: 192.168.100.1
+host: 192.168.100.1
+port: 1982
+port: 1982
+host: 192.168.100.1
+port: 1982
+host: 192.168.100.1
+port: 1982
+host: 192.168.100.1
+port: 1982
+host: 192.168.100.1
+port: 1982
+m_client: org.hyperdex.client.Client@6eaecd51
+m_client: org.hyperdex.client.Client@30fc45da
+m_client: org.hyperdex.client.Client@4ffeab48
+m_client: org.hyperdex.client.Client@3a4346cd
+m_client: org.hyperdex.client.Client@1e680525
+m_client: org.hyperdex.client.Client@4e0dddff
+m_client: org.hyperdex.client.Client@7069b861
+m_client: org.hyperdex.client.Client@2cc821ef
+m_client: org.hyperdex.client.Client@53c60f74
+m_client: org.hyperdex.client.Client@72be8e1
+m_client: org.hyperdex.client.Client@7020b3a3
+m_client: org.hyperdex.client.Client@72f1cbd7
+m_client: org.hyperdex.client.Client@607dcb35
+m_client: org.hyperdex.client.Client@62a83610
+m_client: org.hyperdex.client.Client@1175870a
+m_client: org.hyperdex.client.Client@3af4aa7a
+[OVERALL], RunTime(ms), 1756167.0
+[OVERALL], Throughput(ops/sec), 2847.1096427617645
+[INSERT], Operations, 5000000
+[INSERT], AverageLatency(us), 5588.8423986
+[INSERT], MinLatency(us), 159
+[INSERT], MaxLatency(us), 36539293
+[INSERT], 95thPercentileLatency(ms), 3
+[INSERT], 99thPercentileLatency(ms), 8
+[INSERT], Return=0, 5000000
+[INSERT], 0, 1827788
+[INSERT], 1, 2406071
+[INSERT], 2, 508322
+[INSERT], 3, 118498
+[INSERT], 4, 42709
+[INSERT], 5, 21661
+[INSERT], 6, 13809
+[INSERT], 7, 9790
+[INSERT], 8, 6388
+[INSERT], 9, 4382
+[INSERT], 10, 3141
+[INSERT], 11, 2434
+[INSERT], 12, 1883
+[INSERT], 13, 1416
+[INSERT], 14, 1161
+[INSERT], 15, 1109
+[INSERT], 16, 833
+[INSERT], 17, 664
+[INSERT], 18, 531
+[INSERT], 19, 527
+[INSERT], 20, 384
+[INSERT], 21, 336
+[INSERT], 22, 303
+[INSERT], 23, 328
+[INSERT], 24, 299
+[INSERT], 25, 236
+[INSERT], 26, 212
+[INSERT], 27, 194
+[INSERT], 28, 165
+[INSERT], 29, 153
+[INSERT], 30, 130
+[INSERT], 31, 140
+[INSERT], 32, 140
+[INSERT], 33, 99
+[INSERT], 34, 113
+[INSERT], 35, 124
+[INSERT], 36, 120
+[INSERT], 37, 112
+[INSERT], 38, 70
+[INSERT], 39, 74
+[INSERT], 40, 89
+[INSERT], 41, 87
+[INSERT], 42, 80
+[INSERT], 43, 61
+[INSERT], 44, 72
+[INSERT], 45, 79
+[INSERT], 46, 65
+[INSERT], 47, 67
+[INSERT], 48, 81
+[INSERT], 49, 86
+[INSERT], 50, 51
+[INSERT], 51, 55
+[INSERT], 52, 52
+[INSERT], 53, 63
+[INSERT], 54, 61
+[INSERT], 55, 62
+[INSERT], 56, 53
+[INSERT], 57, 49
+[INSERT], 58, 63
+[INSERT], 59, 68
+[INSERT], 60, 41
+[INSERT], 61, 36
+[INSERT], 62, 59
+[INSERT], 63, 49
+[INSERT], 64, 47
+[INSERT], 65, 38
+[INSERT], 66, 22
+[INSERT], 67, 26
+[INSERT], 68, 41
+[INSERT], 69, 36
+[INSERT], 70, 31
+[INSERT], 71, 29
+[INSERT], 72, 34
+[INSERT], 73, 42
+[INSERT], 74, 56
+[INSERT], 75, 29
+[INSERT], 76, 22
+[INSERT], 77, 43
+[INSERT], 78, 32
+[INSERT], 79, 50
+[INSERT], 80, 37
+[INSERT], 81, 44
+[INSERT], 82, 43
+[INSERT], 83, 26
+[INSERT], 84, 24
+[INSERT], 85, 32
+[INSERT], 86, 35
+[INSERT], 87, 27
+[INSERT], 88, 38
+[INSERT], 89, 42
+[INSERT], 90, 35
+[INSERT], 91, 24
+[INSERT], 92, 29
+[INSERT], 93, 29
+[INSERT], 94, 38
+[INSERT], 95, 28
+[INSERT], 96, 56
+[INSERT], 97, 68
+[INSERT], 98, 30
+[INSERT], 99, 47
+[INSERT], 100, 18
+[INSERT], 101, 19
+[INSERT], 102, 20
+[INSERT], 103, 23
+[INSERT], 104, 24
+[INSERT], 105, 42
+[INSERT], 106, 34
+[INSERT], 107, 18
+[INSERT], 108, 30
+[INSERT], 109, 22
+[INSERT], 110, 24
+[INSERT], 111, 28
+[INSERT], 112, 42
+[INSERT], 113, 19
+[INSERT], 114, 18
+[INSERT], 115, 38
+[INSERT], 116, 27
+[INSERT], 117, 20
+[INSERT], 118, 9
+[INSERT], 119, 14
+[INSERT], 120, 35
+[INSERT], 121, 38
+[INSERT], 122, 43
+[INSERT], 123, 48
+[INSERT], 124, 47
+[INSERT], 125, 27
+[INSERT], 126, 39
+[INSERT], 127, 22
+[INSERT], 128, 24
+[INSERT], 129, 25
+[INSERT], 130, 31
+[INSERT], 131, 32
+[INSERT], 132, 33
+[INSERT], 133, 48
+[INSERT], 134, 31
+[INSERT], 135, 24
+[INSERT], 136, 22
+[INSERT], 137, 24
+[INSERT], 138, 16
+[INSERT], 139, 39
+[INSERT], 140, 29
+[INSERT], 141, 27
+[INSERT], 142, 34
+[INSERT], 143, 32
+[INSERT], 144, 24
+[INSERT], 145, 18
+[INSERT], 146, 19
+[INSERT], 147, 30
+[INSERT], 148, 41
+[INSERT], 149, 44
+[INSERT], 150, 36
+[INSERT], 151, 29
+[INSERT], 152, 17
+[INSERT], 153, 24
+[INSERT], 154, 30
+[INSERT], 155, 18
+[INSERT], 156, 29
+[INSERT], 157, 24
+[INSERT], 158, 52
+[INSERT], 159, 29
+[INSERT], 160, 21
+[INSERT], 161, 51
+[INSERT], 162, 32
+[INSERT], 163, 23
+[INSERT], 164, 27
+[INSERT], 165, 6
+[INSERT], 166, 8
+[INSERT], 167, 39
+[INSERT], 168, 68
+[INSERT], 169, 29
+[INSERT], 170, 39
+[INSERT], 171, 37
+[INSERT], 172, 43
+[INSERT], 173, 63
+[INSERT], 174, 36
+[INSERT], 175, 35
+[INSERT], 176, 20
+[INSERT], 177, 37
+[INSERT], 178, 17
+[INSERT], 179, 25
+[INSERT], 180, 46
+[INSERT], 181, 43
+[INSERT], 182, 42
+[INSERT], 183, 43
+[INSERT], 184, 42
+[INSERT], 185, 36
+[INSERT], 186, 32
+[INSERT], 187, 18
+[INSERT], 188, 18
+[INSERT], 189, 17
+[INSERT], 190, 16
+[INSERT], 191, 21
+[INSERT], 192, 23
+[INSERT], 193, 21
+[INSERT], 194, 21
+[INSERT], 195, 41
+[INSERT], 196, 39
+[INSERT], 197, 23
+[INSERT], 198, 27
+[INSERT], 199, 55
+[INSERT], 200, 38
+[INSERT], 201, 44
+[INSERT], 202, 44
+[INSERT], 203, 42
+[INSERT], 204, 16
+[INSERT], 205, 22
+[INSERT], 206, 31
+[INSERT], 207, 54
+[INSERT], 208, 31
+[INSERT], 209, 24
+[INSERT], 210, 28
+[INSERT], 211, 41
+[INSERT], 212, 38
+[INSERT], 213, 29
+[INSERT], 214, 25
+[INSERT], 215, 5
+[INSERT], 216, 19
+[INSERT], 217, 11
+[INSERT], 218, 17
+[INSERT], 219, 25
+[INSERT], 220, 18
+[INSERT], 221, 16
+[INSERT], 222, 33
+[INSERT], 223, 29
+[INSERT], 224, 50
+[INSERT], 225, 27
+[INSERT], 226, 9
+[INSERT], 227, 30
+[INSERT], 228, 35
+[INSERT], 229, 17
+[INSERT], 230, 32
+[INSERT], 231, 23
+[INSERT], 232, 16
+[INSERT], 233, 22
+[INSERT], 234, 13
+[INSERT], 235, 19
+[INSERT], 236, 11
+[INSERT], 237, 20
+[INSERT], 238, 15
+[INSERT], 239, 17
+[INSERT], 240, 13
+[INSERT], 241, 11
+[INSERT], 242, 27
+[INSERT], 243, 13
+[INSERT], 244, 14
+[INSERT], 245, 30
+[INSERT], 246, 18
+[INSERT], 247, 36
+[INSERT], 248, 34
+[INSERT], 249, 24
+[INSERT], 250, 29
+[INSERT], 251, 26
+[INSERT], 252, 13
+[INSERT], 253, 7
+[INSERT], 254, 10
+[INSERT], 255, 20
+[INSERT], 256, 27
+[INSERT], 257, 19
+[INSERT], 258, 19
+[INSERT], 259, 12
+[INSERT], 260, 10
+[INSERT], 261, 9
+[INSERT], 262, 30
+[INSERT], 263, 30
+[INSERT], 264, 41
+[INSERT], 265, 29
+[INSERT], 266, 17
+[INSERT], 267, 34
+[INSERT], 268, 17
+[INSERT], 269, 17
+[INSERT], 270, 46
+[INSERT], 271, 22
+[INSERT], 272, 17
+[INSERT], 273, 26
+[INSERT], 274, 21
+[INSERT], 275, 20
+[INSERT], 276, 17
+[INSERT], 277, 23
+[INSERT], 278, 37
+[INSERT], 279, 24
+[INSERT], 280, 23
+[INSERT], 281, 56
+[INSERT], 282, 28
+[INSERT], 283, 12
+[INSERT], 284, 10
+[INSERT], 285, 13
+[INSERT], 286, 20
+[INSERT], 287, 23
+[INSERT], 288, 14
+[INSERT], 289, 21
+[INSERT], 290, 33
+[INSERT], 291, 41
+[INSERT], 292, 22
+[INSERT], 293, 19
+[INSERT], 294, 20
+[INSERT], 295, 26
+[INSERT], 296, 20
+[INSERT], 297, 36
+[INSERT], 298, 28
+[INSERT], 299, 23
+[INSERT], 300, 8
+[INSERT], 301, 20
+[INSERT], 302, 17
+[INSERT], 303, 8
+[INSERT], 304, 17
+[INSERT], 305, 22
+[INSERT], 306, 26
+[INSERT], 307, 12
+[INSERT], 308, 21
+[INSERT], 309, 17
+[INSERT], 310, 6
+[INSERT], 311, 6
+[INSERT], 312, 37
+[INSERT], 313, 23
+[INSERT], 314, 18
+[INSERT], 315, 39
+[INSERT], 316, 20
+[INSERT], 317, 38
+[INSERT], 318, 13
+[INSERT], 319, 6
+[INSERT], 320, 10
+[INSERT], 321, 13
+[INSERT], 322, 26
+[INSERT], 323, 15
+[INSERT], 324, 9
+[INSERT], 325, 6
+[INSERT], 326, 5
+[INSERT], 327, 4
+[INSERT], 328, 4
+[INSERT], 329, 5
+[INSERT], 330, 6
+[INSERT], 331, 3
+[INSERT], 332, 3
+[INSERT], 333, 12
+[INSERT], 334, 17
+[INSERT], 335, 13
+[INSERT], 336, 14
+[INSERT], 337, 30
+[INSERT], 338, 25
+[INSERT], 339, 26
+[INSERT], 340, 24
+[INSERT], 341, 22
+[INSERT], 342, 21
+[INSERT], 343, 15
+[INSERT], 344, 24
+[INSERT], 345, 27
+[INSERT], 346, 27
+[INSERT], 347, 35
+[INSERT], 348, 15
+[INSERT], 349, 13
+[INSERT], 350, 15
+[INSERT], 351, 10
+[INSERT], 352, 9
+[INSERT], 353, 8
+[INSERT], 354, 9
+[INSERT], 355, 17
+[INSERT], 356, 27
+[INSERT], 357, 23
+[INSERT], 358, 16
+[INSERT], 359, 10
+[INSERT], 360, 26
+[INSERT], 361, 20
+[INSERT], 362, 30
+[INSERT], 363, 24
+[INSERT], 364, 25
+[INSERT], 365, 17
+[INSERT], 366, 24
+[INSERT], 367, 13
+[INSERT], 368, 3
+[INSERT], 369, 2
+[INSERT], 370, 13
+[INSERT], 371, 13
+[INSERT], 372, 9
+[INSERT], 373, 40
+[INSERT], 374, 24
+[INSERT], 375, 19
+[INSERT], 376, 23
+[INSERT], 377, 15
+[INSERT], 378, 13
+[INSERT], 379, 5
+[INSERT], 380, 7
+[INSERT], 381, 5
+[INSERT], 382, 8
+[INSERT], 383, 10
+[INSERT], 384, 14
+[INSERT], 385, 14
+[INSERT], 386, 20
+[INSERT], 387, 17
+[INSERT], 388, 11
+[INSERT], 389, 2
+[INSERT], 390, 2
+[INSERT], 391, 9
+[INSERT], 392, 7
+[INSERT], 393, 8
+[INSERT], 394, 17
+[INSERT], 395, 18
+[INSERT], 396, 10
+[INSERT], 397, 2
+[INSERT], 398, 9
+[INSERT], 399, 1
+[INSERT], 400, 22
+[INSERT], 401, 13
+[INSERT], 402, 4
+[INSERT], 403, 21
+[INSERT], 404, 24
+[INSERT], 405, 10
+[INSERT], 406, 7
+[INSERT], 407, 2
+[INSERT], 408, 1
+[INSERT], 409, 5
+[INSERT], 410, 12
+[INSERT], 411, 12
+[INSERT], 412, 15
+[INSERT], 413, 12
+[INSERT], 414, 13
+[INSERT], 415, 16
+[INSERT], 416, 17
+[INSERT], 417, 18
+[INSERT], 418, 24
+[INSERT], 419, 24
+[INSERT], 420, 6
+[INSERT], 421, 4
+[INSERT], 422, 26
+[INSERT], 423, 18
+[INSERT], 424, 25
+[INSERT], 425, 34
+[INSERT], 426, 8
+[INSERT], 427, 7
+[INSERT], 428, 4
+[INSERT], 429, 8
+[INSERT], 430, 8
+[INSERT], 431, 9
+[INSERT], 432, 1
+[INSERT], 433, 6
+[INSERT], 434, 4
+[INSERT], 435, 4
+[INSERT], 436, 16
+[INSERT], 437, 12
+[INSERT], 438, 1
+[INSERT], 439, 4
+[INSERT], 440, 7
+[INSERT], 441, 17
+[INSERT], 442, 12
+[INSERT], 443, 13
+[INSERT], 444, 24
+[INSERT], 445, 24
+[INSERT], 446, 23
+[INSERT], 447, 13
+[INSERT], 448, 25
+[INSERT], 449, 23
+[INSERT], 450, 16
+[INSERT], 451, 22
+[INSERT], 452, 25
+[INSERT], 453, 14
+[INSERT], 454, 12
+[INSERT], 455, 14
+[INSERT], 456, 15
+[INSERT], 457, 24
+[INSERT], 458, 6
+[INSERT], 459, 12
+[INSERT], 460, 5
+[INSERT], 461, 20
+[INSERT], 462, 12
+[INSERT], 463, 24
+[INSERT], 464, 15
+[INSERT], 465, 8
+[INSERT], 466, 14
+[INSERT], 467, 21
+[INSERT], 468, 16
+[INSERT], 469, 7
+[INSERT], 470, 5
+[INSERT], 471, 12
+[INSERT], 472, 13
+[INSERT], 473, 30
+[INSERT], 474, 32
+[INSERT], 475, 20
+[INSERT], 476, 26
+[INSERT], 477, 31
+[INSERT], 478, 13
+[INSERT], 479, 18
+[INSERT], 480, 6
+[INSERT], 481, 10
+[INSERT], 482, 11
+[INSERT], 483, 18
+[INSERT], 484, 18
+[INSERT], 485, 19
+[INSERT], 486, 14
+[INSERT], 487, 19
+[INSERT], 488, 28
+[INSERT], 489, 15
+[INSERT], 490, 23
+[INSERT], 491, 22
+[INSERT], 492, 27
+[INSERT], 493, 9
+[INSERT], 494, 20
+[INSERT], 495, 9
+[INSERT], 496, 11
+[INSERT], 497, 16
+[INSERT], 498, 12
+[INSERT], 499, 19
+[INSERT], 500, 15
+[INSERT], 501, 12
+[INSERT], 502, 15
+[INSERT], 503, 26
+[INSERT], 504, 8
+[INSERT], 505, 10
+[INSERT], 506, 7
+[INSERT], 507, 15
+[INSERT], 508, 17
+[INSERT], 509, 30
+[INSERT], 510, 16
+[INSERT], 511, 12
+[INSERT], 512, 7
+[INSERT], 513, 17
+[INSERT], 514, 19
+[INSERT], 515, 1
+[INSERT], 516, 9
+[INSERT], 517, 9
+[INSERT], 518, 9
+[INSERT], 519, 6
+[INSERT], 520, 10
+[INSERT], 521, 3
+[INSERT], 522, 2
+[INSERT], 523, 5
+[INSERT], 524, 9
+[INSERT], 525, 23
+[INSERT], 526, 8
+[INSERT], 527, 6
+[INSERT], 528, 4
+[INSERT], 529, 7
+[INSERT], 530, 12
+[INSERT], 531, 16
+[INSERT], 532, 13
+[INSERT], 533, 32
+[INSERT], 534, 12
+[INSERT], 535, 15
+[INSERT], 536, 19
+[INSERT], 537, 18
+[INSERT], 538, 10
+[INSERT], 539, 20
+[INSERT], 540, 17
+[INSERT], 541, 0
+[INSERT], 542, 11
+[INSERT], 543, 14
+[INSERT], 544, 9
+[INSERT], 545, 6
+[INSERT], 546, 16
+[INSERT], 547, 24
+[INSERT], 548, 15
+[INSERT], 549, 18
+[INSERT], 550, 5
+[INSERT], 551, 15
+[INSERT], 552, 10
+[INSERT], 553, 5
+[INSERT], 554, 6
+[INSERT], 555, 26
+[INSERT], 556, 11
+[INSERT], 557, 7
+[INSERT], 558, 22
+[INSERT], 559, 19
+[INSERT], 560, 34
+[INSERT], 561, 27
+[INSERT], 562, 27
+[INSERT], 563, 17
+[INSERT], 564, 14
+[INSERT], 565, 8
+[INSERT], 566, 12
+[INSERT], 567, 9
+[INSERT], 568, 8
+[INSERT], 569, 2
+[INSERT], 570, 25
+[INSERT], 571, 9
+[INSERT], 572, 11
+[INSERT], 573, 12
+[INSERT], 574, 17
+[INSERT], 575, 12
+[INSERT], 576, 8
+[INSERT], 577, 21
+[INSERT], 578, 2
+[INSERT], 579, 0
+[INSERT], 580, 2
+[INSERT], 581, 18
+[INSERT], 582, 4
+[INSERT], 583, 1
+[INSERT], 584, 11
+[INSERT], 585, 7
+[INSERT], 586, 5
+[INSERT], 587, 4
+[INSERT], 588, 15
+[INSERT], 589, 20
+[INSERT], 590, 17
+[INSERT], 591, 10
+[INSERT], 592, 15
+[INSERT], 593, 8
+[INSERT], 594, 20
+[INSERT], 595, 14
+[INSERT], 596, 14
+[INSERT], 597, 6
+[INSERT], 598, 7
+[INSERT], 599, 11
+[INSERT], 600, 14
+[INSERT], 601, 12
+[INSERT], 602, 3
+[INSERT], 603, 4
+[INSERT], 604, 6
+[INSERT], 605, 7
+[INSERT], 606, 9
+[INSERT], 607, 3
+[INSERT], 608, 10
+[INSERT], 609, 14
+[INSERT], 610, 25
+[INSERT], 611, 14
+[INSERT], 612, 19
+[INSERT], 613, 15
+[INSERT], 614, 6
+[INSERT], 615, 18
+[INSERT], 616, 9
+[INSERT], 617, 8
+[INSERT], 618, 3
+[INSERT], 619, 11
+[INSERT], 620, 9
+[INSERT], 621, 12
+[INSERT], 622, 9
+[INSERT], 623, 8
+[INSERT], 624, 8
+[INSERT], 625, 9
+[INSERT], 626, 12
+[INSERT], 627, 4
+[INSERT], 628, 4
+[INSERT], 629, 4
+[INSERT], 630, 9
+[INSERT], 631, 12
+[INSERT], 632, 8
+[INSERT], 633, 8
+[INSERT], 634, 15
+[INSERT], 635, 11
+[INSERT], 636, 5
+[INSERT], 637, 10
+[INSERT], 638, 9
+[INSERT], 639, 2
+[INSERT], 640, 7
+[INSERT], 641, 10
+[INSERT], 642, 5
+[INSERT], 643, 2
+[INSERT], 644, 0
+[INSERT], 645, 3
+[INSERT], 646, 28
+[INSERT], 647, 39
+[INSERT], 648, 25
+[INSERT], 649, 4
+[INSERT], 650, 4
+[INSERT], 651, 16
+[INSERT], 652, 3
+[INSERT], 653, 13
+[INSERT], 654, 13
+[INSERT], 655, 9
+[INSERT], 656, 15
+[INSERT], 657, 17
+[INSERT], 658, 22
+[INSERT], 659, 5
+[INSERT], 660, 30
+[INSERT], 661, 14
+[INSERT], 662, 9
+[INSERT], 663, 15
+[INSERT], 664, 8
+[INSERT], 665, 3
+[INSERT], 666, 14
+[INSERT], 667, 11
+[INSERT], 668, 13
+[INSERT], 669, 7
+[INSERT], 670, 7
+[INSERT], 671, 20
+[INSERT], 672, 9
+[INSERT], 673, 11
+[INSERT], 674, 4
+[INSERT], 675, 12
+[INSERT], 676, 8
+[INSERT], 677, 16
+[INSERT], 678, 6
+[INSERT], 679, 1
+[INSERT], 680, 2
+[INSERT], 681, 18
+[INSERT], 682, 12
+[INSERT], 683, 8
+[INSERT], 684, 7
+[INSERT], 685, 14
+[INSERT], 686, 4
+[INSERT], 687, 2
+[INSERT], 688, 13
+[INSERT], 689, 16
+[INSERT], 690, 12
+[INSERT], 691, 4
+[INSERT], 692, 6
+[INSERT], 693, 19
+[INSERT], 694, 20
+[INSERT], 695, 24
+[INSERT], 696, 11
+[INSERT], 697, 17
+[INSERT], 698, 9
+[INSERT], 699, 9
+[INSERT], 700, 7
+[INSERT], 701, 4
+[INSERT], 702, 2
+[INSERT], 703, 21
+[INSERT], 704, 13
+[INSERT], 705, 12
+[INSERT], 706, 7
+[INSERT], 707, 4
+[INSERT], 708, 5
+[INSERT], 709, 6
+[INSERT], 710, 8
+[INSERT], 711, 11
+[INSERT], 712, 23
+[INSERT], 713, 10
+[INSERT], 714, 7
+[INSERT], 715, 16
+[INSERT], 716, 9
+[INSERT], 717, 15
+[INSERT], 718, 13
+[INSERT], 719, 11
+[INSERT], 720, 11
+[INSERT], 721, 14
+[INSERT], 722, 21
+[INSERT], 723, 12
+[INSERT], 724, 8
+[INSERT], 725, 5
+[INSERT], 726, 11
+[INSERT], 727, 43
+[INSERT], 728, 11
+[INSERT], 729, 12
+[INSERT], 730, 7
+[INSERT], 731, 14
+[INSERT], 732, 5
+[INSERT], 733, 8
+[INSERT], 734, 8
+[INSERT], 735, 18
+[INSERT], 736, 7
+[INSERT], 737, 30
+[INSERT], 738, 9
+[INSERT], 739, 16
+[INSERT], 740, 18
+[INSERT], 741, 11
+[INSERT], 742, 8
+[INSERT], 743, 3
+[INSERT], 744, 7
+[INSERT], 745, 11
+[INSERT], 746, 2
+[INSERT], 747, 10
+[INSERT], 748, 20
+[INSERT], 749, 12
+[INSERT], 750, 12
+[INSERT], 751, 26
+[INSERT], 752, 10
+[INSERT], 753, 14
+[INSERT], 754, 11
+[INSERT], 755, 6
+[INSERT], 756, 11
+[INSERT], 757, 7
+[INSERT], 758, 25
+[INSERT], 759, 23
+[INSERT], 760, 24
+[INSERT], 761, 2
+[INSERT], 762, 7
+[INSERT], 763, 6
+[INSERT], 764, 6
+[INSERT], 765, 5
+[INSERT], 766, 2
+[INSERT], 767, 0
+[INSERT], 768, 1
+[INSERT], 769, 1
+[INSERT], 770, 16
+[INSERT], 771, 3
+[INSERT], 772, 1
+[INSERT], 773, 0
+[INSERT], 774, 4
+[INSERT], 775, 1
+[INSERT], 776, 5
+[INSERT], 777, 3
+[INSERT], 778, 7
+[INSERT], 779, 12
+[INSERT], 780, 3
+[INSERT], 781, 27
+[INSERT], 782, 12
+[INSERT], 783, 3
+[INSERT], 784, 16
+[INSERT], 785, 14
+[INSERT], 786, 17
+[INSERT], 787, 5
+[INSERT], 788, 7
+[INSERT], 789, 20
+[INSERT], 790, 2
+[INSERT], 791, 7
+[INSERT], 792, 16
+[INSERT], 793, 5
+[INSERT], 794, 12
+[INSERT], 795, 7
+[INSERT], 796, 5
+[INSERT], 797, 6
+[INSERT], 798, 8
+[INSERT], 799, 14
+[INSERT], 800, 2
+[INSERT], 801, 2
+[INSERT], 802, 1
+[INSERT], 803, 3
+[INSERT], 804, 18
+[INSERT], 805, 8
+[INSERT], 806, 7
+[INSERT], 807, 2
+[INSERT], 808, 16
+[INSERT], 809, 13
+[INSERT], 810, 11
+[INSERT], 811, 11
+[INSERT], 812, 12
+[INSERT], 813, 10
+[INSERT], 814, 19
+[INSERT], 815, 24
+[INSERT], 816, 11
+[INSERT], 817, 13
+[INSERT], 818, 4
+[INSERT], 819, 1
+[INSERT], 820, 2
+[INSERT], 821, 5
+[INSERT], 822, 13
+[INSERT], 823, 19
+[INSERT], 824, 21
+[INSERT], 825, 4
+[INSERT], 826, 6
+[INSERT], 827, 13
+[INSERT], 828, 19
+[INSERT], 829, 17
+[INSERT], 830, 15
+[INSERT], 831, 23
+[INSERT], 832, 17
+[INSERT], 833, 4
+[INSERT], 834, 14
+[INSERT], 835, 11
+[INSERT], 836, 3
+[INSERT], 837, 4
+[INSERT], 838, 8
+[INSERT], 839, 8
+[INSERT], 840, 9
+[INSERT], 841, 11
+[INSERT], 842, 8
+[INSERT], 843, 5
+[INSERT], 844, 2
+[INSERT], 845, 2
+[INSERT], 846, 7
+[INSERT], 847, 14
+[INSERT], 848, 15
+[INSERT], 849, 14
+[INSERT], 850, 9
+[INSERT], 851, 0
+[INSERT], 852, 3
+[INSERT], 853, 5
+[INSERT], 854, 2
+[INSERT], 855, 5
+[INSERT], 856, 7
+[INSERT], 857, 12
+[INSERT], 858, 8
+[INSERT], 859, 7
+[INSERT], 860, 18
+[INSERT], 861, 15
+[INSERT], 862, 9
+[INSERT], 863, 6
+[INSERT], 864, 2
+[INSERT], 865, 3
+[INSERT], 866, 4
+[INSERT], 867, 0
+[INSERT], 868, 4
+[INSERT], 869, 3
+[INSERT], 870, 4
+[INSERT], 871, 4
+[INSERT], 872, 15
+[INSERT], 873, 14
+[INSERT], 874, 3
+[INSERT], 875, 2
+[INSERT], 876, 4
+[INSERT], 877, 5
+[INSERT], 878, 5
+[INSERT], 879, 8
+[INSERT], 880, 14
+[INSERT], 881, 8
+[INSERT], 882, 2
+[INSERT], 883, 2
+[INSERT], 884, 2
+[INSERT], 885, 2
+[INSERT], 886, 0
+[INSERT], 887, 0
+[INSERT], 888, 0
+[INSERT], 889, 0
+[INSERT], 890, 2
+[INSERT], 891, 9
+[INSERT], 892, 14
+[INSERT], 893, 6
+[INSERT], 894, 7
+[INSERT], 895, 16
+[INSERT], 896, 3
+[INSERT], 897, 6
+[INSERT], 898, 4
+[INSERT], 899, 1
+[INSERT], 900, 3
+[INSERT], 901, 3
+[INSERT], 902, 10
+[INSERT], 903, 20
+[INSERT], 904, 24
+[INSERT], 905, 11
+[INSERT], 906, 6
+[INSERT], 907, 6
+[INSERT], 908, 9
+[INSERT], 909, 4
+[INSERT], 910, 1
+[INSERT], 911, 1
+[INSERT], 912, 1
+[INSERT], 913, 0
+[INSERT], 914, 3
+[INSERT], 915, 0
+[INSERT], 916, 2
+[INSERT], 917, 1
+[INSERT], 918, 4
+[INSERT], 919, 17
+[INSERT], 920, 3
+[INSERT], 921, 1
+[INSERT], 922, 1
+[INSERT], 923, 1
+[INSERT], 924, 0
+[INSERT], 925, 0
+[INSERT], 926, 1
+[INSERT], 927, 4
+[INSERT], 928, 3
+[INSERT], 929, 7
+[INSERT], 930, 13
+[INSERT], 931, 4
+[INSERT], 932, 4
+[INSERT], 933, 6
+[INSERT], 934, 10
+[INSERT], 935, 2
+[INSERT], 936, 1
+[INSERT], 937, 3
+[INSERT], 938, 16
+[INSERT], 939, 6
+[INSERT], 940, 9
+[INSERT], 941, 12
+[INSERT], 942, 4
+[INSERT], 943, 7
+[INSERT], 944, 5
+[INSERT], 945, 2
+[INSERT], 946, 3
+[INSERT], 947, 0
+[INSERT], 948, 4
+[INSERT], 949, 3
+[INSERT], 950, 6
+[INSERT], 951, 20
+[INSERT], 952, 2
+[INSERT], 953, 3
+[INSERT], 954, 9
+[INSERT], 955, 10
+[INSERT], 956, 2
+[INSERT], 957, 4
+[INSERT], 958, 9
+[INSERT], 959, 4
+[INSERT], 960, 15
+[INSERT], 961, 17
+[INSERT], 962, 4
+[INSERT], 963, 23
+[INSERT], 964, 27
+[INSERT], 965, 15
+[INSERT], 966, 6
+[INSERT], 967, 5
+[INSERT], 968, 2
+[INSERT], 969, 5
+[INSERT], 970, 0
+[INSERT], 971, 3
+[INSERT], 972, 2
+[INSERT], 973, 2
+[INSERT], 974, 1
+[INSERT], 975, 1
+[INSERT], 976, 9
+[INSERT], 977, 17
+[INSERT], 978, 22
+[INSERT], 979, 6
+[INSERT], 980, 4
+[INSERT], 981, 13
+[INSERT], 982, 15
+[INSERT], 983, 5
+[INSERT], 984, 7
+[INSERT], 985, 8
+[INSERT], 986, 1
+[INSERT], 987, 0
+[INSERT], 988, 1
+[INSERT], 989, 0
+[INSERT], 990, 0
+[INSERT], 991, 0
+[INSERT], 992, 2
+[INSERT], 993, 1
+[INSERT], 994, 11
+[INSERT], 995, 7
+[INSERT], 996, 1
+[INSERT], 997, 0
+[INSERT], 998, 1
+[INSERT], 999, 0
+[INSERT], >1000, 7160
+]0;root@dbtest0: /hyperdex_build/tests/second5nodes/out_a_4offroot@dbtest0:/hyperdex_build/tests/second5nodes/out_a_4off# [Kjava -Djava.library.path=/usr/local/lib/ com.yahoo.ycsb.Client -load -db org.hyperdex.ycsb.HyperDexx -P /hyperdex_build/ycsb-0.1.4/workloads/workloada -p "hyperdex.host=192.168.100.1" -p "hyperdex.port=1982" -p theads=16^C
+]0;root@dbtest0: /hyperdex_build/tests/second5nodes/out_a_4offroot@dbtest0:/hyperdex_build/tests/second5nodes/out_a_4off# [Kvi /hyperdex_build/ycsb-0.1.4/workloads/workloada
+[?1049h[?1h=[2;1H�[6n[1;1H  [1;1H[1;40r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[40;1H"/hyperdex_build/ycsb-0.1.4/workloads/workloada" 24L, 530C[>c[2;1H[34m# Yahoo! Cloud System Benchmark
+# Workload A: Update heavy workload
+#   Application example: Session store recording recent actions
+#                        
+#   Read/update ratio: 50/50
+#   Default data size: 1 KB records (10 fields, 100 bytes each, plus key)
+#   Request distribution: zipfian[m
+
+recordcount=5000000
+operationcount=5000000
+workload=com.yahoo.ycsb.workloads.CoreWorkload
+
+readallfields=true
+
+readproportion=0.1
+updateproportion=0.9
+scanproportion=0
+insertproportion=0
+
+requestdistribution=zipfian
+
+threadcount=16
+
+[1m[34m~                                                                                                                                                             [26;1H~                                                                                                                                                             [27;1H~                                                                                                                                                             [28;1H~                                                                                                                                                             [29;1H~                                                                                                                                                             [30;1H~                                                                                                                                                             [31;1H~                                                                                                                                                             [32;1H~                                                                                                                                                             [33;1H~                                                                                                                                                             [34;1H~                                                                                                                                                             [35;1H~                                                                                                                                                             [36;1H~                                                                                                                                                             [37;1H~                                                                                                                                                             [38;1H~                                                                                                                                                             [39;1H~                                                                                                                                                             [m[40;141H1,0-1[9CAll[1;1H[?12l[?25h[?25l[40;1H[1m-- REPLACE --[m[40;14H[K[40;141H1,1[11CAll[1;1H[?12l[?25h[?25l:[40;143H2[1;2H[?12l[?25h[?25lq[40;143H3[1;3H[?12l[?25h[40;1H[K[?25l[1;3H:q[40;141H1,4[11CAll[1;4H[?12l[?25h[?25l[40;141H[K[40;1H:[?12l[?25hq![?25l[40;1H[K[40;1H[?1l>[?12l[?25h[?1049l]0;root@dbtest0: /hyperdex_build/tests/second5nodes/out_a_4offroot@dbtest0:/hyperdex_build/tests/second5nodes/out_a_4off# vi /hyperdex_build/ycsb-0.1.4/workloads/workloadajava -Djava.library.path=/usr/local/lib/ com.yahoo.ycsb.Client -load -db org.hyperdex.ycsb.HyperDexx -P /hyperdex_build/ycsb-0.1.4/workloads/workloada -p "hyperdex.host=192.168.100.1" -p "hyperdex.port=1982" -p theads=16[All[K
+[K[Aroot@dbtest0:/hyperdex_build/tests/second5nodes/out_a_4off# lljava -Djava.library.path=/usr/local/lib/ com.yahoo.ycsb.Client -load -db org.hyperdex.ycsb.HyperDexx -P /hyperdex_build/ycsb-0.1.4/workloads/workloada -p "hyperdex.host=192.168.100.1" -p "hyperdex.port=1982" -p theads=16[A[49Pvi /hyperdex_build/ycsb-0.1.4/workloads/workloada
+[K[Aroot@dbtest0:/hyperdex_build/tests/second5nodes/out_a_4off# vi /hyperdex_build/ycsb-0.1.4/workloads/workloada[Kvi /hyperdex_build/ycsb-0.1.4/workloads/workloadajava -Djava.library.path=/usr/local/lib/ com.yahoo.ycsb.Client -load -db org.hyperdex.ycsb.HyperDexx -P /hyperdex_build/ycsb-0.1.4/workloads/workloada -p "hyperdex.host=192.168.100.1" -p "hyperdex.port=1982" -p theads=16[All[K
+[K[Aroot@dbtest0:/hyperdex_build/tests/second5nodes/out_a_4off# llhyperdex list-spaces -h 192.168.100.1vi /hyperdex_build/ycsb-0.1.4/workloads/workloada[12Phyperdex list-spaces -h 192.168.100.1rm-space -h 192.168.100.1 usertable[7Plist-spaces -h 192.168.100.1[Kvalidate-space --usage[1Phelp00help-h 192.168.100.1 userdata[Krm-space -h 192.168.100.1 userdata[Kll[Kping 192.168.100.5hyperdex show-config  -h 192.168.100.2 |grep ^ser[31Pping 192.168.100.4hyperdex show-config  -h 192.168.100.2 |grep ^serll[Kjava -Djava.library.path=/usr/local/lib/ com.yahoo.ycsb.Client -t -db org.hyperdex.ycsb.HyperDex -PP /hyperdex_build/ycsb-0.1.4/workloads/workloada -p theads=16 -p "hyperdex.host=192.168.100.1" -p "hyperdex.port=1982" -s > out4[All[K
+[K[Aroot@dbtest0:/hyperdex_build/tests/second5nodes/out_a_4off# lljava -Djava.library.path=/usr/local/lib/ com.yahoo.ycsb.Client -t -db org.hyperdex.ycsb.HyperDex -PP /hyperdex_build/ycsb-0.1.4/workloads/workloada -p theads=16 -p "hyperdex.host=192.168.100.1" -p "hyperdex.port=1982" -s > out4^C
+]0;root@dbtest0: /hyperdex_build/tests/second5nodes/out_a_4offroot@dbtest0:/hyperdex_build/tests/second5nodes/out_a_4off# [Kcd ..
+]0;root@dbtest0: /hyperdex_build/tests/second5nodesroot@dbtest0:/hyperdex_build/tests/second5nodes# ll
+total 16
+drwxr-xr-x 4 root root 4096 Jan 28 23:14 [0m[01;34m.[0m/
+drwxr-xr-x 4 root root 4096 Jan 28 21:43 [01;34m..[0m/
+drwxr-xr-x 2 root root 4096 Jan 28 23:12 [01;34mout_a[0m/

@@ -1,0 +1,49 @@
+cluster 10301122361128436711
+version 12
+flags 0
+server 5901802695393073935 192.168.100.3:2012 AVAILABLE
+server 7002714718748955588 192.168.100.2:2012 AVAILABLE
+server 10327312535168882966 192.168.100.5:2012 AVAILABLE
+server 13955961253231528069 192.168.100.1:2012 AVAILABLE
+server 18437966591783271607 192.168.100.4:2012 AVAILABLE
+space 1 usertable
+  fault_tolerance 1
+  predecessor_width 1
+  schema
+    attribute k HYPERDATATYPE_STRING
+    attribute field0 HYPERDATATYPE_STRING
+    attribute field1 HYPERDATATYPE_STRING
+    attribute field2 HYPERDATATYPE_STRING
+    attribute field3 HYPERDATATYPE_STRING
+    attribute field4 HYPERDATATYPE_STRING
+    attribute field5 HYPERDATATYPE_STRING
+    attribute field6 HYPERDATATYPE_STRING
+    attribute field7 HYPERDATATYPE_STRING
+    attribute field8 HYPERDATATYPE_STRING
+    attribute field9 HYPERDATATYPE_STRING
+  subspace 2
+    attributes k
+    region 3 lower=(0,) upper=(768614336404564649,) replicas=[server(13955961253231528069)/virtual_server(27), server(7002714718748955588)/virtual_server(28)]
+    region 4 lower=(768614336404564650,) upper=(1537228672809129299,) replicas=[server(13955961253231528069)/virtual_server(29), server(7002714718748955588)/virtual_server(30)]
+    region 5 lower=(1537228672809129300,) upper=(2305843009213693949,) replicas=[server(13955961253231528069)/virtual_server(31), server(7002714718748955588)/virtual_server(32)]
+    region 6 lower=(2305843009213693950,) upper=(3074457345618258599,) replicas=[server(13955961253231528069)/virtual_server(33), server(7002714718748955588)/virtual_server(34)]
+    region 7 lower=(3074457345618258600,) upper=(3843071682022823249,) replicas=[server(13955961253231528069)/virtual_server(35), server(7002714718748955588)/virtual_server(36)]
+    region 8 lower=(3843071682022823250,) upper=(4611686018427387899,) replicas=[server(13955961253231528069)/virtual_server(37), server(7002714718748955588)/virtual_server(38)]
+    region 9 lower=(4611686018427387900,) upper=(5380300354831952549,) replicas=[server(7002714718748955588)/virtual_server(39), server(5901802695393073935)/virtual_server(40)]
+    region 10 lower=(5380300354831952550,) upper=(6148914691236517199,) replicas=[server(7002714718748955588)/virtual_server(41), server(5901802695393073935)/virtual_server(42)]
+    region 11 lower=(6148914691236517200,) upper=(6917529027641081849,) replicas=[server(7002714718748955588)/virtual_server(43), server(5901802695393073935)/virtual_server(44)]
+    region 12 lower=(6917529027641081850,) upper=(7686143364045646499,) replicas=[server(7002714718748955588)/virtual_server(45), server(5901802695393073935)/virtual_server(46)]
+    region 13 lower=(7686143364045646500,) upper=(8454757700450211149,) replicas=[server(7002714718748955588)/virtual_server(47), server(5901802695393073935)/virtual_server(48)]
+    region 14 lower=(8454757700450211150,) upper=(9223372036854775799,) replicas=[server(7002714718748955588)/virtual_server(49), server(5901802695393073935)/virtual_server(50)]
+    region 15 lower=(9223372036854775800,) upper=(9991986373259340449,) replicas=[server(5901802695393073935)/virtual_server(51), server(18437966591783271607)/virtual_server(52)]
+    region 16 lower=(9991986373259340450,) upper=(10760600709663905099,) replicas=[server(5901802695393073935)/virtual_server(53), server(18437966591783271607)/virtual_server(54)]
+    region 17 lower=(10760600709663905100,) upper=(11529215046068469749,) replicas=[server(5901802695393073935)/virtual_server(55), server(18437966591783271607)/virtual_server(56)]
+    region 18 lower=(11529215046068469750,) upper=(12297829382473034399,) replicas=[server(5901802695393073935)/virtual_server(57), server(18437966591783271607)/virtual_server(58)]
+    region 19 lower=(12297829382473034400,) upper=(13066443718877599049,) replicas=[server(5901802695393073935)/virtual_server(59), server(18437966591783271607)/virtual_server(60)]
+    region 20 lower=(13066443718877599050,) upper=(13835058055282163699,) replicas=[server(5901802695393073935)/virtual_server(61), server(18437966591783271607)/virtual_server(62)]
+    region 21 lower=(13835058055282163700,) upper=(14603672391686728349,) replicas=[server(18437966591783271607)/virtual_server(63), server(10327312535168882966)/virtual_server(64)]
+    region 22 lower=(14603672391686728350,) upper=(15372286728091292999,) replicas=[server(18437966591783271607)/virtual_server(65), server(10327312535168882966)/virtual_server(66)]
+    region 23 lower=(15372286728091293000,) upper=(16140901064495857649,) replicas=[server(18437966591783271607)/virtual_server(67), server(10327312535168882966)/virtual_server(68)]
+    region 24 lower=(16140901064495857650,) upper=(16909515400900422299,) replicas=[server(18437966591783271607)/virtual_server(69), server(10327312535168882966)/virtual_server(70)]
+    region 25 lower=(16909515400900422300,) upper=(17678129737304986949,) replicas=[server(18437966591783271607)/virtual_server(71), server(10327312535168882966)/virtual_server(72)]
+    region 26 lower=(17678129737304986950,) upper=(18446744073709551615,) replicas=[server(18437966591783271607)/virtual_server(73), server(10327312535168882966)/virtual_server(74)]
