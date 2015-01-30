@@ -1,0 +1,13 @@
+YCSB Client 0.1
+Command line: -t -db org.hyperdex.ycsb.HyperDex -P /hyperdex_build/ycsb-0.1.4/workloads/workloada -p theads=16 -p hyperdex.host=192.168.100.1 -p hyperdex.port=1982 -s
+
+Loading workload...
+Starting test.
+host: 192.168.100.1
+port: 1982
+ 0 sec: 0 operations;
+m_client: org.hyperdex.client.Client@6342f024
+ 10 sec: 1 operations; 0.1 current ops/sec; [UPDATE AverageLatency(us)=3648]
+ 20 sec: 1 operations; 0 current ops/sec;
+ 30 sec: 1 operations; 0 current ops/sec;
+ 40 sec: 1 operations; 0 current ops/sec;

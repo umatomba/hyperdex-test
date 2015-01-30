@@ -1,0 +1,31 @@
+YCSB Client 0.1
+Command line: -t -db org.hyperdex.ycsb.HyperDex -P /hyperdex_build/ycsb-0.1.4/workloads/workloada -p theads=16 -p hyperdex.host=192.168.100.1 -p hyperdex.port=1982 -s
+
+ 10 sec: 23924 operations; 2388.82 current ops/sec; [UPDATE AverageLatency(us)=440.79] [READ AverageLatency(us)=107.13]
+ 20 sec: 49520 operations; 2559.34 current ops/sec; [UPDATE AverageLatency(us)=415.98] [READ AverageLatency(us)=97]
+ 30 sec: 72777 operations; 2325.7 current ops/sec; [UPDATE AverageLatency(us)=466.64] [READ AverageLatency(us)=91.18]
+ 40 sec: 93333 operations; 2055.39 current ops/sec; [UPDATE AverageLatency(us)=524.7] [READ AverageLatency(us)=96.18]
+ 50 sec: 130622 operations; 3728.9 current ops/sec; [UPDATE AverageLatency(us)=275.01] [READ AverageLatency(us)=72.35]
+ 60 sec: 146083 operations; 1546.1 current ops/sec; [UPDATE AverageLatency(us)=595.3] [READ AverageLatency(us)=72.74]
+ 70 sec: 146148 operations; 6.5 current ops/sec; [UPDATE AverageLatency(us)=193092.31] [READ AverageLatency(us)=19839.25]
+ 80 sec: 146286 operations; 13.8 current ops/sec; [UPDATE AverageLatency(us)=78855.65] [READ AverageLatency(us)=757.45]
+ 90 sec: 146352 operations; 6.6 current ops/sec; [UPDATE AverageLatency(us)=14269.27] [READ AverageLatency(us)=119.57]
+ 100 sec: 146437 operations; 8.5 current ops/sec; [UPDATE AverageLatency(us)=239552.85] [READ AverageLatency(us)=3672.67]
+ 110 sec: 146688 operations; 25.1 current ops/sec; [UPDATE AverageLatency(us)=41942.16] [READ AverageLatency(us)=2646.36]
+ 120 sec: 146783 operations; 9.5 current ops/sec; [UPDATE AverageLatency(us)=79886.51] [READ AverageLatency(us)=995.67]
+ 130 sec: 146783 operations; 0 current ops/sec;
+ 140 sec: 146783 operations; 0 current ops/sec;
+ 150 sec: 146783 operations; 0 current ops/sec;
+ 160 sec: 146783 operations; 0 current ops/sec;
+ 170 sec: 146783 operations; 0 current ops/sec;
+ 180 sec: 146783 operations; 0 current ops/sec;
+ 190 sec: 146783 operations; 0 current ops/sec;
+ 200 sec: 146783 operations; 0 current ops/sec;
+ 210 sec: 146783 operations; 0 current ops/sec;
+ 220 sec: 146783 operations; 0 current ops/sec;
+ 230 sec: 146783 operations; 0 current ops/sec;
+ 240 sec: 146783 operations; 0 current ops/sec;
+ 250 sec: 146783 operations; 0 current ops/sec;
+ 260 sec: 146783 operations; 0 current ops/sec;
+ 270 sec: 146783 operations; 0 current ops/sec;
+
