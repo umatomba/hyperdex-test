@@ -1,0 +1,3 @@
+TEST E
+start network split for 30 sec every 30 sec on nodes 4,5
+

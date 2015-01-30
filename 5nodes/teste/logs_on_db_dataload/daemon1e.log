@@ -1,0 +1,279 @@
+I0129 18:04:20.469028     1 daemon.cc:284] running in the foreground
+I0129 18:04:20.469147     1 daemon.cc:285] no log will be generated; instead, the log messages will print to the terminal
+I0129 18:04:20.469156     1 daemon.cc:286] provide "--daemon" on the command-line if you want to run in the background
+I0129 18:04:20.469166     1 daemon.cc:293] initializing local storage
+I0129 18:04:20.503451     9 background_thread.cc:153] checkpointer thread started
+I0129 18:04:20.503451    10 background_thread.cc:153] indexing thread started
+I0129 18:04:20.503649    11 background_thread.cc:153] wiping thread started
+I0129 18:04:20.515588     1 daemon.cc:348] generated new random token:  3537354418822539813
+I0129 18:04:20.520751     1 daemon.cc:373] starting checkpoint process with checkpoint=0 checkpoint_stable=0 checkpoint_gc=0
+W0129 18:04:20.520917     1 daemon.cc:1612] cannot determine device name for reporting io.* stats
+W0129 18:04:20.520932     1 daemon.cc:1613] iostat-like statistics will not be reported
+I0129 18:04:20.542596    13 background_thread.cc:153] state transfer thread started
+I0129 18:04:20.542613    12 background_thread.cc:153] replication thread started
+I0129 18:04:20.542656    14 daemon.cc:590] network thread 0 started on core 0
+I0129 18:04:20.542829    15 daemon.cc:590] network thread 1 started on core 1
+I0129 18:04:20.542832    16 daemon.cc:590] network thread 2 started on core 2
+I0129 18:04:20.542878    17 daemon.cc:590] network thread 3 started on core 3
+I0129 18:04:20.543005     1 daemon.cc:482] moving to configuration version=2; pausing all activity while we reconfigure
+I0129 18:04:20.543112     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0129 18:04:20.543195     1 daemon.cc:482] moving to configuration version=3; pausing all activity while we reconfigure
+I0129 18:04:20.543298     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0129 18:04:21.416518     1 daemon.cc:482] moving to configuration version=4; pausing all activity while we reconfigure
+I0129 18:04:21.416652     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0129 18:04:21.442497     1 daemon.cc:482] moving to configuration version=5; pausing all activity while we reconfigure
+I0129 18:04:21.442632     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0129 18:04:22.357992     1 daemon.cc:482] moving to configuration version=6; pausing all activity while we reconfigure
+I0129 18:04:22.358120     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0129 18:04:22.384809     1 daemon.cc:482] moving to configuration version=7; pausing all activity while we reconfigure
+I0129 18:04:22.385049     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0129 18:04:31.867724     1 daemon.cc:482] moving to configuration version=8; pausing all activity while we reconfigure
+I0129 18:04:31.867929     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0129 18:04:31.892096     1 daemon.cc:482] moving to configuration version=9; pausing all activity while we reconfigure
+I0129 18:04:31.892173     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0129 18:04:32.700801     1 daemon.cc:482] moving to configuration version=10; pausing all activity while we reconfigure
+I0129 18:04:32.700985     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0129 18:04:32.725693     1 daemon.cc:482] moving to configuration version=11; pausing all activity while we reconfigure
+I0129 18:04:32.725880     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0129 18:32:14.169965     1 daemon.cc:482] moving to configuration version=12; pausing all activity while we reconfigure
+I0129 18:32:14.170217     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0129 18:50:43.763828     1 daemon.cc:482] moving to configuration version=13; pausing all activity while we reconfigure
+I0129 18:50:43.764607     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0129 18:51:44.737547     1 daemon.cc:482] moving to configuration version=14; pausing all activity while we reconfigure
+I0129 18:51:44.737931     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:16:37.748751     1 daemon.cc:482] moving to configuration version=15; pausing all activity while we reconfigure
+I0130 11:16:37.748977     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:16:37.997586     1 daemon.cc:482] moving to configuration version=16; pausing all activity while we reconfigure
+I0130 11:16:37.997849     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:22.009249     1 daemon.cc:482] moving to configuration version=17; pausing all activity while we reconfigure
+I0130 11:18:22.009461     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:22.019000     1 daemon.cc:482] moving to configuration version=19; pausing all activity while we reconfigure
+I0130 11:18:22.019326     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:22.019665     1 daemon.cc:482] moving to configuration version=20; pausing all activity while we reconfigure
+I0130 11:18:22.019979     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:22.021595     1 daemon.cc:482] moving to configuration version=21; pausing all activity while we reconfigure
+I0130 11:18:22.021762     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:22.024520     1 daemon.cc:482] moving to configuration version=23; pausing all activity while we reconfigure
+I0130 11:18:22.025810     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:22.026322     1 daemon.cc:482] moving to configuration version=26; pausing all activity while we reconfigure
+I0130 11:18:22.026548     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:22.028420     1 daemon.cc:482] moving to configuration version=27; pausing all activity while we reconfigure
+I0130 11:18:22.028630     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:22.160373     1 daemon.cc:482] moving to configuration version=30; pausing all activity while we reconfigure
+I0130 11:18:22.160984     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:22.162593     1 daemon.cc:482] moving to configuration version=37; pausing all activity while we reconfigure
+I0130 11:18:22.163051     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:22.170145     1 daemon.cc:482] moving to configuration version=39; pausing all activity while we reconfigure
+I0130 11:18:22.170362     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:22.172155     1 daemon.cc:482] moving to configuration version=41; pausing all activity while we reconfigure
+I0130 11:18:22.172792     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:22.174439     1 daemon.cc:482] moving to configuration version=43; pausing all activity while we reconfigure
+I0130 11:18:22.174764     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:22.175937     1 daemon.cc:482] moving to configuration version=45; pausing all activity while we reconfigure
+I0130 11:18:22.176622     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:22.182417     1 daemon.cc:482] moving to configuration version=47; pausing all activity while we reconfigure
+I0130 11:18:22.182589     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:22.183935     1 daemon.cc:482] moving to configuration version=48; pausing all activity while we reconfigure
+I0130 11:18:22.184473     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:22.186251     1 daemon.cc:482] moving to configuration version=49; pausing all activity while we reconfigure
+I0130 11:18:22.186535     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:22.188091     1 daemon.cc:482] moving to configuration version=51; pausing all activity while we reconfigure
+I0130 11:18:22.188285     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:22.189882     1 daemon.cc:482] moving to configuration version=52; pausing all activity while we reconfigure
+I0130 11:18:22.190510     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:22.201419     1 daemon.cc:482] moving to configuration version=53; pausing all activity while we reconfigure
+I0130 11:18:22.201838     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:22.202947     1 daemon.cc:482] moving to configuration version=54; pausing all activity while we reconfigure
+I0130 11:18:22.203207     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:22.204740     1 daemon.cc:482] moving to configuration version=55; pausing all activity while we reconfigure
+I0130 11:18:22.204999     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:22.206971     1 daemon.cc:482] moving to configuration version=56; pausing all activity while we reconfigure
+I0130 11:18:22.207501     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:22.208971     1 daemon.cc:482] moving to configuration version=57; pausing all activity while we reconfigure
+I0130 11:18:22.209168     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:22.211294     1 daemon.cc:482] moving to configuration version=58; pausing all activity while we reconfigure
+I0130 11:18:22.211441     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:22.213347     1 daemon.cc:482] moving to configuration version=59; pausing all activity while we reconfigure
+I0130 11:18:22.213759     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:31.112112     1 daemon.cc:482] moving to configuration version=60; pausing all activity while we reconfigure
+I0130 11:18:31.112340     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:31.183418     1 daemon.cc:482] moving to configuration version=62; pausing all activity while we reconfigure
+I0130 11:18:31.183604     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:31.187948     1 daemon.cc:482] moving to configuration version=72; pausing all activity while we reconfigure
+I0130 11:18:31.188168     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:31.191772     1 daemon.cc:482] moving to configuration version=75; pausing all activity while we reconfigure
+I0130 11:18:31.191954     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:31.193688     1 daemon.cc:482] moving to configuration version=76; pausing all activity while we reconfigure
+I0130 11:18:31.194155     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:31.196167     1 daemon.cc:482] moving to configuration version=82; pausing all activity while we reconfigure
+I0130 11:18:31.196458     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:31.198460     1 daemon.cc:482] moving to configuration version=83; pausing all activity while we reconfigure
+I0130 11:18:31.198596     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:31.280480     1 daemon.cc:482] moving to configuration version=84; pausing all activity while we reconfigure
+I0130 11:18:31.280709     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:31.291564     1 daemon.cc:482] moving to configuration version=85; pausing all activity while we reconfigure
+I0130 11:18:31.291707     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:31.390162     1 daemon.cc:482] moving to configuration version=90; pausing all activity while we reconfigure
+I0130 11:18:31.390604     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:31.393741     1 daemon.cc:482] moving to configuration version=98; pausing all activity while we reconfigure
+I0130 11:18:31.393895     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:31.396311     1 daemon.cc:482] moving to configuration version=99; pausing all activity while we reconfigure
+I0130 11:18:31.396690     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:31.398262     1 daemon.cc:482] moving to configuration version=100; pausing all activity while we reconfigure
+I0130 11:18:31.398705     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:31.399824     1 daemon.cc:482] moving to configuration version=101; pausing all activity while we reconfigure
+I0130 11:18:31.400178     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:31.409425     1 daemon.cc:482] moving to configuration version=103; pausing all activity while we reconfigure
+I0130 11:18:31.409595     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:31.416618     1 daemon.cc:482] moving to configuration version=104; pausing all activity while we reconfigure
+I0130 11:18:31.416764     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:31.418974     1 daemon.cc:482] moving to configuration version=105; pausing all activity while we reconfigure
+I0130 11:18:31.419272     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:31.437770     1 daemon.cc:482] moving to configuration version=106; pausing all activity while we reconfigure
+I0130 11:18:31.437984     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:31.439764     1 daemon.cc:482] moving to configuration version=107; pausing all activity while we reconfigure
+I0130 11:18:31.440018     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:31.441967     1 daemon.cc:482] moving to configuration version=108; pausing all activity while we reconfigure
+I0130 11:18:31.442097     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:31.443490     1 daemon.cc:482] moving to configuration version=109; pausing all activity while we reconfigure
+I0130 11:18:31.443769     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:31.460208     1 daemon.cc:482] moving to configuration version=110; pausing all activity while we reconfigure
+I0130 11:18:31.460608     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:31.463415     1 daemon.cc:482] moving to configuration version=112; pausing all activity while we reconfigure
+I0130 11:18:31.463635     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:31.546133     1 daemon.cc:482] moving to configuration version=114; pausing all activity while we reconfigure
+I0130 11:18:31.546325     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:31.549840     1 daemon.cc:482] moving to configuration version=115; pausing all activity while we reconfigure
+I0130 11:18:31.550015     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:31.554383     1 daemon.cc:482] moving to configuration version=116; pausing all activity while we reconfigure
+I0130 11:18:31.554685     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:31.559667     1 daemon.cc:482] moving to configuration version=117; pausing all activity while we reconfigure
+I0130 11:18:31.559840     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:31.588167     1 daemon.cc:482] moving to configuration version=118; pausing all activity while we reconfigure
+I0130 11:18:31.588311     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:31.632508     1 daemon.cc:482] moving to configuration version=119; pausing all activity while we reconfigure
+I0130 11:18:31.632947     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:31.633884     1 daemon.cc:482] moving to configuration version=120; pausing all activity while we reconfigure
+I0130 11:18:31.634114     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:31.638556     1 daemon.cc:482] moving to configuration version=121; pausing all activity while we reconfigure
+I0130 11:18:31.638738     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:31.642627     1 daemon.cc:482] moving to configuration version=122; pausing all activity while we reconfigure
+I0130 11:18:31.642817     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:31.649425     1 daemon.cc:482] moving to configuration version=123; pausing all activity while we reconfigure
+I0130 11:18:31.649763     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:31.658095     1 daemon.cc:482] moving to configuration version=124; pausing all activity while we reconfigure
+I0130 11:18:31.658439     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:31.665714     1 daemon.cc:482] moving to configuration version=125; pausing all activity while we reconfigure
+I0130 11:18:31.665971     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:31.688772     1 daemon.cc:482] moving to configuration version=126; pausing all activity while we reconfigure
+I0130 11:18:31.688920     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:31.696735     1 daemon.cc:482] moving to configuration version=127; pausing all activity while we reconfigure
+I0130 11:18:31.697352     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:31.700687     1 daemon.cc:482] moving to configuration version=128; pausing all activity while we reconfigure
+I0130 11:18:31.701136     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:31.736729     1 daemon.cc:482] moving to configuration version=129; pausing all activity while we reconfigure
+I0130 11:18:31.737110     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:31.740298     1 daemon.cc:482] moving to configuration version=130; pausing all activity while we reconfigure
+I0130 11:18:31.740520     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:31.748112     1 daemon.cc:482] moving to configuration version=131; pausing all activity while we reconfigure
+I0130 11:18:31.748659     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:31.760234     1 daemon.cc:482] moving to configuration version=132; pausing all activity while we reconfigure
+I0130 11:18:31.760423     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:31.768384     1 daemon.cc:482] moving to configuration version=133; pausing all activity while we reconfigure
+I0130 11:18:31.768792     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:31.776460     1 daemon.cc:482] moving to configuration version=134; pausing all activity while we reconfigure
+I0130 11:18:31.776594     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:31.808122     1 daemon.cc:482] moving to configuration version=135; pausing all activity while we reconfigure
+I0130 11:18:31.808403     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:31.809963     1 daemon.cc:482] moving to configuration version=136; pausing all activity while we reconfigure
+I0130 11:18:31.810215     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:31.812041     1 daemon.cc:482] moving to configuration version=137; pausing all activity while we reconfigure
+I0130 11:18:31.812360     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:31.816972     1 daemon.cc:482] moving to configuration version=138; pausing all activity while we reconfigure
+I0130 11:18:31.817247     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:31.821074     1 daemon.cc:482] moving to configuration version=139; pausing all activity while we reconfigure
+I0130 11:18:31.821641     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:31.836696     1 daemon.cc:482] moving to configuration version=140; pausing all activity while we reconfigure
+I0130 11:18:31.836889     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:31.844527     1 daemon.cc:482] moving to configuration version=141; pausing all activity while we reconfigure
+I0130 11:18:31.844878     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:31.854415     1 daemon.cc:482] moving to configuration version=142; pausing all activity while we reconfigure
+I0130 11:18:31.854614     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:31.890504     1 daemon.cc:482] moving to configuration version=143; pausing all activity while we reconfigure
+I0130 11:18:31.890758     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:31.899493     1 daemon.cc:482] moving to configuration version=144; pausing all activity while we reconfigure
+I0130 11:18:31.899690     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:54.005343     1 daemon.cc:482] moving to configuration version=145; pausing all activity while we reconfigure
+I0130 11:18:54.006536     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:54.027775     1 daemon.cc:482] moving to configuration version=146; pausing all activity while we reconfigure
+I0130 11:18:54.027987     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:54.038076     1 daemon.cc:482] moving to configuration version=148; pausing all activity while we reconfigure
+I0130 11:18:54.038350     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:54.061235     1 daemon.cc:482] moving to configuration version=149; pausing all activity while we reconfigure
+I0130 11:18:54.061384     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:54.136570     1 daemon.cc:482] moving to configuration version=150; pausing all activity while we reconfigure
+I0130 11:18:54.137465     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:54.203475     1 daemon.cc:482] moving to configuration version=151; pausing all activity while we reconfigure
+I0130 11:18:54.203743     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:54.245745     1 daemon.cc:482] moving to configuration version=154; pausing all activity while we reconfigure
+I0130 11:18:54.246582     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:54.253633     1 daemon.cc:482] moving to configuration version=155; pausing all activity while we reconfigure
+I0130 11:18:54.254037     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:54.261888     1 daemon.cc:482] moving to configuration version=156; pausing all activity while we reconfigure
+I0130 11:18:54.262050     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:54.279399     1 daemon.cc:482] moving to configuration version=157; pausing all activity while we reconfigure
+I0130 11:18:54.279750     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:54.288538     1 daemon.cc:482] moving to configuration version=158; pausing all activity while we reconfigure
+I0130 11:18:54.289063     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:54.297240     1 daemon.cc:482] moving to configuration version=159; pausing all activity while we reconfigure
+I0130 11:18:54.297709     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:54.365316     1 daemon.cc:482] moving to configuration version=160; pausing all activity while we reconfigure
+I0130 11:18:54.365722     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:54.373690     1 daemon.cc:482] moving to configuration version=161; pausing all activity while we reconfigure
+I0130 11:18:54.373883     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:54.416754     1 daemon.cc:482] moving to configuration version=163; pausing all activity while we reconfigure
+I0130 11:18:54.417361     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:54.418807     1 daemon.cc:482] moving to configuration version=164; pausing all activity while we reconfigure
+I0130 11:18:54.418970     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:54.433758     1 daemon.cc:482] moving to configuration version=165; pausing all activity while we reconfigure
+I0130 11:18:54.434057     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:54.442905     1 daemon.cc:482] moving to configuration version=166; pausing all activity while we reconfigure
+I0130 11:18:54.443171     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:54.512379     1 daemon.cc:482] moving to configuration version=167; pausing all activity while we reconfigure
+I0130 11:18:54.512728     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:54.527323     1 daemon.cc:482] moving to configuration version=168; pausing all activity while we reconfigure
+I0130 11:18:54.527818     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:54.578922     1 daemon.cc:482] moving to configuration version=170; pausing all activity while we reconfigure
+I0130 11:18:54.579291     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:54.606500     1 daemon.cc:482] moving to configuration version=171; pausing all activity while we reconfigure
+I0130 11:18:54.606715     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:54.623453     1 daemon.cc:482] moving to configuration version=172; pausing all activity while we reconfigure
+I0130 11:18:54.623970     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:54.648897     1 daemon.cc:482] moving to configuration version=173; pausing all activity while we reconfigure
+I0130 11:18:54.649058     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:54.654160     1 daemon.cc:482] moving to configuration version=174; pausing all activity while we reconfigure
+I0130 11:18:54.654392     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:54.659826     1 daemon.cc:482] moving to configuration version=175; pausing all activity while we reconfigure
+I0130 11:18:54.660331     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:54.674509     1 daemon.cc:482] moving to configuration version=176; pausing all activity while we reconfigure
+I0130 11:18:54.675187     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:54.682808     1 daemon.cc:482] moving to configuration version=177; pausing all activity while we reconfigure
+I0130 11:18:54.683153     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:54.691474     1 daemon.cc:482] moving to configuration version=178; pausing all activity while we reconfigure
+I0130 11:18:54.691628     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:54.700479     1 daemon.cc:482] moving to configuration version=179; pausing all activity while we reconfigure
+I0130 11:18:54.700619     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:54.747459     1 daemon.cc:482] moving to configuration version=181; pausing all activity while we reconfigure
+I0130 11:18:54.747616     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:54.790686     1 daemon.cc:482] moving to configuration version=182; pausing all activity while we reconfigure
+I0130 11:18:54.791144     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:54.799695     1 daemon.cc:482] moving to configuration version=183; pausing all activity while we reconfigure
+I0130 11:18:54.799872     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:54.826347     1 daemon.cc:482] moving to configuration version=184; pausing all activity while we reconfigure
+I0130 11:18:54.826987     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:54.836853     1 daemon.cc:482] moving to configuration version=185; pausing all activity while we reconfigure
+I0130 11:18:54.837149     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:54.886198     1 daemon.cc:482] moving to configuration version=186; pausing all activity while we reconfigure
+I0130 11:18:54.886503     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:54.906503     1 daemon.cc:482] moving to configuration version=187; pausing all activity while we reconfigure
+I0130 11:18:54.906821     1 daemon.cc:492] reconfiguration complete; resuming normal operation

@@ -1,0 +1,5 @@
+space usertable
+key k
+attributes field0, field1, field2, field3, field4,
+           field5, field6, field7, field8, field9
+tolerate 2 failure
