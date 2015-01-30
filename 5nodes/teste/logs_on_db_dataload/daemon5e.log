@@ -1,0 +1,553 @@
+I0129 18:04:32.670557     1 daemon.cc:284] running in the foreground
+I0129 18:04:32.670656     1 daemon.cc:285] no log will be generated; instead, the log messages will print to the terminal
+I0129 18:04:32.670665     1 daemon.cc:286] provide "--daemon" on the command-line if you want to run in the background
+I0129 18:04:32.670671     1 daemon.cc:293] initializing local storage
+I0129 18:04:32.694320     9 background_thread.cc:153] checkpointer thread started
+I0129 18:04:32.694324    11 background_thread.cc:153] wiping thread started
+I0129 18:04:32.694304    10 background_thread.cc:153] indexing thread started
+I0129 18:04:32.705642     1 daemon.cc:348] generated new random token:  16293765535358465470
+I0129 18:04:32.711580     1 daemon.cc:373] starting checkpoint process with checkpoint=0 checkpoint_stable=0 checkpoint_gc=0
+W0129 18:04:32.711742     1 daemon.cc:1612] cannot determine device name for reporting io.* stats
+W0129 18:04:32.711755     1 daemon.cc:1613] iostat-like statistics will not be reported
+I0129 18:04:32.731339    13 background_thread.cc:153] state transfer thread started
+I0129 18:04:32.731339    12 background_thread.cc:153] replication thread started
+I0129 18:04:32.731358    14 daemon.cc:590] network thread 0 started on core 0
+I0129 18:04:32.731423    15 daemon.cc:590] network thread 1 started on core 1
+I0129 18:04:32.731549    16 daemon.cc:590] network thread 2 started on core 2
+I0129 18:04:32.731673    17 daemon.cc:590] network thread 3 started on core 3
+I0129 18:04:32.731701     1 daemon.cc:482] moving to configuration version=10; pausing all activity while we reconfigure
+I0129 18:04:32.731777     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0129 18:04:32.733222     1 daemon.cc:482] moving to configuration version=11; pausing all activity while we reconfigure
+I0129 18:04:32.733305     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0129 18:32:14.180065     1 daemon.cc:482] moving to configuration version=12; pausing all activity while we reconfigure
+I0129 18:32:14.180222     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0129 18:50:43.779111     1 daemon.cc:482] moving to configuration version=13; pausing all activity while we reconfigure
+I0129 18:50:43.897245     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0129 18:51:44.748893     1 daemon.cc:482] moving to configuration version=14; pausing all activity while we reconfigure
+I0129 18:51:44.749066     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:22.094265     1 daemon.cc:482] moving to configuration version=16; pausing all activity while we reconfigure
+I0130 11:18:22.094449     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:22.098392     1 daemon.cc:482] moving to configuration version=17; pausing all activity while we reconfigure
+I0130 11:18:22.098703     1 state_transfer_manager.cc:153] initiating incoming transfer(id=transfer(259), region=region(46), src=server(3059831190799681541), vsrc=virtual_server(196), dst=server(16293765535358465470), vdst=virtual_server(260))
+I0130 11:18:22.098719     1 state_transfer_manager.cc:153] initiating incoming transfer(id=transfer(261), region=region(47), src=server(3059831190799681541), vsrc=virtual_server(199), dst=server(16293765535358465470), vdst=virtual_server(262))
+I0130 11:18:22.098728     1 state_transfer_manager.cc:153] initiating incoming transfer(id=transfer(263), region=region(48), src=server(3059831190799681541), vsrc=virtual_server(202), dst=server(16293765535358465470), vdst=virtual_server(264))
+I0130 11:18:22.098737     1 state_transfer_manager.cc:153] initiating incoming transfer(id=transfer(265), region=region(49), src=server(3059831190799681541), vsrc=virtual_server(205), dst=server(16293765535358465470), vdst=virtual_server(266))
+I0130 11:18:22.098744     1 state_transfer_manager.cc:153] initiating incoming transfer(id=transfer(267), region=region(50), src=server(3059831190799681541), vsrc=virtual_server(208), dst=server(16293765535358465470), vdst=virtual_server(268))
+I0130 11:18:22.098752     1 state_transfer_manager.cc:153] initiating incoming transfer(id=transfer(269), region=region(51), src=server(3059831190799681541), vsrc=virtual_server(211), dst=server(16293765535358465470), vdst=virtual_server(270))
+I0130 11:18:22.098760     1 state_transfer_manager.cc:153] initiating incoming transfer(id=transfer(271), region=region(52), src=server(3059831190799681541), vsrc=virtual_server(214), dst=server(16293765535358465470), vdst=virtual_server(272))
+I0130 11:18:22.098768     1 state_transfer_manager.cc:153] initiating incoming transfer(id=transfer(273), region=region(53), src=server(3059831190799681541), vsrc=virtual_server(217), dst=server(16293765535358465470), vdst=virtual_server(274))
+I0130 11:18:22.098775     1 state_transfer_manager.cc:153] initiating incoming transfer(id=transfer(275), region=region(54), src=server(3059831190799681541), vsrc=virtual_server(220), dst=server(16293765535358465470), vdst=virtual_server(276))
+I0130 11:18:22.098783     1 state_transfer_manager.cc:153] initiating incoming transfer(id=transfer(277), region=region(55), src=server(3059831190799681541), vsrc=virtual_server(223), dst=server(16293765535358465470), vdst=virtual_server(278))
+I0130 11:18:22.098806     1 state_transfer_manager.cc:153] initiating incoming transfer(id=transfer(279), region=region(56), src=server(3059831190799681541), vsrc=virtual_server(226), dst=server(16293765535358465470), vdst=virtual_server(280))
+I0130 11:18:22.098815     1 state_transfer_manager.cc:153] initiating incoming transfer(id=transfer(281), region=region(57), src=server(3059831190799681541), vsrc=virtual_server(229), dst=server(16293765535358465470), vdst=virtual_server(282))
+I0130 11:18:22.098824     1 state_transfer_manager.cc:153] initiating incoming transfer(id=transfer(283), region=region(58), src=server(3059831190799681541), vsrc=virtual_server(232), dst=server(16293765535358465470), vdst=virtual_server(284))
+I0130 11:18:22.098832     1 state_transfer_manager.cc:153] initiating incoming transfer(id=transfer(285), region=region(59), src=server(3059831190799681541), vsrc=virtual_server(235), dst=server(16293765535358465470), vdst=virtual_server(286))
+I0130 11:18:22.098840     1 state_transfer_manager.cc:153] initiating incoming transfer(id=transfer(287), region=region(60), src=server(3059831190799681541), vsrc=virtual_server(238), dst=server(16293765535358465470), vdst=virtual_server(288))
+I0130 11:18:22.098850     1 state_transfer_manager.cc:153] initiating incoming transfer(id=transfer(289), region=region(61), src=server(3059831190799681541), vsrc=virtual_server(241), dst=server(16293765535358465470), vdst=virtual_server(290))
+I0130 11:18:22.098858     1 state_transfer_manager.cc:153] initiating incoming transfer(id=transfer(291), region=region(62), src=server(3059831190799681541), vsrc=virtual_server(244), dst=server(16293765535358465470), vdst=virtual_server(292))
+I0130 11:18:22.098867     1 state_transfer_manager.cc:153] initiating incoming transfer(id=transfer(293), region=region(63), src=server(3059831190799681541), vsrc=virtual_server(247), dst=server(16293765535358465470), vdst=virtual_server(294))
+I0130 11:18:22.098876     1 state_transfer_manager.cc:153] initiating incoming transfer(id=transfer(295), region=region(64), src=server(3059831190799681541), vsrc=virtual_server(250), dst=server(16293765535358465470), vdst=virtual_server(296))
+I0130 11:18:22.098892     1 state_transfer_manager.cc:153] initiating incoming transfer(id=transfer(297), region=region(65), src=server(3059831190799681541), vsrc=virtual_server(253), dst=server(16293765535358465470), vdst=virtual_server(298))
+I0130 11:18:22.098902     1 state_transfer_manager.cc:153] initiating incoming transfer(id=transfer(299), region=region(66), src=server(3059831190799681541), vsrc=virtual_server(256), dst=server(16293765535358465470), vdst=virtual_server(300))
+I0130 11:18:22.098958     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:22.100898    17 state_transfer_manager.cc:234] received handshake_syn for transfer(263)
+I0130 11:18:22.100918    14 state_transfer_manager.cc:234] received handshake_syn for transfer(259)
+I0130 11:18:22.101212    15 state_transfer_manager.cc:234] received handshake_syn for transfer(267)
+I0130 11:18:22.102385    17 state_transfer_manager.cc:234] received handshake_syn for transfer(271)
+I0130 11:18:22.102620    14 state_transfer_manager.cc:234] received handshake_syn for transfer(275)
+I0130 11:18:22.103296    16 state_transfer_manager.cc:234] received handshake_syn for transfer(279)
+I0130 11:18:22.104218    17 state_transfer_manager.cc:234] received handshake_syn for transfer(283)
+I0130 11:18:22.105082    16 state_transfer_manager.cc:234] received handshake_syn for transfer(287)
+I0130 11:18:22.105973    17 state_transfer_manager.cc:234] received handshake_syn for transfer(291)
+I0130 11:18:22.106806    16 state_transfer_manager.cc:234] received handshake_syn for transfer(295)
+I0130 11:18:22.106829    16 state_transfer_manager.cc:295] received handshake_ack for transfer(259)
+I0130 11:18:22.106845    16 state_transfer_manager.cc:295] received handshake_ack for transfer(263)
+I0130 11:18:22.106879    16 state_transfer_manager.cc:295] received handshake_ack for transfer(267)
+I0130 11:18:22.106912    16 state_transfer_manager.cc:295] received handshake_ack for transfer(271)
+I0130 11:18:22.106935    17 state_transfer_manager.cc:234] received handshake_syn for transfer(299)
+I0130 11:18:22.106940    16 state_transfer_manager.cc:295] received handshake_ack for transfer(275)
+I0130 11:18:22.106966    16 state_transfer_manager.cc:295] received handshake_ack for transfer(279)
+I0130 11:18:22.106977    16 state_transfer_manager.cc:295] received handshake_ack for transfer(283)
+I0130 11:18:22.106991    16 state_transfer_manager.cc:295] received handshake_ack for transfer(287)
+I0130 11:18:22.107019    16 state_transfer_manager.cc:295] received handshake_ack for transfer(291)
+I0130 11:18:22.107123    17 state_transfer_manager.cc:295] received handshake_ack for transfer(295)
+I0130 11:18:22.110498     1 daemon.cc:482] moving to configuration version=20; pausing all activity while we reconfigure
+I0130 11:18:22.136287     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:22.136554     1 daemon.cc:482] moving to configuration version=27; pausing all activity while we reconfigure
+I0130 11:18:22.136704     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:22.251123     1 daemon.cc:482] moving to configuration version=30; pausing all activity while we reconfigure
+I0130 11:18:22.251297     1 state_transfer_manager.cc:146] ending incoming transfer(259)
+I0130 11:18:22.251315     1 state_transfer_manager.cc:146] ending incoming transfer(263)
+I0130 11:18:22.251323     1 state_transfer_manager.cc:146] ending incoming transfer(267)
+I0130 11:18:22.251370     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:22.252856     1 daemon.cc:482] moving to configuration version=37; pausing all activity while we reconfigure
+I0130 11:18:22.252954     1 state_transfer_manager.cc:146] ending incoming transfer(271)
+I0130 11:18:22.252967     1 state_transfer_manager.cc:146] ending incoming transfer(275)
+I0130 11:18:22.252974     1 state_transfer_manager.cc:146] ending incoming transfer(279)
+I0130 11:18:22.252981     1 state_transfer_manager.cc:146] ending incoming transfer(283)
+I0130 11:18:22.252989     1 state_transfer_manager.cc:146] ending incoming transfer(287)
+I0130 11:18:22.252995     1 state_transfer_manager.cc:146] ending incoming transfer(291)
+I0130 11:18:22.253001     1 state_transfer_manager.cc:146] ending incoming transfer(295)
+I0130 11:18:22.253036     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:22.256712    17 state_transfer_manager.cc:234] received handshake_syn for transfer(261)
+I0130 11:18:22.256831    16 state_transfer_manager.cc:234] received handshake_syn for transfer(269)
+I0130 11:18:22.258873    17 state_transfer_manager.cc:234] received handshake_syn for transfer(277)
+I0130 11:18:22.258905    17 state_transfer_manager.cc:295] received handshake_ack for transfer(299)
+I0130 11:18:22.258924    17 state_transfer_manager.cc:295] received handshake_ack for transfer(269)
+I0130 11:18:22.258946    17 state_transfer_manager.cc:295] received handshake_ack for transfer(261)
+I0130 11:18:22.259084    16 state_transfer_manager.cc:234] received handshake_syn for transfer(285)
+I0130 11:18:22.259151    17 state_transfer_manager.cc:295] received handshake_ack for transfer(277)
+I0130 11:18:22.259841    14 state_transfer_manager.cc:234] received handshake_syn for transfer(293)
+I0130 11:18:22.260084    17 state_transfer_manager.cc:295] received handshake_ack for transfer(285)
+I0130 11:18:22.260545     1 daemon.cc:482] moving to configuration version=39; pausing all activity while we reconfigure
+I0130 11:18:22.260731     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:22.262382     1 daemon.cc:482] moving to configuration version=41; pausing all activity while we reconfigure
+I0130 11:18:22.262517     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:22.264792     1 daemon.cc:482] moving to configuration version=43; pausing all activity while we reconfigure
+I0130 11:18:22.264881     1 state_transfer_manager.cc:146] ending incoming transfer(261)
+I0130 11:18:22.264894     1 state_transfer_manager.cc:146] ending incoming transfer(269)
+I0130 11:18:22.264928     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:22.266432     1 daemon.cc:482] moving to configuration version=45; pausing all activity while we reconfigure
+I0130 11:18:22.266562     1 state_transfer_manager.cc:146] ending incoming transfer(277)
+I0130 11:18:22.266576     1 state_transfer_manager.cc:161] ending incoming transfer(299)
+I0130 11:18:22.266618     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:22.269733    16 state_transfer_manager.cc:234] received handshake_syn for transfer(265)
+I0130 11:18:22.271342    16 state_transfer_manager.cc:234] received handshake_syn for transfer(281)
+I0130 11:18:22.271492    14 state_transfer_manager.cc:234] received handshake_syn for transfer(289)
+I0130 11:18:22.271512    14 state_transfer_manager.cc:295] received handshake_ack for transfer(265)
+I0130 11:18:22.271541    15 state_transfer_manager.cc:295] received handshake_ack for transfer(281)
+I0130 11:18:22.271700    14 state_transfer_manager.cc:295] received handshake_ack for transfer(289)
+I0130 11:18:22.273151     1 daemon.cc:482] moving to configuration version=47; pausing all activity while we reconfigure
+I0130 11:18:22.273185    16 state_transfer_manager.cc:234] received handshake_syn for transfer(297)
+I0130 11:18:22.273351     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:22.274184     1 daemon.cc:482] moving to configuration version=48; pausing all activity while we reconfigure
+I0130 11:18:22.274338     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:22.276634     1 daemon.cc:482] moving to configuration version=49; pausing all activity while we reconfigure
+I0130 11:18:22.276732     1 state_transfer_manager.cc:146] ending incoming transfer(265)
+I0130 11:18:22.276780     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:22.278560     1 daemon.cc:482] moving to configuration version=51; pausing all activity while we reconfigure
+I0130 11:18:22.280026    14 state_transfer_manager.cc:234] received handshake_syn for transfer(273)
+I0130 11:18:22.280102     1 state_transfer_manager.cc:146] ending incoming transfer(281)
+I0130 11:18:22.280114     1 state_transfer_manager.cc:146] ending incoming transfer(289)
+I0130 11:18:22.280148     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:22.280593     1 daemon.cc:482] moving to configuration version=52; pausing all activity while we reconfigure
+I0130 11:18:22.281366    17 state_transfer_manager.cc:234] received handshake_syn for transfer(273)
+I0130 11:18:22.281488     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:22.283335    14 state_transfer_manager.cc:234] received handshake_syn for transfer(273)
+I0130 11:18:22.283542    17 state_transfer_manager.cc:295] received handshake_ack for transfer(273)
+I0130 11:18:22.284823    14 state_transfer_manager.cc:234] received handshake_syn for transfer(293)
+I0130 11:18:22.291121    14 state_transfer_manager.cc:295] received handshake_ack for transfer(293)
+I0130 11:18:22.291683     1 daemon.cc:482] moving to configuration version=53; pausing all activity while we reconfigure
+I0130 11:18:22.291813     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:22.293443     1 daemon.cc:482] moving to configuration version=54; pausing all activity while we reconfigure
+I0130 11:18:22.293606     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:22.295382     1 daemon.cc:482] moving to configuration version=55; pausing all activity while we reconfigure
+I0130 11:18:22.295513     1 state_transfer_manager.cc:146] ending incoming transfer(273)
+I0130 11:18:22.295553     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:22.297101     1 daemon.cc:482] moving to configuration version=56; pausing all activity while we reconfigure
+I0130 11:18:22.297195     1 state_transfer_manager.cc:146] ending incoming transfer(293)
+I0130 11:18:22.297233     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:22.299310     1 daemon.cc:482] moving to configuration version=57; pausing all activity while we reconfigure
+I0130 11:18:22.299435     1 state_transfer_manager.cc:146] ending incoming transfer(285)
+I0130 11:18:22.299485     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:22.300098    17 state_transfer_manager.cc:295] received handshake_ack for transfer(297)
+I0130 11:18:22.301609     1 daemon.cc:482] moving to configuration version=58; pausing all activity while we reconfigure
+I0130 11:18:22.301751     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:22.303710     1 daemon.cc:482] moving to configuration version=59; pausing all activity while we reconfigure
+I0130 11:18:22.303870     1 state_transfer_manager.cc:161] ending incoming transfer(297)
+I0130 11:18:22.303920     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:31.202359     1 daemon.cc:482] moving to configuration version=60; pausing all activity while we reconfigure
+I0130 11:18:31.202469     1 state_transfer_manager.cc:153] initiating outgoing transfer(id=transfer(343), region=region(46), src=server(16293765535358465470), vsrc=virtual_server(260), dst=server(2518304750719003998), vdst=virtual_server(344))
+I0130 11:18:31.202483     1 state_transfer_manager.cc:153] initiating outgoing transfer(id=transfer(345), region=region(47), src=server(16293765535358465470), vsrc=virtual_server(262), dst=server(2518304750719003998), vdst=virtual_server(346))
+I0130 11:18:31.202494     1 state_transfer_manager.cc:153] initiating outgoing transfer(id=transfer(347), region=region(48), src=server(16293765535358465470), vsrc=virtual_server(264), dst=server(2518304750719003998), vdst=virtual_server(348))
+I0130 11:18:31.202503     1 state_transfer_manager.cc:153] initiating outgoing transfer(id=transfer(349), region=region(49), src=server(16293765535358465470), vsrc=virtual_server(266), dst=server(2518304750719003998), vdst=virtual_server(350))
+I0130 11:18:31.202513     1 state_transfer_manager.cc:153] initiating outgoing transfer(id=transfer(351), region=region(50), src=server(16293765535358465470), vsrc=virtual_server(268), dst=server(2518304750719003998), vdst=virtual_server(352))
+I0130 11:18:31.202522     1 state_transfer_manager.cc:153] initiating outgoing transfer(id=transfer(353), region=region(51), src=server(16293765535358465470), vsrc=virtual_server(270), dst=server(2518304750719003998), vdst=virtual_server(354))
+I0130 11:18:31.202532     1 state_transfer_manager.cc:153] initiating outgoing transfer(id=transfer(355), region=region(52), src=server(16293765535358465470), vsrc=virtual_server(272), dst=server(2518304750719003998), vdst=virtual_server(356))
+I0130 11:18:31.202539     1 state_transfer_manager.cc:153] initiating outgoing transfer(id=transfer(357), region=region(53), src=server(16293765535358465470), vsrc=virtual_server(274), dst=server(2518304750719003998), vdst=virtual_server(358))
+I0130 11:18:31.202548     1 state_transfer_manager.cc:153] initiating outgoing transfer(id=transfer(359), region=region(54), src=server(16293765535358465470), vsrc=virtual_server(276), dst=server(2518304750719003998), vdst=virtual_server(360))
+I0130 11:18:31.202556     1 state_transfer_manager.cc:153] initiating outgoing transfer(id=transfer(361), region=region(55), src=server(16293765535358465470), vsrc=virtual_server(278), dst=server(2518304750719003998), vdst=virtual_server(362))
+I0130 11:18:31.202564     1 state_transfer_manager.cc:153] initiating outgoing transfer(id=transfer(363), region=region(56), src=server(16293765535358465470), vsrc=virtual_server(280), dst=server(2518304750719003998), vdst=virtual_server(364))
+I0130 11:18:31.202574     1 state_transfer_manager.cc:153] initiating outgoing transfer(id=transfer(365), region=region(57), src=server(16293765535358465470), vsrc=virtual_server(282), dst=server(2518304750719003998), vdst=virtual_server(366))
+I0130 11:18:31.202582     1 state_transfer_manager.cc:153] initiating outgoing transfer(id=transfer(367), region=region(58), src=server(16293765535358465470), vsrc=virtual_server(284), dst=server(2518304750719003998), vdst=virtual_server(368))
+I0130 11:18:31.202590     1 state_transfer_manager.cc:153] initiating outgoing transfer(id=transfer(369), region=region(59), src=server(16293765535358465470), vsrc=virtual_server(286), dst=server(2518304750719003998), vdst=virtual_server(370))
+I0130 11:18:31.202630     1 state_transfer_manager.cc:153] initiating outgoing transfer(id=transfer(371), region=region(60), src=server(16293765535358465470), vsrc=virtual_server(288), dst=server(2518304750719003998), vdst=virtual_server(372))
+I0130 11:18:31.202641     1 state_transfer_manager.cc:153] initiating outgoing transfer(id=transfer(373), region=region(61), src=server(16293765535358465470), vsrc=virtual_server(290), dst=server(2518304750719003998), vdst=virtual_server(374))
+I0130 11:18:31.202651     1 state_transfer_manager.cc:153] initiating outgoing transfer(id=transfer(375), region=region(62), src=server(16293765535358465470), vsrc=virtual_server(292), dst=server(2518304750719003998), vdst=virtual_server(376))
+I0130 11:18:31.202659     1 state_transfer_manager.cc:153] initiating outgoing transfer(id=transfer(377), region=region(63), src=server(16293765535358465470), vsrc=virtual_server(294), dst=server(2518304750719003998), vdst=virtual_server(378))
+I0130 11:18:31.202667     1 state_transfer_manager.cc:153] initiating outgoing transfer(id=transfer(379), region=region(64), src=server(16293765535358465470), vsrc=virtual_server(296), dst=server(2518304750719003998), vdst=virtual_server(380))
+I0130 11:18:31.202677     1 state_transfer_manager.cc:153] initiating outgoing transfer(id=transfer(381), region=region(65), src=server(16293765535358465470), vsrc=virtual_server(298), dst=server(2518304750719003998), vdst=virtual_server(382))
+I0130 11:18:31.202687     1 state_transfer_manager.cc:153] initiating outgoing transfer(id=transfer(383), region=region(66), src=server(16293765535358465470), vsrc=virtual_server(300), dst=server(2518304750719003998), vdst=virtual_server(384))
+I0130 11:18:31.202735     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:31.223038    16 state_transfer_manager.cc:267] received handshake_synack for transfer(355) @ 2049
+I0130 11:18:31.226110    17 state_transfer_manager.cc:267] received handshake_synack for transfer(351) @ 2049
+I0130 11:18:31.238071    17 state_transfer_manager.cc:267] received handshake_synack for transfer(363) @ 2049
+I0130 11:18:31.241721    16 state_transfer_manager.cc:267] received handshake_synack for transfer(347) @ 2049
+I0130 11:18:31.246990    14 state_transfer_manager.cc:267] received handshake_synack for transfer(343) @ 2049
+I0130 11:18:31.251958    17 state_transfer_manager.cc:267] received handshake_synack for transfer(359) @ 2049
+I0130 11:18:31.251958    16 state_transfer_manager.cc:267] received handshake_synack for transfer(367) @ 2049
+I0130 11:18:31.256697    16 state_transfer_manager.cc:267] received handshake_synack for transfer(379) @ 2049
+I0130 11:18:31.260273    16 state_transfer_manager.cc:267] received handshake_synack for transfer(383) @ 2049
+I0130 11:18:31.261369    14 state_transfer_manager.cc:267] received handshake_synack for transfer(371) @ 2049
+I0130 11:18:31.269582    17 state_transfer_manager.cc:267] received handshake_synack for transfer(375) @ 2049
+I0130 11:18:31.273828     1 daemon.cc:482] moving to configuration version=62; pausing all activity while we reconfigure
+I0130 11:18:31.277370    16 coordinator_link_wrapper.cc:501] requesting that transfer(343) go live
+I0130 11:18:31.277415    16 state_transfer_manager.cc:324] received handshake_wiped for transfer(343)
+I0130 11:18:31.277403    17 coordinator_link_wrapper.cc:501] requesting that transfer(351) go live
+I0130 11:18:31.277433    17 state_transfer_manager.cc:324] received handshake_wiped for transfer(351)
+I0130 11:18:31.290954    14 coordinator_link_wrapper.cc:501] requesting that transfer(351) go live
+I0130 11:18:31.291013    14 state_transfer_manager.cc:324] received handshake_wiped for transfer(351)
+I0130 11:18:31.291193     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:31.291929     1 daemon.cc:482] moving to configuration version=83; pausing all activity while we reconfigure
+I0130 11:18:31.296807    13 coordinator_link_wrapper.cc:501] requesting that transfer(343) go live
+I0130 11:18:31.306658    13 coordinator_link_wrapper.cc:501] requesting that transfer(351) go live
+I0130 11:18:31.345651     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:31.369238    13 coordinator_link_wrapper.cc:514] requesting that transfer(343) complete
+I0130 11:18:31.371057     1 daemon.cc:482] moving to configuration version=84; pausing all activity while we reconfigure
+I0130 11:18:31.380318    13 coordinator_link_wrapper.cc:514] requesting that transfer(351) complete
+I0130 11:18:31.418828     1 state_transfer_manager.cc:146] ending outgoing transfer(343)
+I0130 11:18:31.418954     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:31.419186     1 daemon.cc:482] moving to configuration version=85; pausing all activity while we reconfigure
+I0130 11:18:31.419291     1 state_transfer_manager.cc:146] ending outgoing transfer(351)
+I0130 11:18:31.419345     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:31.481524     1 daemon.cc:482] moving to configuration version=90; pausing all activity while we reconfigure
+I0130 11:18:31.482126    16 coordinator_link_wrapper.cc:501] requesting that transfer(359) go live
+I0130 11:18:31.482144    16 state_transfer_manager.cc:324] received handshake_wiped for transfer(359)
+I0130 11:18:31.482185    14 coordinator_link_wrapper.cc:501] requesting that transfer(363) go live
+I0130 11:18:31.482202    14 state_transfer_manager.cc:324] received handshake_wiped for transfer(363)
+I0130 11:18:31.486950    17 coordinator_link_wrapper.cc:501] requesting that transfer(355) go live
+I0130 11:18:31.486970    17 state_transfer_manager.cc:324] received handshake_wiped for transfer(355)
+I0130 11:18:31.487123     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:31.487221     1 daemon.cc:482] moving to configuration version=99; pausing all activity while we reconfigure
+I0130 11:18:31.491641    13 coordinator_link_wrapper.cc:501] requesting that transfer(355) go live
+I0130 11:18:31.496037    13 coordinator_link_wrapper.cc:501] requesting that transfer(359) go live
+I0130 11:18:31.500293    13 coordinator_link_wrapper.cc:501] requesting that transfer(363) go live
+I0130 11:18:31.519461     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:31.523133    13 coordinator_link_wrapper.cc:501] requesting that transfer(355) go live
+I0130 11:18:31.523254     1 daemon.cc:482] moving to configuration version=105; pausing all activity while we reconfigure
+I0130 11:18:31.526803    13 coordinator_link_wrapper.cc:514] requesting that transfer(359) complete
+I0130 11:18:31.530838    13 coordinator_link_wrapper.cc:514] requesting that transfer(363) complete
+I0130 11:18:31.548738     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:31.549063     1 daemon.cc:482] moving to configuration version=109; pausing all activity while we reconfigure
+I0130 11:18:31.552925    13 coordinator_link_wrapper.cc:514] requesting that transfer(355) complete
+I0130 11:18:31.557111    13 coordinator_link_wrapper.cc:514] requesting that transfer(359) complete
+I0130 11:18:31.560875    13 coordinator_link_wrapper.cc:514] requesting that transfer(363) complete
+I0130 11:18:31.576463     1 state_transfer_manager.cc:146] ending outgoing transfer(359)
+I0130 11:18:31.576496     1 state_transfer_manager.cc:146] ending outgoing transfer(363)
+I0130 11:18:31.576565     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:31.576719     1 daemon.cc:482] moving to configuration version=112; pausing all activity while we reconfigure
+I0130 11:18:31.580374    13 coordinator_link_wrapper.cc:514] requesting that transfer(355) complete
+I0130 11:18:31.597067     1 state_transfer_manager.cc:146] ending outgoing transfer(355)
+I0130 11:18:31.597162     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:31.618407    15 state_transfer_manager.cc:267] received handshake_synack for transfer(345) @ 2049
+I0130 11:18:31.618405    17 state_transfer_manager.cc:267] received handshake_synack for transfer(357) @ 2049
+I0130 11:18:31.622952    14 state_transfer_manager.cc:267] received handshake_synack for transfer(349) @ 2049
+I0130 11:18:31.626303    17 state_transfer_manager.cc:267] received handshake_synack for transfer(369) @ 2049
+I0130 11:18:31.627364    15 state_transfer_manager.cc:267] received handshake_synack for transfer(365) @ 2049
+I0130 11:18:31.628825    14 state_transfer_manager.cc:267] received handshake_synack for transfer(373) @ 2049
+I0130 11:18:31.630848    17 state_transfer_manager.cc:267] received handshake_synack for transfer(377) @ 2049
+I0130 11:18:31.634382    17 coordinator_link_wrapper.cc:501] requesting that transfer(349) go live
+I0130 11:18:31.634404    17 state_transfer_manager.cc:324] received handshake_wiped for transfer(349)
+I0130 11:18:31.634491    15 coordinator_link_wrapper.cc:501] requesting that transfer(345) go live
+I0130 11:18:31.634511    15 state_transfer_manager.cc:324] received handshake_wiped for transfer(345)
+I0130 11:18:31.638654     1 daemon.cc:482] moving to configuration version=114; pausing all activity while we reconfigure
+I0130 11:18:31.638679    14 coordinator_link_wrapper.cc:501] requesting that transfer(345) go live
+I0130 11:18:31.638694    14 state_transfer_manager.cc:324] received handshake_wiped for transfer(345)
+I0130 11:18:31.638701    15 coordinator_link_wrapper.cc:501] requesting that transfer(357) go live
+I0130 11:18:31.638751    15 state_transfer_manager.cc:324] received handshake_wiped for transfer(357)
+I0130 11:18:31.638736    17 coordinator_link_wrapper.cc:501] requesting that transfer(349) go live
+I0130 11:18:31.638780    17 state_transfer_manager.cc:324] received handshake_wiped for transfer(349)
+I0130 11:18:31.638900     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:31.640486     1 daemon.cc:482] moving to configuration version=115; pausing all activity while we reconfigure
+I0130 11:18:31.643405    13 coordinator_link_wrapper.cc:514] requesting that transfer(345) complete
+I0130 11:18:31.648491    13 coordinator_link_wrapper.cc:514] requesting that transfer(349) complete
+I0130 11:18:31.653036    13 coordinator_link_wrapper.cc:501] requesting that transfer(357) go live
+I0130 11:18:31.666010     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:31.666249     1 daemon.cc:482] moving to configuration version=117; pausing all activity while we reconfigure
+I0130 11:18:31.669776    13 coordinator_link_wrapper.cc:514] requesting that transfer(345) complete
+I0130 11:18:31.673364    13 coordinator_link_wrapper.cc:514] requesting that transfer(349) complete
+I0130 11:18:31.676801    13 coordinator_link_wrapper.cc:514] requesting that transfer(357) complete
+I0130 11:18:31.690574     1 state_transfer_manager.cc:146] ending outgoing transfer(345)
+I0130 11:18:31.690603     1 state_transfer_manager.cc:146] ending outgoing transfer(349)
+I0130 11:18:31.690661     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:31.690798     1 daemon.cc:482] moving to configuration version=118; pausing all activity while we reconfigure
+I0130 11:18:31.697672    13 coordinator_link_wrapper.cc:514] requesting that transfer(357) complete
+I0130 11:18:31.710265     1 state_transfer_manager.cc:146] ending outgoing transfer(357)
+I0130 11:18:31.710360     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:31.721155    16 coordinator_link_wrapper.cc:501] requesting that transfer(367) go live
+I0130 11:18:31.721181    16 state_transfer_manager.cc:324] received handshake_wiped for transfer(367)
+I0130 11:18:31.722293    15 coordinator_link_wrapper.cc:501] requesting that transfer(347) go live
+I0130 11:18:31.722326    15 state_transfer_manager.cc:324] received handshake_wiped for transfer(347)
+I0130 11:18:31.727468    15 coordinator_link_wrapper.cc:501] requesting that transfer(371) go live
+I0130 11:18:31.727499    15 state_transfer_manager.cc:324] received handshake_wiped for transfer(371)
+I0130 11:18:31.727629     1 daemon.cc:482] moving to configuration version=120; pausing all activity while we reconfigure
+I0130 11:18:31.731807    15 coordinator_link_wrapper.cc:501] requesting that transfer(375) go live
+I0130 11:18:31.731825    15 state_transfer_manager.cc:324] received handshake_wiped for transfer(375)
+I0130 11:18:31.734098    17 state_transfer_manager.cc:267] received handshake_synack for transfer(361) @ 2049
+I0130 11:18:31.738356    14 coordinator_link_wrapper.cc:501] requesting that transfer(361) go live
+I0130 11:18:31.738380    14 state_transfer_manager.cc:324] received handshake_wiped for transfer(361)
+I0130 11:18:31.742741    16 coordinator_link_wrapper.cc:501] requesting that transfer(361) go live
+I0130 11:18:31.742760    16 state_transfer_manager.cc:324] received handshake_wiped for transfer(361)
+I0130 11:18:31.742920     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:31.743144     1 daemon.cc:482] moving to configuration version=123; pausing all activity while we reconfigure
+I0130 11:18:31.746976    13 coordinator_link_wrapper.cc:514] requesting that transfer(347) complete
+I0130 11:18:31.750840    13 coordinator_link_wrapper.cc:501] requesting that transfer(361) go live
+I0130 11:18:31.754817    13 coordinator_link_wrapper.cc:514] requesting that transfer(367) complete
+I0130 11:18:31.758988    13 coordinator_link_wrapper.cc:501] requesting that transfer(371) go live
+I0130 11:18:31.762850    13 coordinator_link_wrapper.cc:501] requesting that transfer(375) go live
+I0130 11:18:31.769624     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:31.769806     1 daemon.cc:482] moving to configuration version=125; pausing all activity while we reconfigure
+I0130 11:18:31.773566    13 coordinator_link_wrapper.cc:514] requesting that transfer(347) complete
+I0130 11:18:31.777184    13 coordinator_link_wrapper.cc:514] requesting that transfer(361) complete
+I0130 11:18:31.781569    13 coordinator_link_wrapper.cc:514] requesting that transfer(367) complete
+I0130 11:18:31.785424    13 coordinator_link_wrapper.cc:514] requesting that transfer(371) complete
+I0130 11:18:31.789789    13 coordinator_link_wrapper.cc:514] requesting that transfer(375) complete
+I0130 11:18:31.797750     1 state_transfer_manager.cc:146] ending outgoing transfer(347)
+I0130 11:18:31.797785     1 state_transfer_manager.cc:146] ending outgoing transfer(367)
+I0130 11:18:31.797857     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:31.798029     1 daemon.cc:482] moving to configuration version=128; pausing all activity while we reconfigure
+I0130 11:18:31.804970    13 coordinator_link_wrapper.cc:514] requesting that transfer(371) complete
+I0130 11:18:31.808351    13 coordinator_link_wrapper.cc:514] requesting that transfer(375) complete
+I0130 11:18:31.814867     1 state_transfer_manager.cc:146] ending outgoing transfer(361)
+I0130 11:18:31.814908     1 state_transfer_manager.cc:146] ending outgoing transfer(371)
+I0130 11:18:31.814918     1 state_transfer_manager.cc:146] ending outgoing transfer(375)
+I0130 11:18:31.814977     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:31.824761    15 coordinator_link_wrapper.cc:501] requesting that transfer(369) go live
+I0130 11:18:31.824787    15 state_transfer_manager.cc:324] received handshake_wiped for transfer(369)
+I0130 11:18:31.827090     1 daemon.cc:482] moving to configuration version=129; pausing all activity while we reconfigure
+I0130 11:18:31.829356    15 coordinator_link_wrapper.cc:501] requesting that transfer(377) go live
+I0130 11:18:31.829376    15 state_transfer_manager.cc:324] received handshake_wiped for transfer(377)
+I0130 11:18:31.832451    17 state_transfer_manager.cc:267] received handshake_synack for transfer(353) @ 2049
+I0130 11:18:31.836781    16 coordinator_link_wrapper.cc:501] requesting that transfer(353) go live
+I0130 11:18:31.836805    16 state_transfer_manager.cc:324] received handshake_wiped for transfer(353)
+I0130 11:18:31.840910    14 coordinator_link_wrapper.cc:501] requesting that transfer(353) go live
+I0130 11:18:31.840934    14 state_transfer_manager.cc:324] received handshake_wiped for transfer(353)
+I0130 11:18:31.841084     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:31.841295     1 daemon.cc:482] moving to configuration version=131; pausing all activity while we reconfigure
+I0130 11:18:31.845202    13 coordinator_link_wrapper.cc:501] requesting that transfer(353) go live
+I0130 11:18:31.848783    13 coordinator_link_wrapper.cc:514] requesting that transfer(369) complete
+I0130 11:18:31.852823    13 coordinator_link_wrapper.cc:501] requesting that transfer(377) go live
+I0130 11:18:31.852924     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:31.853104     1 daemon.cc:482] moving to configuration version=132; pausing all activity while we reconfigure
+I0130 11:18:31.856966    13 coordinator_link_wrapper.cc:514] requesting that transfer(353) complete
+I0130 11:18:31.860903    13 coordinator_link_wrapper.cc:514] requesting that transfer(369) complete
+I0130 11:18:31.864909    13 coordinator_link_wrapper.cc:514] requesting that transfer(377) complete
+I0130 11:18:31.864966     1 state_transfer_manager.cc:146] ending outgoing transfer(369)
+I0130 11:18:31.865028     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:31.865170     1 daemon.cc:482] moving to configuration version=133; pausing all activity while we reconfigure
+I0130 11:18:31.869240    13 coordinator_link_wrapper.cc:514] requesting that transfer(353) complete
+I0130 11:18:31.879391     1 state_transfer_manager.cc:146] ending outgoing transfer(353)
+I0130 11:18:31.879480     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:31.879606     1 daemon.cc:482] moving to configuration version=134; pausing all activity while we reconfigure
+I0130 11:18:31.886466    13 coordinator_link_wrapper.cc:514] requesting that transfer(377) complete
+I0130 11:18:31.886525     1 state_transfer_manager.cc:146] ending outgoing transfer(377)
+I0130 11:18:31.886598     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:31.896538    16 coordinator_link_wrapper.cc:501] requesting that transfer(365) go live
+I0130 11:18:31.896566    16 state_transfer_manager.cc:324] received handshake_wiped for transfer(365)
+I0130 11:18:31.898428     1 daemon.cc:482] moving to configuration version=135; pausing all activity while we reconfigure
+I0130 11:18:31.898447    14 coordinator_link_wrapper.cc:501] requesting that transfer(379) go live
+I0130 11:18:31.898468    14 state_transfer_manager.cc:324] received handshake_wiped for transfer(379)
+I0130 11:18:31.900564    15 coordinator_link_wrapper.cc:501] requesting that transfer(383) go live
+I0130 11:18:31.900580    15 state_transfer_manager.cc:324] received handshake_wiped for transfer(383)
+I0130 11:18:31.900727     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:31.900835     1 daemon.cc:482] moving to configuration version=136; pausing all activity while we reconfigure
+I0130 11:18:31.901198     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:31.902748     1 daemon.cc:482] moving to configuration version=137; pausing all activity while we reconfigure
+I0130 11:18:31.905725    13 coordinator_link_wrapper.cc:514] requesting that transfer(365) complete
+I0130 11:18:31.909842    13 coordinator_link_wrapper.cc:514] requesting that transfer(379) complete
+I0130 11:18:31.913977    13 coordinator_link_wrapper.cc:501] requesting that transfer(383) go live
+I0130 11:18:31.914059     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:31.915031     1 daemon.cc:482] moving to configuration version=139; pausing all activity while we reconfigure
+I0130 11:18:31.918223    13 coordinator_link_wrapper.cc:514] requesting that transfer(365) complete
+I0130 11:18:31.921849    13 coordinator_link_wrapper.cc:514] requesting that transfer(379) complete
+I0130 11:18:31.925357    13 coordinator_link_wrapper.cc:514] requesting that transfer(383) complete
+I0130 11:18:31.925426     1 state_transfer_manager.cc:146] ending outgoing transfer(365)
+I0130 11:18:31.925448     1 state_transfer_manager.cc:146] ending outgoing transfer(379)
+I0130 11:18:31.925513     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:31.927016     1 daemon.cc:482] moving to configuration version=140; pausing all activity while we reconfigure
+I0130 11:18:31.933492    13 coordinator_link_wrapper.cc:514] requesting that transfer(383) complete
+I0130 11:18:31.933511    17 coordinator_link_wrapper.cc:501] requesting that transfer(373) go live
+I0130 11:18:31.933528    17 state_transfer_manager.cc:324] received handshake_wiped for transfer(373)
+I0130 11:18:31.933627     1 state_transfer_manager.cc:161] ending outgoing transfer(383)
+I0130 11:18:31.933687     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:31.935472     1 daemon.cc:482] moving to configuration version=141; pausing all activity while we reconfigure
+I0130 11:18:31.938040    13 coordinator_link_wrapper.cc:501] requesting that transfer(373) go live
+I0130 11:18:31.938122     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:31.943219    13 coordinator_link_wrapper.cc:514] requesting that transfer(373) complete
+I0130 11:18:31.944926     1 daemon.cc:482] moving to configuration version=142; pausing all activity while we reconfigure
+I0130 11:18:31.945062     1 state_transfer_manager.cc:146] ending outgoing transfer(373)
+I0130 11:18:31.945142     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:31.950908    17 state_transfer_manager.cc:267] received handshake_synack for transfer(381) @ 2049
+I0130 11:18:31.978932    14 coordinator_link_wrapper.cc:501] requesting that transfer(381) go live
+I0130 11:18:31.978971    14 state_transfer_manager.cc:324] received handshake_wiped for transfer(381)
+I0130 11:18:31.981145     1 daemon.cc:482] moving to configuration version=143; pausing all activity while we reconfigure
+I0130 11:18:31.983042    16 coordinator_link_wrapper.cc:501] requesting that transfer(381) go live
+I0130 11:18:31.983062    16 state_transfer_manager.cc:324] received handshake_wiped for transfer(381)
+I0130 11:18:31.983211     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:31.988018    13 coordinator_link_wrapper.cc:514] requesting that transfer(381) complete
+I0130 11:18:31.989935     1 daemon.cc:482] moving to configuration version=144; pausing all activity while we reconfigure
+I0130 11:18:31.990037     1 state_transfer_manager.cc:161] ending outgoing transfer(381)
+I0130 11:18:31.990089     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:54.095569     1 daemon.cc:482] moving to configuration version=145; pausing all activity while we reconfigure
+I0130 11:18:54.095729     1 state_transfer_manager.cc:153] initiating incoming transfer(id=transfer(385), region=region(46), src=server(2518304750719003998), vsrc=virtual_server(344), dst=server(16293765535358465470), vdst=virtual_server(386))
+I0130 11:18:54.095788     1 state_transfer_manager.cc:153] initiating incoming transfer(id=transfer(387), region=region(47), src=server(2518304750719003998), vsrc=virtual_server(346), dst=server(16293765535358465470), vdst=virtual_server(388))
+I0130 11:18:54.095799     1 state_transfer_manager.cc:153] initiating incoming transfer(id=transfer(389), region=region(48), src=server(2518304750719003998), vsrc=virtual_server(348), dst=server(16293765535358465470), vdst=virtual_server(390))
+I0130 11:18:54.095809     1 state_transfer_manager.cc:153] initiating incoming transfer(id=transfer(391), region=region(49), src=server(2518304750719003998), vsrc=virtual_server(350), dst=server(16293765535358465470), vdst=virtual_server(392))
+I0130 11:18:54.095818     1 state_transfer_manager.cc:153] initiating incoming transfer(id=transfer(393), region=region(50), src=server(2518304750719003998), vsrc=virtual_server(352), dst=server(16293765535358465470), vdst=virtual_server(394))
+I0130 11:18:54.095826     1 state_transfer_manager.cc:153] initiating incoming transfer(id=transfer(395), region=region(51), src=server(2518304750719003998), vsrc=virtual_server(354), dst=server(16293765535358465470), vdst=virtual_server(396))
+I0130 11:18:54.095834     1 state_transfer_manager.cc:153] initiating incoming transfer(id=transfer(397), region=region(52), src=server(2518304750719003998), vsrc=virtual_server(356), dst=server(16293765535358465470), vdst=virtual_server(398))
+I0130 11:18:54.095842     1 state_transfer_manager.cc:153] initiating incoming transfer(id=transfer(399), region=region(53), src=server(2518304750719003998), vsrc=virtual_server(358), dst=server(16293765535358465470), vdst=virtual_server(400))
+I0130 11:18:54.095851     1 state_transfer_manager.cc:153] initiating incoming transfer(id=transfer(401), region=region(54), src=server(2518304750719003998), vsrc=virtual_server(360), dst=server(16293765535358465470), vdst=virtual_server(402))
+I0130 11:18:54.095860     1 state_transfer_manager.cc:153] initiating incoming transfer(id=transfer(403), region=region(55), src=server(2518304750719003998), vsrc=virtual_server(362), dst=server(16293765535358465470), vdst=virtual_server(404))
+I0130 11:18:54.095868     1 state_transfer_manager.cc:153] initiating incoming transfer(id=transfer(405), region=region(56), src=server(2518304750719003998), vsrc=virtual_server(364), dst=server(16293765535358465470), vdst=virtual_server(406))
+I0130 11:18:54.095877     1 state_transfer_manager.cc:153] initiating incoming transfer(id=transfer(407), region=region(57), src=server(2518304750719003998), vsrc=virtual_server(366), dst=server(16293765535358465470), vdst=virtual_server(408))
+I0130 11:18:54.095886     1 state_transfer_manager.cc:153] initiating incoming transfer(id=transfer(409), region=region(58), src=server(2518304750719003998), vsrc=virtual_server(368), dst=server(16293765535358465470), vdst=virtual_server(410))
+I0130 11:18:54.095895     1 state_transfer_manager.cc:153] initiating incoming transfer(id=transfer(411), region=region(59), src=server(2518304750719003998), vsrc=virtual_server(370), dst=server(16293765535358465470), vdst=virtual_server(412))
+I0130 11:18:54.095902     1 state_transfer_manager.cc:153] initiating incoming transfer(id=transfer(413), region=region(60), src=server(2518304750719003998), vsrc=virtual_server(372), dst=server(16293765535358465470), vdst=virtual_server(414))
+I0130 11:18:54.095911     1 state_transfer_manager.cc:153] initiating incoming transfer(id=transfer(415), region=region(61), src=server(2518304750719003998), vsrc=virtual_server(374), dst=server(16293765535358465470), vdst=virtual_server(416))
+I0130 11:18:54.095918     1 state_transfer_manager.cc:153] initiating incoming transfer(id=transfer(417), region=region(62), src=server(2518304750719003998), vsrc=virtual_server(376), dst=server(16293765535358465470), vdst=virtual_server(418))
+I0130 11:18:54.095928     1 state_transfer_manager.cc:153] initiating incoming transfer(id=transfer(419), region=region(63), src=server(2518304750719003998), vsrc=virtual_server(378), dst=server(16293765535358465470), vdst=virtual_server(420))
+I0130 11:18:54.095937     1 state_transfer_manager.cc:153] initiating incoming transfer(id=transfer(421), region=region(64), src=server(2518304750719003998), vsrc=virtual_server(380), dst=server(16293765535358465470), vdst=virtual_server(422))
+I0130 11:18:54.095947     1 state_transfer_manager.cc:153] initiating incoming transfer(id=transfer(423), region=region(65), src=server(2518304750719003998), vsrc=virtual_server(382), dst=server(16293765535358465470), vdst=virtual_server(424))
+I0130 11:18:54.095955     1 state_transfer_manager.cc:153] initiating incoming transfer(id=transfer(425), region=region(66), src=server(2518304750719003998), vsrc=virtual_server(384), dst=server(16293765535358465470), vdst=virtual_server(426))
+I0130 11:18:54.097697    15 state_transfer_manager.cc:234] received handshake_syn for transfer(389)
+I0130 11:18:54.099930    15 state_transfer_manager.cc:234] received handshake_syn for transfer(397)
+I0130 11:18:54.097702    16 state_transfer_manager.cc:234] received handshake_syn for transfer(385)
+I0130 11:18:54.100467    14 state_transfer_manager.cc:234] received handshake_syn for transfer(393)
+I0130 11:18:54.101372    15 state_transfer_manager.cc:234] received handshake_syn for transfer(401)
+I0130 11:18:54.104224    14 state_transfer_manager.cc:234] received handshake_syn for transfer(409)
+I0130 11:18:54.096395     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:54.097791    17 state_transfer_manager.cc:234] received handshake_syn for transfer(421)
+I0130 11:18:54.105857    17 state_transfer_manager.cc:234] received handshake_syn for transfer(425)
+I0130 11:18:54.106062    17 state_transfer_manager.cc:295] received handshake_ack for transfer(385)
+I0130 11:18:54.106091    17 state_transfer_manager.cc:295] received handshake_ack for transfer(389)
+I0130 11:18:54.104578    15 state_transfer_manager.cc:234] received handshake_syn for transfer(413)
+I0130 11:18:54.106137    15 state_transfer_manager.cc:295] received handshake_ack for transfer(421)
+I0130 11:18:54.106160    15 state_transfer_manager.cc:295] received handshake_ack for transfer(397)
+I0130 11:18:54.106183    15 state_transfer_manager.cc:295] received handshake_ack for transfer(393)
+I0130 11:18:54.106195    15 state_transfer_manager.cc:295] received handshake_ack for transfer(401)
+I0130 11:18:54.101837    16 state_transfer_manager.cc:234] received handshake_syn for transfer(405)
+I0130 11:18:54.106333    15 state_transfer_manager.cc:295] received handshake_ack for transfer(405)
+I0130 11:18:54.107362    17 state_transfer_manager.cc:295] received handshake_ack for transfer(425)
+I0130 11:18:54.107498    17 state_transfer_manager.cc:295] received handshake_ack for transfer(409)
+I0130 11:18:54.107924    14 state_transfer_manager.cc:234] received handshake_syn for transfer(417)
+I0130 11:18:54.108155    14 state_transfer_manager.cc:295] received handshake_ack for transfer(413)
+I0130 11:18:54.117784     1 daemon.cc:482] moving to configuration version=146; pausing all activity while we reconfigure
+I0130 11:18:54.119104     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:54.128859     1 daemon.cc:482] moving to configuration version=148; pausing all activity while we reconfigure
+I0130 11:18:54.129012     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:54.151401     1 daemon.cc:482] moving to configuration version=149; pausing all activity while we reconfigure
+I0130 11:18:54.151531     1 state_transfer_manager.cc:146] ending incoming transfer(389)
+I0130 11:18:54.151592     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:54.227113     1 daemon.cc:482] moving to configuration version=150; pausing all activity while we reconfigure
+I0130 11:18:54.227275     1 state_transfer_manager.cc:146] ending incoming transfer(385)
+I0130 11:18:54.227321     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:54.293824     1 daemon.cc:482] moving to configuration version=151; pausing all activity while we reconfigure
+I0130 11:18:54.293980     1 state_transfer_manager.cc:146] ending incoming transfer(421)
+I0130 11:18:54.294025     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:54.311544    17 state_transfer_manager.cc:234] received handshake_syn for transfer(387)
+I0130 11:18:54.313446    17 state_transfer_manager.cc:295] received handshake_ack for transfer(387)
+I0130 11:18:54.336483     1 daemon.cc:482] moving to configuration version=154; pausing all activity while we reconfigure
+I0130 11:18:54.336799     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:54.344128     1 daemon.cc:482] moving to configuration version=155; pausing all activity while we reconfigure
+I0130 11:18:54.344293     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:54.352249     1 daemon.cc:482] moving to configuration version=156; pausing all activity while we reconfigure
+I0130 11:18:54.352483     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:54.370475     1 daemon.cc:482] moving to configuration version=157; pausing all activity while we reconfigure
+I0130 11:18:54.370595     1 state_transfer_manager.cc:146] ending incoming transfer(387)
+I0130 11:18:54.370652     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:54.379220     1 daemon.cc:482] moving to configuration version=158; pausing all activity while we reconfigure
+I0130 11:18:54.379356     1 state_transfer_manager.cc:146] ending incoming transfer(393)
+I0130 11:18:54.379412     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:54.387961     1 daemon.cc:482] moving to configuration version=159; pausing all activity while we reconfigure
+I0130 11:18:54.388115     1 state_transfer_manager.cc:146] ending incoming transfer(397)
+I0130 11:18:54.388178     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:54.456035     1 daemon.cc:482] moving to configuration version=160; pausing all activity while we reconfigure
+I0130 11:18:54.456159     1 state_transfer_manager.cc:146] ending incoming transfer(401)
+I0130 11:18:54.456213     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:54.464442     1 daemon.cc:482] moving to configuration version=161; pausing all activity while we reconfigure
+I0130 11:18:54.464620     1 state_transfer_manager.cc:146] ending incoming transfer(405)
+I0130 11:18:54.464674     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:54.490059    14 state_transfer_manager.cc:234] received handshake_syn for transfer(391)
+I0130 11:18:54.492141    14 state_transfer_manager.cc:234] received handshake_syn for transfer(399)
+I0130 11:18:54.493965    16 state_transfer_manager.cc:234] received handshake_syn for transfer(407)
+I0130 11:18:54.495837    16 state_transfer_manager.cc:234] received handshake_syn for transfer(415)
+I0130 11:18:54.495916    16 state_transfer_manager.cc:295] received handshake_ack for transfer(391)
+I0130 11:18:54.495965    16 state_transfer_manager.cc:295] received handshake_ack for transfer(399)
+I0130 11:18:54.496014    16 state_transfer_manager.cc:295] received handshake_ack for transfer(407)
+I0130 11:18:54.496927    15 state_transfer_manager.cc:234] received handshake_syn for transfer(419)
+I0130 11:18:54.497522    15 state_transfer_manager.cc:295] received handshake_ack for transfer(415)
+I0130 11:18:54.497997    14 state_transfer_manager.cc:234] received handshake_syn for transfer(411)
+I0130 11:18:54.507078     1 daemon.cc:482] moving to configuration version=163; pausing all activity while we reconfigure
+I0130 11:18:54.507236     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:54.509589     1 daemon.cc:482] moving to configuration version=164; pausing all activity while we reconfigure
+I0130 11:18:54.509914     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:54.524596     1 daemon.cc:482] moving to configuration version=165; pausing all activity while we reconfigure
+I0130 11:18:54.524724     1 state_transfer_manager.cc:146] ending incoming transfer(391)
+I0130 11:18:54.524780     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:54.533263     1 daemon.cc:482] moving to configuration version=166; pausing all activity while we reconfigure
+I0130 11:18:54.533404     1 state_transfer_manager.cc:146] ending incoming transfer(399)
+I0130 11:18:54.533462     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:54.601203    17 state_transfer_manager.cc:234] received handshake_syn for transfer(395)
+I0130 11:18:54.602866     1 daemon.cc:482] moving to configuration version=167; pausing all activity while we reconfigure
+I0130 11:18:54.602990     1 state_transfer_manager.cc:161] ending incoming transfer(425)
+I0130 11:18:54.603040     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:54.618079     1 daemon.cc:482] moving to configuration version=168; pausing all activity while we reconfigure
+I0130 11:18:54.618254     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:54.650025    16 state_transfer_manager.cc:295] received handshake_ack for transfer(395)
+I0130 11:18:54.670167    16 state_transfer_manager.cc:234] received handshake_syn for transfer(411)
+I0130 11:18:54.671175     1 daemon.cc:482] moving to configuration version=170; pausing all activity while we reconfigure
+I0130 11:18:54.671291     1 state_transfer_manager.cc:146] ending incoming transfer(407)
+I0130 11:18:54.671339     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:54.696951     1 daemon.cc:482] moving to configuration version=171; pausing all activity while we reconfigure
+I0130 11:18:54.697063     1 state_transfer_manager.cc:146] ending incoming transfer(395)
+I0130 11:18:54.697113     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:54.714200     1 daemon.cc:482] moving to configuration version=172; pausing all activity while we reconfigure
+I0130 11:18:54.714561    16 state_transfer_manager.cc:234] received handshake_syn for transfer(403)
+I0130 11:18:54.714867     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:54.721173    15 state_transfer_manager.cc:295] received handshake_ack for transfer(403)
+I0130 11:18:54.731581    15 state_transfer_manager.cc:234] received handshake_syn for transfer(411)
+I0130 11:18:54.733542    15 state_transfer_manager.cc:295] received handshake_ack for transfer(411)
+I0130 11:18:54.739785    15 state_transfer_manager.cc:234] received handshake_syn for transfer(419)
+I0130 11:18:54.740099     1 daemon.cc:482] moving to configuration version=173; pausing all activity while we reconfigure
+I0130 11:18:54.740329     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:54.744907     1 daemon.cc:482] moving to configuration version=174; pausing all activity while we reconfigure
+I0130 11:18:54.745260     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:54.750711     1 daemon.cc:482] moving to configuration version=175; pausing all activity while we reconfigure
+I0130 11:18:54.751016     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:54.764711     1 daemon.cc:482] moving to configuration version=176; pausing all activity while we reconfigure
+I0130 11:18:54.764837     1 state_transfer_manager.cc:146] ending incoming transfer(403)
+I0130 11:18:54.764900     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:54.773422     1 daemon.cc:482] moving to configuration version=177; pausing all activity while we reconfigure
+I0130 11:18:54.773572     1 state_transfer_manager.cc:146] ending incoming transfer(411)
+I0130 11:18:54.773679     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:54.781937     1 daemon.cc:482] moving to configuration version=178; pausing all activity while we reconfigure
+I0130 11:18:54.782060     1 state_transfer_manager.cc:146] ending incoming transfer(415)
+I0130 11:18:54.782116     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:54.790890     1 daemon.cc:482] moving to configuration version=179; pausing all activity while we reconfigure
+I0130 11:18:54.791023     1 state_transfer_manager.cc:146] ending incoming transfer(409)
+I0130 11:18:54.791070     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:54.825203    16 state_transfer_manager.cc:234] received handshake_syn for transfer(419)
+I0130 11:18:54.826907    16 state_transfer_manager.cc:295] received handshake_ack for transfer(419)
+I0130 11:18:54.837900     1 daemon.cc:482] moving to configuration version=181; pausing all activity while we reconfigure
+I0130 11:18:54.838088     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:54.881109     1 daemon.cc:482] moving to configuration version=182; pausing all activity while we reconfigure
+I0130 11:18:54.881237     1 state_transfer_manager.cc:146] ending incoming transfer(413)
+I0130 11:18:54.881301     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:54.890470     1 daemon.cc:482] moving to configuration version=183; pausing all activity while we reconfigure
+I0130 11:18:54.890710    16 state_transfer_manager.cc:234] received handshake_syn for transfer(417)
+I0130 11:18:54.890823     1 state_transfer_manager.cc:146] ending incoming transfer(419)
+I0130 11:18:54.890918     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:54.893152    17 state_transfer_manager.cc:295] received handshake_ack for transfer(417)
+I0130 11:18:54.917080     1 daemon.cc:482] moving to configuration version=184; pausing all activity while we reconfigure
+I0130 11:18:54.917228     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:54.927613     1 daemon.cc:482] moving to configuration version=185; pausing all activity while we reconfigure
+I0130 11:18:54.927821     1 state_transfer_manager.cc:146] ending incoming transfer(417)
+I0130 11:18:54.927873     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:54.930110    14 state_transfer_manager.cc:234] received handshake_syn for transfer(423)
+I0130 11:18:54.931718    14 state_transfer_manager.cc:295] received handshake_ack for transfer(423)
+I0130 11:18:54.976747     1 daemon.cc:482] moving to configuration version=186; pausing all activity while we reconfigure
+I0130 11:18:54.976922     1 daemon.cc:492] reconfiguration complete; resuming normal operation
+I0130 11:18:54.996961     1 daemon.cc:482] moving to configuration version=187; pausing all activity while we reconfigure
+I0130 11:18:54.997088     1 state_transfer_manager.cc:161] ending incoming transfer(423)
+I0130 11:18:54.997150     1 daemon.cc:492] reconfiguration complete; resuming normal operation
