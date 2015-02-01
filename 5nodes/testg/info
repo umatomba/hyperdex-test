@@ -1,0 +1,18 @@
+root@dbtest0:/hyperdex_build# hyperdex show-config -h 192.168.100.1|grep ^ser
+server 8441710991774256508 192.168.100.5:2012 AVAILABLE
+server 8860177792098534276 192.168.100.3:2012 AVAILABLE
+server 13387869352398704218 192.168.100.1:2012 AVAILABLE
+server 14855349502919085694 192.168.100.2:2012 AVAILABLE
+server 16994681970848956264 192.168.100.4:2012 AVAILABLE
+
+
+before split on 4,5
+>>> c.count('usertable', {'k': hyperdex.client.Regex('.*')})
+812516L
+
+after split
+>>> c.count('usertable', {'k': hyperdex.client.Regex('.*')})
+641959L
+
+real in DB: 812516
+
