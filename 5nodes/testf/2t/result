@@ -1,0 +1,9 @@
+>>> c = hyperdex.client.Client('192.168.100.1', 1982)
+>>> c.get('usertable', "username812514")
+{'field8': '', 'field9': '', 'field2': '', 'field3': '', 'field0': 'John812514', 'field1': '', 'field6': '', 'field7': '', 'field4': '', 'field5': ''}
+>>> c.get('usertable', "username812515")
+{'field8': '', 'field9': '', 'field2': '', 'field3': '', 'field0': 'John812515', 'field1': '', 'field6': '', 'field7': '', 'field4': '', 'field5': ''}
+>>> c.get('usertable', "username812516")
+>>> c.count('usertable', {'k': hyperdex.client.Regex('.*')})
+812516L
+
