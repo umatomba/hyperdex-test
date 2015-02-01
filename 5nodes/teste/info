@@ -1,3 +1,4 @@
-TEST E
+TEST E = 40 sec: 1 operations; 0 current ops/sec;
+
 start network split for 30 sec every 30 sec on nodes 4,5
 
