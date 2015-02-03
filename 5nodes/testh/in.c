@@ -20,7 +20,7 @@
       for (k = 0; k < 1000000; ++k) {
    	  sprintf(name, "username%d", k);
           attr.attr = "field0";
-          sprintf(firstname, "John%d", k+1);
+          sprintf(firstname, "John%d", k);
           attr.value = firstname;
           attr.value_sz = strlen(attr.value);
           attr.datatype = HYPERDATATYPE_STRING;
