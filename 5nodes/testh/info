@@ -1,0 +1,11 @@
+insert 1 mio with split on 4,5: OK
+-----------------------------------------------------------
+count with C binding:
+
+on 1 mio recs:
+c:
+count = 0 | op_id: 1 | count_status:8448
+
+python:
+>>> c.count('usertable', {'k': hyperdex.client.Regex('.*')})
+851136L
